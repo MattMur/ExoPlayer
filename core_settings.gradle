@@ -50,8 +50,8 @@ project(modulePrefix + 'library-hls').projectDir = new File(rootDir, 'library/hl
 //project(modulePrefix + 'extension-flac').projectDir = new File(rootDir, 'extensions/flac')
 //include modulePrefix + 'extension-gvr'
 //project(modulePrefix + 'extension-gvr').projectDir = new File(rootDir, 'extensions/gvr')
-include modulePrefix + 'extension-ima'
-project(modulePrefix + 'extension-ima').projectDir = new File(rootDir, 'extensions/ima')
+//include modulePrefix + 'extension-ima'
+//project(modulePrefix + 'extension-ima').projectDir = new File(rootDir, 'extensions/ima')
 //include modulePrefix + 'extension-cast'
 //project(modulePrefix + 'extension-cast').projectDir = new File(rootDir, 'extensions/cast')
 //include modulePrefix + 'extension-cronet'

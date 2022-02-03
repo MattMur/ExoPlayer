@@ -22,8 +22,10 @@ dependencies {
         exclude group: 'com.google.code.findbugs', module: 'jsr305'
         exclude group: 'org.checkerframework', module: 'checker-compat-qual'
         exclude group: 'com.google.errorprone', module: 'error_prone_annotations'
-        exclude group: 'com.google.j2objc', module: 'j2objc-annotations'
         exclude group: 'org.codehaus.mojo', module: 'animal-sniffer-annotations'
+
+        // Commenting this out to silence a j2objc enum not found warning...
+        //exclude group: 'com.google.j2objc', module: 'j2objc-annotations'
     }
     implementation 'androidx.annotation:annotation:' + androidxAnnotationVersion
     compileOnly 'com.google.code.findbugs:jsr305:' + jsr305Version
