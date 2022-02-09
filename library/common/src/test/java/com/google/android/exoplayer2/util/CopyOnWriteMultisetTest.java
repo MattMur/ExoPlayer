@@ -22,6 +22,7 @@ import static org.junit.Assert.assertThrows;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import java.util.Iterator;
 import java.util.Set;
+import net.nativo.android.exoplayer2.util.CopyOnWriteMultiset;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

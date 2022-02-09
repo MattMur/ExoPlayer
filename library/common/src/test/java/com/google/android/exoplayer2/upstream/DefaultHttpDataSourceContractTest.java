@@ -20,6 +20,8 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.testutil.DataSourceContractTest;
 import com.google.android.exoplayer2.testutil.HttpDataSourceTestEnv;
 import com.google.common.collect.ImmutableList;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DefaultHttpDataSource;
 import org.junit.Rule;
 import org.junit.runner.RunWith;
 

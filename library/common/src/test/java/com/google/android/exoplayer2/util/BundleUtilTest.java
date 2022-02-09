@@ -21,6 +21,7 @@ import android.os.Binder;
 import android.os.Bundle;
 import android.os.IBinder;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import net.nativo.android.exoplayer2.util.BundleUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

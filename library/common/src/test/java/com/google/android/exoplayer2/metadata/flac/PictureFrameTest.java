@@ -19,9 +19,10 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Parcel;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaMetadata;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.MediaMetadata;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.metadata.flac.PictureFrame;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

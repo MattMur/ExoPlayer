@@ -20,6 +20,8 @@ import static org.junit.Assert.assertThrows;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.common.base.Charsets;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.ParsableBitArray;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

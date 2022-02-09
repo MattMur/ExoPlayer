@@ -19,6 +19,9 @@ import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import java.util.concurrent.atomic.AtomicBoolean;
+import net.nativo.android.exoplayer2.util.Clock;
+import net.nativo.android.exoplayer2.util.ConditionVariable;
+import net.nativo.android.exoplayer2.util.SystemClock;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

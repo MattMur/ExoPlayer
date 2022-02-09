@@ -15,16 +15,16 @@
  */
 package com.google.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.Util.binarySearchCeil;
-import static com.google.android.exoplayer2.util.Util.binarySearchFloor;
-import static com.google.android.exoplayer2.util.Util.escapeFileName;
-import static com.google.android.exoplayer2.util.Util.getCodecsOfType;
-import static com.google.android.exoplayer2.util.Util.getStringForTime;
-import static com.google.android.exoplayer2.util.Util.gzip;
-import static com.google.android.exoplayer2.util.Util.minValue;
-import static com.google.android.exoplayer2.util.Util.parseXsDateTime;
-import static com.google.android.exoplayer2.util.Util.parseXsDuration;
-import static com.google.android.exoplayer2.util.Util.unescapeFileName;
+import static net.nativo.android.exoplayer2.util.Util.binarySearchCeil;
+import static net.nativo.android.exoplayer2.util.Util.binarySearchFloor;
+import static net.nativo.android.exoplayer2.util.Util.escapeFileName;
+import static net.nativo.android.exoplayer2.util.Util.getCodecsOfType;
+import static net.nativo.android.exoplayer2.util.Util.getStringForTime;
+import static net.nativo.android.exoplayer2.util.Util.gzip;
+import static net.nativo.android.exoplayer2.util.Util.minValue;
+import static net.nativo.android.exoplayer2.util.Util.parseXsDateTime;
+import static net.nativo.android.exoplayer2.util.Util.parseXsDuration;
+import static net.nativo.android.exoplayer2.util.Util.unescapeFileName;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
@@ -37,7 +37,7 @@ import android.text.style.StrikethroughSpan;
 import android.text.style.UnderlineSpan;
 import android.util.SparseLongArray;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import com.google.android.exoplayer2.testutil.TestUtil;
 import com.google.common.io.ByteStreams;
 import java.io.ByteArrayInputStream;
@@ -50,6 +50,10 @@ import java.util.NoSuchElementException;
 import java.util.Random;
 import java.util.zip.Deflater;
 import java.util.zip.GZIPInputStream;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.LongArray;
+import net.nativo.android.exoplayer2.util.ParsableByteArray;
+import net.nativo.android.exoplayer2.util.Util;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.annotation.Config;

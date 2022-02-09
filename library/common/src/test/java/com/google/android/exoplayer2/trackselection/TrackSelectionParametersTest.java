@@ -19,8 +19,9 @@ import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.trackselection.TrackSelectionParameters;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

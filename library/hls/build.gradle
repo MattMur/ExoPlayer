@@ -19,8 +19,6 @@ android {
             testCoverageEnabled = true
         }
     }
-
-    sourceSets.test.assets.srcDir '../../testdata/src/test/assets/'
 }
 
 dependencies {
@@ -29,20 +27,10 @@ dependencies {
     compileOnly 'org.checkerframework:checker-compat-qual:' + checkerframeworkCompatVersion
     compileOnly 'org.jetbrains.kotlin:kotlin-annotations-jvm:' + kotlinAnnotationsVersion
     implementation project(modulePrefix + 'library-core')
-    testImplementation project(modulePrefix + 'robolectricutils')
-    testImplementation project(modulePrefix + 'testutils')
-    testImplementation project(modulePrefix + 'testdata')
-    testImplementation 'com.squareup.okhttp3:mockwebserver:' + okhttpVersion
-    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
 }
-
-ext {
-    javadocTitle = 'HLS module'
-}
-apply from: '../../javadoc_library.gradle'
 
 ext {
     releaseArtifact = 'exoplayer-hls'
     releaseDescription = 'The ExoPlayer library HLS module.'
 }
-apply from: '../../publish.gradle'
+

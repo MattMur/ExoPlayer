@@ -20,8 +20,11 @@ import static org.junit.Assert.assertThrows;
 
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import java.nio.ByteBuffer;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.metadata.MetadataInputBuffer;
+import net.nativo.android.exoplayer2.metadata.SimpleMetadataDecoder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

@@ -19,6 +19,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Parcel;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import net.nativo.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

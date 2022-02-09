@@ -20,6 +20,9 @@ import static com.google.common.truth.Truth.assertThat;
 import android.net.Uri;
 import android.os.Bundle;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import net.nativo.android.exoplayer2.HeartRating;
+import net.nativo.android.exoplayer2.MediaMetadata;
+import net.nativo.android.exoplayer2.PercentageRating;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

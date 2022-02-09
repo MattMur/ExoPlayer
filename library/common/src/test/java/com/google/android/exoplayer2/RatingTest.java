@@ -18,6 +18,11 @@ package com.google.android.exoplayer2;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import net.nativo.android.exoplayer2.HeartRating;
+import net.nativo.android.exoplayer2.PercentageRating;
+import net.nativo.android.exoplayer2.Rating;
+import net.nativo.android.exoplayer2.StarRating;
+import net.nativo.android.exoplayer2.ThumbRating;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.annotation.internal.DoNotInstrument;

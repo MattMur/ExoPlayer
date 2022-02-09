@@ -19,6 +19,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Bundle;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import net.nativo.android.exoplayer2.video.VideoSize;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

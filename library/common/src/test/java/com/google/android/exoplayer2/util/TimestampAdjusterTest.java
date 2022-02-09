@@ -15,10 +15,11 @@
  */
 package com.google.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.TimestampAdjuster.MODE_NO_OFFSET;
+import static net.nativo.android.exoplayer2.util.TimestampAdjuster.MODE_NO_OFFSET;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import net.nativo.android.exoplayer2.util.TimestampAdjuster;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

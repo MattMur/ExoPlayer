@@ -18,6 +18,7 @@ package com.google.android.exoplayer2.device;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import net.nativo.android.exoplayer2.device.DeviceInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

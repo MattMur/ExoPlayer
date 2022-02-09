@@ -20,8 +20,11 @@ import static org.junit.Assert.assertThrows;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.MediaMetadata;
+import net.nativo.android.exoplayer2.offline.StreamKey;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

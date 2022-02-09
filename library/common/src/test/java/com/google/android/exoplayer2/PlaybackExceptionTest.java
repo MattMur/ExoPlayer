@@ -21,6 +21,7 @@ import android.os.Bundle;
 import android.os.RemoteException;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import java.io.IOException;
+import net.nativo.android.exoplayer2.PlaybackException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

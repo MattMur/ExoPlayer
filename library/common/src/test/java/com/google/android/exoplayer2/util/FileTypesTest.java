@@ -15,9 +15,9 @@
  */
 package com.google.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.FileTypes.HEADER_CONTENT_TYPE;
-import static com.google.android.exoplayer2.util.FileTypes.inferFileTypeFromMimeType;
-import static com.google.android.exoplayer2.util.FileTypes.inferFileTypeFromUri;
+import static net.nativo.android.exoplayer2.util.FileTypes.HEADER_CONTENT_TYPE;
+import static net.nativo.android.exoplayer2.util.FileTypes.inferFileTypeFromMimeType;
+import static net.nativo.android.exoplayer2.util.FileTypes.inferFileTypeFromUri;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
@@ -26,6 +26,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import net.nativo.android.exoplayer2.util.FileTypes;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

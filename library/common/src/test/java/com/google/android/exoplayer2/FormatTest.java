@@ -15,20 +15,22 @@
  */
 package com.google.android.exoplayer2;
 
-import static com.google.android.exoplayer2.C.WIDEVINE_UUID;
-import static com.google.android.exoplayer2.util.MimeTypes.VIDEO_MP4;
-import static com.google.android.exoplayer2.util.MimeTypes.VIDEO_WEBM;
+import static net.nativo.android.exoplayer2.C.WIDEVINE_UUID;
+import static net.nativo.android.exoplayer2.util.MimeTypes.VIDEO_MP4;
+import static net.nativo.android.exoplayer2.util.MimeTypes.VIDEO_WEBM;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Parcel;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.drm.ExoMediaCrypto;
-import com.google.android.exoplayer2.drm.UnsupportedMediaCrypto;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.id3.TextInformationFrame;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.drm.DrmInitData;
+import net.nativo.android.exoplayer2.drm.ExoMediaCrypto;
+import net.nativo.android.exoplayer2.drm.UnsupportedMediaCrypto;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.metadata.id3.TextInformationFrame;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

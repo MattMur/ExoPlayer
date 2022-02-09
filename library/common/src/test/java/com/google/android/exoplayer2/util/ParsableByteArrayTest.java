@@ -23,6 +23,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.common.primitives.Bytes;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
+import net.nativo.android.exoplayer2.util.ParsableByteArray;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

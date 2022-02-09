@@ -73,9 +73,9 @@ project(modulePrefix + 'library-hls').projectDir = new File(rootDir, 'library/hl
 //include modulePrefix + 'extension-workmanager'
 //project(modulePrefix + 'extension-workmanager').projectDir = new File(rootDir, 'extensions/workmanager')
 
-include modulePrefix + 'robolectricutils'
-project(modulePrefix + 'robolectricutils').projectDir = new File(rootDir, 'robolectricutils')
-include modulePrefix + 'testdata'
-project(modulePrefix + 'testdata').projectDir = new File(rootDir, 'testdata')
-include modulePrefix + 'testutils'
-project(modulePrefix + 'testutils').projectDir = new File(rootDir, 'testutils')
+//include modulePrefix + 'robolectricutils'
+//project(modulePrefix + 'robolectricutils').projectDir = new File(rootDir, 'robolectricutils')
+//include modulePrefix + 'testdata'
+//project(modulePrefix + 'testdata').projectDir = new File(rootDir, 'testdata')
+//include modulePrefix + 'testutils'
+//project(modulePrefix + 'testutils').projectDir = new File(rootDir, 'testutils')

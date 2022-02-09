@@ -20,6 +20,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.ext.truth.os.BundleSubject;
 import java.util.ArrayList;
 import java.util.List;
+import net.nativo.android.exoplayer2.BundleListRetriever;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

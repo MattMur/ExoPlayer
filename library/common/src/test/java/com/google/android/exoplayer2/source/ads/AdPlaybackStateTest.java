@@ -15,14 +15,15 @@
  */
 package com.google.android.exoplayer2.source.ads;
 
-import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE;
-import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_PLAYED;
+import static net.nativo.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE;
+import static net.nativo.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_PLAYED;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.fail;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.source.ads.AdPlaybackState;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

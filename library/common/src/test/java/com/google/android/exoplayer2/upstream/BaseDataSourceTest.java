@@ -20,8 +20,12 @@ import static com.google.common.truth.Truth.assertThat;
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import java.io.IOException;
+import net.nativo.android.exoplayer2.upstream.BaseDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
