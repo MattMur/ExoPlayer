@@ -17,7 +17,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.0'
+        classpath 'com.android.tools.build:gradle:4.2.2'
         classpath 'com.google.android.gms:strict-version-matcher-plugin:1.2.2'
     }
 }
@@ -35,5 +35,3 @@ allprojects {
     group = 'net.nativo.android.exoplayer'
 
 }
-
-apply from: 'javadoc_combined.gradle'

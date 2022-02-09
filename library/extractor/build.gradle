@@ -19,8 +19,6 @@ android {
             testCoverageEnabled = true
         }
     }
-
-    sourceSets.test.assets.srcDir '../../testdata/src/test/assets/'
 }
 
 dependencies {
