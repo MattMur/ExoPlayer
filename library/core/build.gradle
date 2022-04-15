@@ -24,7 +24,7 @@ android {
 
     buildTypes {
         debug {
-            testCoverageEnabled = true
+            //testCoverageEnabled = false
         }
     }
 
@@ -51,25 +51,17 @@ dependencies {
     compileOnly 'org.checkerframework:checker-qual:' + checkerframeworkVersion
     compileOnly 'org.checkerframework:checker-compat-qual:' + checkerframeworkCompatVersion
     compileOnly 'org.jetbrains.kotlin:kotlin-annotations-jvm:' + kotlinAnnotationsVersion
-    compileOnly 'com.google.errorprone:error_prone_annotations:' + errorProneVersion
-    androidTestImplementation 'androidx.multidex:multidex:' + androidxMultidexVersion
-    androidTestImplementation 'androidx.test:runner:' + androidxTestRunnerVersion
-    androidTestImplementation 'com.linkedin.dexmaker:dexmaker:' + dexmakerVersion
-    androidTestImplementation 'com.linkedin.dexmaker:dexmaker-mockito:' + dexmakerVersion
-    androidTestImplementation(project(modulePrefix + 'testutils')) {
-        exclude module: modulePrefix.substring(1) + 'library-core'
-    }
-    androidTestImplementation 'com.squareup.okhttp3:mockwebserver:' + okhttpVersion
-    testImplementation 'com.squareup.okhttp3:mockwebserver:' + okhttpVersion
-    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
-    testImplementation project(modulePrefix + 'testutils')
-    testImplementation project(modulePrefix + 'robolectricutils')
+//    androidTestImplementation 'androidx.test:runner:' + androidxTestRunnerVersion
+//    androidTestImplementation 'com.linkedin.dexmaker:dexmaker:' + dexmakerVersion
+//    androidTestImplementation 'com.linkedin.dexmaker:dexmaker-mockito:' + dexmakerVersion
+//    androidTestImplementation(project(modulePrefix + 'testutils')) {
+//        exclude module: modulePrefix.substring(1) + 'library-core'
+//    }
+//    testImplementation 'com.squareup.okhttp3:mockwebserver:' + okhttpVersion
+//    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
+//    testImplementation project(modulePrefix + 'testutils')
+//    testImplementation project(modulePrefix + 'robolectricutils')
 }
-
-ext {
-    javadocTitle = 'Core module'
-}
-apply from: '../../javadoc_library.gradle'
 
 ext {
     releaseArtifactId = 'exoplayer-core'

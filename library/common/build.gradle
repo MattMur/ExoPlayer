@@ -13,16 +13,7 @@
 // limitations under the License.
 apply from: "$gradle.ext.exoplayerSettingsDir/common_library_config.gradle"
 
-android {
-    buildTypes {
-        debug {
-            testCoverageEnabled = true
-        }
-    }
-    lint {
-        baseline = file("lint-baseline.xml")
-    }
-}
+//android.buildTypes.debug.testCoverageEnabled false
 
 dependencies {
     api ('com.google.guava:guava:' + guavaVersion) {
@@ -41,26 +32,7 @@ dependencies {
     compileOnly 'org.checkerframework:checker-compat-qual:' + checkerframeworkCompatVersion
     compileOnly 'org.checkerframework:checker-qual:' + checkerframeworkVersion
     compileOnly 'org.jetbrains.kotlin:kotlin-annotations-jvm:' + kotlinAnnotationsVersion
-    androidTestImplementation 'androidx.test:runner:' + androidxTestRunnerVersion
-    androidTestImplementation 'com.linkedin.dexmaker:dexmaker:' + dexmakerVersion
-    androidTestImplementation 'com.linkedin.dexmaker:dexmaker-mockito:' + dexmakerVersion
-    androidTestImplementation(project(modulePrefix + 'testutils')) {
-        exclude module: modulePrefix.substring(1) + 'library-core'
-    }
-    testImplementation 'org.mockito:mockito-core:' + mockitoVersion
-    testImplementation 'androidx.test:core:' + androidxTestCoreVersion
-    testImplementation 'androidx.test.ext:junit:' + androidxTestJUnitVersion
-    testImplementation 'junit:junit:' + junitVersion
-    testImplementation 'com.google.truth:truth:' + truthVersion
-    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
-    testImplementation project(modulePrefix + 'library-core')
-    testImplementation project(modulePrefix + 'testutils')
 }
-
-ext {
-    javadocTitle = 'Common module'
-}
-apply from: '../../javadoc_library.gradle'
 
 ext {
     releaseArtifactId = 'exoplayer-common'
