@@ -26,24 +26,14 @@ import net.nativo.android.exoplayer2.FormatHolder;
 import net.nativo.android.exoplayer2.MediaItem;
 import net.nativo.android.exoplayer2.SeekParameters;
 import net.nativo.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
 import net.nativo.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import net.nativo.android.exoplayer2.util.Util;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.Format;
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.Timeline;
-import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
-import net.nativo.android.exoplayer2.upstream.Allocator;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.MimeTypes;
-import net.nativo.android.exoplayer2.util.Util;
 
 import java.util.ArrayList;
 import org.checkerframework.checker.nullness.compatqual.NullableType;

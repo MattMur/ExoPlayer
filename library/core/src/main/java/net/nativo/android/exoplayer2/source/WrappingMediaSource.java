@@ -20,12 +20,7 @@ import net.nativo.android.exoplayer2.MediaItem;
 import net.nativo.android.exoplayer2.Timeline;
 import net.nativo.android.exoplayer2.analytics.PlayerId;
 import net.nativo.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.TransferListener;
-
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.Timeline;
-import net.nativo.android.exoplayer2.analytics.PlayerId;
-import net.nativo.android.exoplayer2.upstream.Allocator;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 
 /**
  * An abstract {@link MediaSource} wrapping a single child {@link MediaSource}.

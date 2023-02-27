@@ -21,6 +21,11 @@ import static com.google.android.exoplayer2.robolectric.RobolectricUtil.runLoope
 import androidx.annotation.Nullable;
 import com.google.android.exoplayer2.MediaItem;
 import com.google.android.exoplayer2.robolectric.RobolectricUtil;
+
+import net.nativo.android.exoplayer2.transformer.TransformationException;
+import net.nativo.android.exoplayer2.transformer.TransformationResult;
+import net.nativo.android.exoplayer2.transformer.Transformer;
+
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;

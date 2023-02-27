@@ -43,7 +43,7 @@ import net.nativo.android.exoplayer2.source.ads.AdPlaybackState;
 import com.google.android.exoplayer2.testutil.FakeMediaSource;
 import com.google.android.exoplayer2.testutil.FakeTimeline;
 import com.google.android.exoplayer2.testutil.TestExoPlayerBuilder;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import net.nativo.android.exoplayer2.util.EventLogger;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import net.nativo.android.exoplayer2.util.Util;

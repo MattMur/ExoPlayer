@@ -21,12 +21,7 @@ import net.nativo.android.exoplayer2.MediaItem;
 import net.nativo.android.exoplayer2.Player;
 import net.nativo.android.exoplayer2.source.MediaSource;
 import net.nativo.android.exoplayer2.ui.AdViewProvider;
-import com.google.android.exoplayer2.upstream.DataSpec;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.Player;
-import net.nativo.android.exoplayer2.ui.AdViewProvider;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 
 import java.io.IOException;
 

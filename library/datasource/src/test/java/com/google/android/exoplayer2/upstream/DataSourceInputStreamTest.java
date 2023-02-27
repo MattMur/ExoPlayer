@@ -21,6 +21,10 @@ import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.testutil.FakeDataSource;
 import com.google.android.exoplayer2.testutil.TestUtil;
+
+import net.nativo.android.exoplayer2.upstream.DataSourceInputStream;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+
 import java.io.IOException;
 import java.util.Arrays;
 import org.junit.Test;

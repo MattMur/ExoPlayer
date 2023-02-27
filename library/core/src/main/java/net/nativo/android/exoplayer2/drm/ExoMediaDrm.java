@@ -29,10 +29,7 @@ import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.analytics.PlayerId;
+import net.nativo.android.exoplayer2.decoder.CryptoConfig;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

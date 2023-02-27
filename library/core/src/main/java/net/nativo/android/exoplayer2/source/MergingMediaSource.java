@@ -25,15 +25,9 @@ import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.MediaItem;
 import net.nativo.android.exoplayer2.Timeline;
 import net.nativo.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.MultimapBuilder;
-import net.nativo.android.exoplayer2.util.Assertions;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.Timeline;
-import net.nativo.android.exoplayer2.upstream.Allocator;
 import net.nativo.android.exoplayer2.util.Assertions;
 
 import java.io.IOException;

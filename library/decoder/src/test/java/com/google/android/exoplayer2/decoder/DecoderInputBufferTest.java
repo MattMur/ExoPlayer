@@ -19,6 +19,9 @@ import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Arrays;

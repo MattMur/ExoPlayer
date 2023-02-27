@@ -28,7 +28,7 @@ import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.ParserException;
 import net.nativo.android.exoplayer2.source.LoadEventInfo;
 import net.nativo.android.exoplayer2.source.MediaLoadData;
-import com.google.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
 import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo;
 import net.nativo.android.exoplayer2.util.Util;
 import java.io.IOException;

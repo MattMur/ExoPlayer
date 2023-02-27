@@ -19,7 +19,9 @@ import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ext.ima.ImaServerSideAdInsertionMediaSource.AdsLoader.State;
+
+import net.nativo.android.exoplayer2.ext.ima.ImaServerSideAdInsertionMediaSource;
+import net.nativo.android.exoplayer2.ext.ima.ImaServerSideAdInsertionMediaSource.AdsLoader.State;
 import com.google.android.exoplayer2.source.ads.AdPlaybackState;
 import com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil;
 import com.google.common.collect.ImmutableMap;

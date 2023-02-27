@@ -27,15 +27,10 @@ import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
+import net.nativo.android.exoplayer2.decoder.CryptoInfo;
 import net.nativo.android.exoplayer2.util.TraceUtil;
 import net.nativo.android.exoplayer2.util.Util;
 import net.nativo.android.exoplayer2.util.Assertions;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.TraceUtil;
-import net.nativo.android.exoplayer2.util.Util;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

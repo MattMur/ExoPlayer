@@ -30,8 +30,8 @@ import net.nativo.android.exoplayer2.source.hls.HlsDataSourceFactory;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Part;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.RenditionReport;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource;
 import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
 import net.nativo.android.exoplayer2.upstream.Loader;
 import net.nativo.android.exoplayer2.upstream.ParsingLoadable;
@@ -39,17 +39,6 @@ import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.Iterables;
 import net.nativo.android.exoplayer2.source.MediaSourceEventListener;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.ParserException;
-import net.nativo.android.exoplayer2.source.LoadEventInfo;
-import net.nativo.android.exoplayer2.source.MediaLoadData;
-import net.nativo.android.exoplayer2.source.MediaSourceEventListener;
-import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import net.nativo.android.exoplayer2.upstream.Loader;
-import net.nativo.android.exoplayer2.upstream.ParsingLoadable;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.Util;
 
 import java.io.IOException;
 import java.util.HashMap;

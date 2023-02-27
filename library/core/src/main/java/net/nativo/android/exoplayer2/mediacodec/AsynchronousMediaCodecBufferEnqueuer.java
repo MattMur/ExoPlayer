@@ -27,14 +27,10 @@ import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
+import net.nativo.android.exoplayer2.decoder.CryptoInfo;
 import net.nativo.android.exoplayer2.util.ConditionVariable;
 import net.nativo.android.exoplayer2.util.Util;
 import net.nativo.android.exoplayer2.util.Assertions;
-
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.ConditionVariable;
-import net.nativo.android.exoplayer2.util.Util;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

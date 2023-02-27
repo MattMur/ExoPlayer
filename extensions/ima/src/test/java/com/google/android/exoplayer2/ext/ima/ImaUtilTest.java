@@ -15,9 +15,9 @@
  */
 package com.google.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.ext.ima.ImaUtil.addLiveAdBreak;
-import static com.google.android.exoplayer2.ext.ima.ImaUtil.getAdGroupAndIndexInMultiPeriodWindow;
-import static com.google.android.exoplayer2.ext.ima.ImaUtil.splitAdGroup;
+import static net.nativo.android.exoplayer2.ext.ima.ImaUtil.addLiveAdBreak;
+import static net.nativo.android.exoplayer2.ext.ima.ImaUtil.getAdGroupAndIndexInMultiPeriodWindow;
+import static net.nativo.android.exoplayer2.ext.ima.ImaUtil.splitAdGroup;
 import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE;
 import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_ERROR;
 import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_PLAYED;
@@ -35,6 +35,9 @@ import com.google.android.exoplayer2.source.ads.AdPlaybackState;
 import com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil;
 import com.google.android.exoplayer2.testutil.FakeTimeline;
 import com.google.common.collect.ImmutableMap;
+
+import net.nativo.android.exoplayer2.ext.ima.ImaUtil;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

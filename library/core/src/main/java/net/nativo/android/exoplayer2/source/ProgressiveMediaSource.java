@@ -30,21 +30,11 @@ import net.nativo.android.exoplayer2.extractor.DefaultExtractorsFactory;
 import net.nativo.android.exoplayer2.extractor.Extractor;
 import net.nativo.android.exoplayer2.extractor.ExtractorsFactory;
 import net.nativo.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
 import net.nativo.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
 import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.Timeline;
-import net.nativo.android.exoplayer2.extractor.DefaultExtractorsFactory;
-import net.nativo.android.exoplayer2.extractor.Extractor;
-import net.nativo.android.exoplayer2.extractor.ExtractorsFactory;
-import net.nativo.android.exoplayer2.upstream.Allocator;
-import net.nativo.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
-import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
 import net.nativo.android.exoplayer2.util.Assertions;
 
 /**

@@ -27,18 +27,13 @@ import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.Player;
 import net.nativo.android.exoplayer2.audio.AudioSink;
 import net.nativo.android.exoplayer2.decoder.DecoderCounters;
-import com.google.android.exoplayer2.decoder.DecoderException;
+import net.nativo.android.exoplayer2.decoder.DecoderException;
 import net.nativo.android.exoplayer2.decoder.DecoderReuseEvaluation;
 import net.nativo.android.exoplayer2.drm.DrmSessionEventListener;
 import net.nativo.android.exoplayer2.source.MediaSource.MediaPeriodId;
 import net.nativo.android.exoplayer2.source.MediaSourceEventListener;
 import net.nativo.android.exoplayer2.upstream.BandwidthMeter;
 import net.nativo.android.exoplayer2.video.VideoDecoderOutputBufferRenderer;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.Format;
-import net.nativo.android.exoplayer2.Player;
-import net.nativo.android.exoplayer2.upstream.BandwidthMeter;
 
 import java.util.List;
 

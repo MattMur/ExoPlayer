@@ -20,6 +20,10 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.testutil.DataSourceContractTest;
 import com.google.android.exoplayer2.testutil.TestUtil;
 import com.google.common.collect.ImmutableList;
+
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.FileDataSource;
+
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Paths;

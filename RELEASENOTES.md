@@ -769,7 +769,7 @@ This release corresponds to the
     *   Move `com.google.android.exoplayer2.device.DeviceInfo` to
         `com.google.android.exoplayer2.DeviceInfo`.
     *   Move `com.google.android.exoplayer2.drm.DecryptionException` to
-        `com.google.android.exoplayer2.decoder.CryptoException`.
+        `CryptoException`.
     *   Move `com.google.android.exoplayer2.upstream.cache.CachedRegionTracker`
         to `com.google.android.exoplayer2.upstream.CachedRegionTracker`.
     *   Move `Player.addListener(EventListener)` and

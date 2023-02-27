@@ -37,7 +37,7 @@ import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.FormatHolder;
 import net.nativo.android.exoplayer2.PlaybackException;
 import net.nativo.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 import net.nativo.android.exoplayer2.drm.DrmInitData;
 import net.nativo.android.exoplayer2.drm.DrmSession;
 import net.nativo.android.exoplayer2.drm.DrmSessionEventListener;

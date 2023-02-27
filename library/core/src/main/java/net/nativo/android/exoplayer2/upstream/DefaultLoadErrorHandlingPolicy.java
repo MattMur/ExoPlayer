@@ -20,12 +20,9 @@ import static java.lang.Math.min;
 import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.upstream.HttpDataSource.CleartextNotPermittedException;
-import com.google.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource.CleartextNotPermittedException;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
 import net.nativo.android.exoplayer2.upstream.Loader.UnexpectedLoaderException;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.ParserException;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

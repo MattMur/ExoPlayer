@@ -32,6 +32,12 @@ import com.google.android.exoplayer2.util.SurfaceInfo;
 import com.google.android.exoplayer2.util.Util;
 import com.google.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
+
+import net.nativo.android.exoplayer2.effect.GlEffect;
+import net.nativo.android.exoplayer2.effect.GlEffectsFrameProcessor;
+import net.nativo.android.exoplayer2.effect.GlTextureProcessor;
+import net.nativo.android.exoplayer2.effect.TextureInfo;
+
 import java.util.ArrayList;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

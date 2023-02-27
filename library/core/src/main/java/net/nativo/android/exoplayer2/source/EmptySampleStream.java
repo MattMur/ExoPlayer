@@ -17,9 +17,7 @@ package net.nativo.android.exoplayer2.source;
 
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-
-import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 
 /** An empty {@link SampleStream}. */
 public final class EmptySampleStream implements SampleStream {

@@ -36,6 +36,9 @@ import androidx.annotation.Nullable;
 import com.google.android.exoplayer2.util.ConditionVariable;
 import com.google.android.exoplayer2.util.MimeTypes;
 import com.google.android.exoplayer2.util.Util;
+
+import net.nativo.android.exoplayer2.transformer.MssimCalculator;
+
 import java.io.Closeable;
 import java.io.IOException;
 import java.nio.ByteBuffer;

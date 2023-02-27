@@ -22,15 +22,11 @@ import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import net.nativo.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DefaultHttpDataSource;
 import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.primitives.Ints;
 import net.nativo.android.exoplayer2.util.Assertions;
-
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.Util;
 
 import java.util.Map;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

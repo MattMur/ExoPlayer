@@ -20,6 +20,10 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.testutil.DataSourceContractTest;
 import com.google.android.exoplayer2.testutil.TestUtil;
 import com.google.common.collect.ImmutableList;
+
+import net.nativo.android.exoplayer2.upstream.ByteArrayDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;

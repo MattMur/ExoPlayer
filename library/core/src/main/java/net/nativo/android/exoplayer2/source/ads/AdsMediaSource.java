@@ -38,15 +38,8 @@ import net.nativo.android.exoplayer2.source.MediaSource.MediaPeriodId;
 import net.nativo.android.exoplayer2.source.MediaSourceEventListener;
 import net.nativo.android.exoplayer2.ui.AdViewProvider;
 import net.nativo.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.Util;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.Timeline;
-import net.nativo.android.exoplayer2.ui.AdViewProvider;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.Util;
 

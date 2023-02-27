@@ -146,7 +146,7 @@ import net.nativo.android.exoplayer2.trackselection.DefaultTrackSelector;
 import net.nativo.android.exoplayer2.upstream.Allocation;
 import net.nativo.android.exoplayer2.upstream.Allocator;
 import net.nativo.android.exoplayer2.upstream.Loader;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.Clock;
 import net.nativo.android.exoplayer2.util.MimeTypes;

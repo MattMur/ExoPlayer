@@ -26,6 +26,13 @@ import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.MediaItem;
+
+import net.nativo.android.exoplayer2.transformer.Codec;
+import net.nativo.android.exoplayer2.transformer.DefaultEncoderFactory;
+import net.nativo.android.exoplayer2.transformer.TransformationException;
+import net.nativo.android.exoplayer2.transformer.TransformationRequest;
+import net.nativo.android.exoplayer2.transformer.Transformer;
+
 import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;

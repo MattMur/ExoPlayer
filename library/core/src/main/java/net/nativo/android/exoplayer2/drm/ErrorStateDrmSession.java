@@ -17,10 +17,7 @@ package net.nativo.android.exoplayer2.drm;
 
 import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import net.nativo.android.exoplayer2.util.Assertions;
-
-import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.decoder.CryptoConfig;
 import net.nativo.android.exoplayer2.util.Assertions;
 
 import java.util.Map;

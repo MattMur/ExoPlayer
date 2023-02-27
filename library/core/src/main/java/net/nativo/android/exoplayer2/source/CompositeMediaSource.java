@@ -21,12 +21,7 @@ import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.Timeline;
 import net.nativo.android.exoplayer2.drm.DrmSession;
 import net.nativo.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.UnknownNull;
-import net.nativo.android.exoplayer2.util.Util;
-
-import net.nativo.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.UnknownNull;
 import net.nativo.android.exoplayer2.util.Util;

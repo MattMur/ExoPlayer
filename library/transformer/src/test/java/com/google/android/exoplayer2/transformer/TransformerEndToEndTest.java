@@ -16,10 +16,10 @@
 
 package com.google.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_AVAILABLE;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NO_TRANSFORMATION;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_UNAVAILABLE;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_WAITING_FOR_AVAILABILITY;
+import static net.nativo.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_AVAILABLE;
+import static net.nativo.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NO_TRANSFORMATION;
+import static net.nativo.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_UNAVAILABLE;
+import static net.nativo.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_WAITING_FOR_AVAILABILITY;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
@@ -58,6 +58,16 @@ import com.google.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;
 import com.google.common.primitives.Ints;
+
+import net.nativo.android.exoplayer2.transformer.DefaultEncoderFactory;
+import net.nativo.android.exoplayer2.transformer.DefaultMuxer;
+import net.nativo.android.exoplayer2.transformer.Muxer;
+import net.nativo.android.exoplayer2.transformer.ProgressHolder;
+import net.nativo.android.exoplayer2.transformer.TransformationException;
+import net.nativo.android.exoplayer2.transformer.TransformationRequest;
+import net.nativo.android.exoplayer2.transformer.TransformationResult;
+import net.nativo.android.exoplayer2.transformer.Transformer;
+
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.file.Files;

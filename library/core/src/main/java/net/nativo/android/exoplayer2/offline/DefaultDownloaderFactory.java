@@ -19,12 +19,7 @@ import android.util.SparseArray;
 import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.Util;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.Util;
 

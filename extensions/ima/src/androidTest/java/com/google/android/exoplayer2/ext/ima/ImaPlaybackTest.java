@@ -42,7 +42,9 @@ import com.google.android.exoplayer2.testutil.ExoHostedTest;
 import com.google.android.exoplayer2.testutil.HostActivity;
 import com.google.android.exoplayer2.testutil.TestUtil;
 import com.google.android.exoplayer2.trackselection.MappingTrackSelector;
-import com.google.android.exoplayer2.upstream.DataSpec;
+
+import net.nativo.android.exoplayer2.ext.ima.ImaAdsLoader;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.util.Assertions;
 import com.google.android.exoplayer2.util.Util;
 import java.util.ArrayList;

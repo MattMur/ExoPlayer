@@ -16,7 +16,7 @@
 package net.nativo.android.exoplayer2.text;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.decoder.DecoderException;
+import net.nativo.android.exoplayer2.decoder.DecoderException;
 
 /** Thrown when an error occurs decoding subtitle data. */
 public class SubtitleDecoderException extends DecoderException {

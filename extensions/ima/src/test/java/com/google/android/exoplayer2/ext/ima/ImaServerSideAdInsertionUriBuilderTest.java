@@ -22,6 +22,9 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.ads.interactivemedia.v3.api.StreamRequest;
 import com.google.ads.interactivemedia.v3.api.StreamRequest.StreamFormat;
 import com.google.android.exoplayer2.C;
+
+import net.nativo.android.exoplayer2.ext.ima.ImaServerSideAdInsertionUriBuilder;
+
 import java.util.HashMap;
 import java.util.Map;
 import org.junit.Assert;

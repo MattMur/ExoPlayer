@@ -44,6 +44,17 @@ import com.google.android.exoplayer2.util.FrameProcessor;
 import com.google.android.exoplayer2.util.SurfaceInfo;
 import com.google.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
+
+import net.nativo.android.exoplayer2.effect.Crop;
+import net.nativo.android.exoplayer2.effect.GlEffect;
+import net.nativo.android.exoplayer2.effect.GlEffectsFrameProcessor;
+import net.nativo.android.exoplayer2.effect.GlTextureProcessor;
+import net.nativo.android.exoplayer2.effect.MatrixTransformation;
+import net.nativo.android.exoplayer2.effect.Presentation;
+import net.nativo.android.exoplayer2.effect.RgbAdjustment;
+import net.nativo.android.exoplayer2.effect.RgbFilter;
+import net.nativo.android.exoplayer2.effect.ScaleToFitTransformation;
+
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

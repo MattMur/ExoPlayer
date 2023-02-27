@@ -21,10 +21,7 @@ import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import net.nativo.android.exoplayer2.util.Assertions;
-
-import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 import net.nativo.android.exoplayer2.util.Assertions;
 
 import java.nio.ByteBuffer;

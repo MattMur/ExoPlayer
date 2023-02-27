@@ -29,6 +29,9 @@ import com.google.android.exoplayer2.source.DefaultMediaSourceFactory;
 import com.google.android.exoplayer2.source.MediaSource;
 import com.google.android.exoplayer2.testutil.FakeDataSource;
 import com.google.android.exoplayer2.util.MimeTypes;
+
+import net.nativo.android.exoplayer2.source.smoothstreaming.SsMediaSource;
+
 import java.io.IOException;
 import org.junit.Test;
 import org.junit.runner.RunWith;

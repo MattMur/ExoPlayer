@@ -16,9 +16,7 @@
 package net.nativo.android.exoplayer2.source.hls;
 
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.upstream.DataSource;
-
-import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.upstream.DataSource;
 
 /** Creates {@link DataSource}s for HLS playlists, encryption and media chunks. */
 public interface HlsDataSourceFactory {

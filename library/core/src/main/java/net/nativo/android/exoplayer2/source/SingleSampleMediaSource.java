@@ -24,23 +24,15 @@ import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.MediaItem;
 import net.nativo.android.exoplayer2.Timeline;
 import net.nativo.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import net.nativo.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
 import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.Format;
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.Timeline;
-import net.nativo.android.exoplayer2.upstream.Allocator;
-import net.nativo.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
-import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.MimeTypes;
 
 /**
  * Loads data at a given {@link Uri} as a single sample belonging to a single {@link MediaPeriod}.

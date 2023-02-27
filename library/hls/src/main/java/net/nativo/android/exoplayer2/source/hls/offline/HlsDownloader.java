@@ -23,17 +23,11 @@ import net.nativo.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsPlaylist;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;
 import net.nativo.android.exoplayer2.util.UriUtil;
 import net.nativo.android.exoplayer2.upstream.ParsingLoadable;
-
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.offline.SegmentDownloader;
-import net.nativo.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
-import net.nativo.android.exoplayer2.upstream.ParsingLoadable;
-import net.nativo.android.exoplayer2.util.UriUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;

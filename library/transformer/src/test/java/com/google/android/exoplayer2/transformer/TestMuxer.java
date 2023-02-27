@@ -18,6 +18,9 @@ package com.google.android.exoplayer2.transformer;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.testutil.DumpableFormat;
 import com.google.android.exoplayer2.testutil.Dumper;
+
+import net.nativo.android.exoplayer2.transformer.Muxer;
+
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;

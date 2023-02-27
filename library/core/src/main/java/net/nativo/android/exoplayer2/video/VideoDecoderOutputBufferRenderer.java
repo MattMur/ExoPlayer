@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.video;
 
-import com.google.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
+import net.nativo.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
 
 /** Renders the {@link VideoDecoderOutputBuffer}. */
 public interface VideoDecoderOutputBufferRenderer {

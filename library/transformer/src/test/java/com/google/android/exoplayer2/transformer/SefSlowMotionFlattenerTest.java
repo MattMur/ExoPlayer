@@ -16,7 +16,7 @@
 
 package com.google.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.transformer.SefSlowMotionFlattener.INPUT_FRAME_RATE;
+import static net.nativo.android.exoplayer2.transformer.SefSlowMotionFlattener.INPUT_FRAME_RATE;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
@@ -26,6 +26,9 @@ import com.google.android.exoplayer2.metadata.Metadata;
 import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
 import com.google.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
 import com.google.android.exoplayer2.util.MimeTypes;
+
+import net.nativo.android.exoplayer2.transformer.SefSlowMotionFlattener;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

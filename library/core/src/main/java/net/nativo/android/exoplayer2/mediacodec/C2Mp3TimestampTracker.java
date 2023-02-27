@@ -20,13 +20,7 @@ import static java.lang.Math.max;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.audio.MpegAudioUtil;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.Log;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.Format;
-import net.nativo.android.exoplayer2.audio.MpegAudioUtil;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.Log;
 

@@ -19,9 +19,9 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.upstream.PlaceholderDataSource;
-import com.google.android.exoplayer2.upstream.cache.Cache;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
+import net.nativo.android.exoplayer2.upstream.PlaceholderDataSource;
+import net.nativo.android.exoplayer2.upstream.cache.Cache;
+import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;

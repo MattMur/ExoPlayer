@@ -29,6 +29,13 @@ import com.google.android.exoplayer2.util.SystemClock;
 import com.google.android.exoplayer2.util.Util;
 import com.google.common.base.Ascii;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
+
+import net.nativo.android.exoplayer2.transformer.Codec;
+import net.nativo.android.exoplayer2.transformer.TransformationException;
+import net.nativo.android.exoplayer2.transformer.TransformationRequest;
+import net.nativo.android.exoplayer2.transformer.TransformationResult;
+import net.nativo.android.exoplayer2.transformer.Transformer;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;

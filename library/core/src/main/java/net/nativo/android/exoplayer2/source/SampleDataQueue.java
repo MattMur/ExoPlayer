@@ -19,9 +19,9 @@ import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
+import net.nativo.android.exoplayer2.decoder.CryptoInfo;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
 import net.nativo.android.exoplayer2.upstream.Allocation;
 import net.nativo.android.exoplayer2.upstream.Allocator;
 import net.nativo.android.exoplayer2.upstream.DataReader;
@@ -29,15 +29,6 @@ import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.ParsableByteArray;
 import net.nativo.android.exoplayer2.util.Util;
 import net.nativo.android.exoplayer2.extractor.TrackOutput;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.extractor.TrackOutput;
-import net.nativo.android.exoplayer2.upstream.Allocation;
-import net.nativo.android.exoplayer2.upstream.Allocator;
-import net.nativo.android.exoplayer2.upstream.DataReader;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.ParsableByteArray;
-import net.nativo.android.exoplayer2.util.Util;
 
 import java.io.EOFException;
 import java.io.IOException;

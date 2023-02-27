@@ -24,6 +24,13 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.PlaybackException;
 import com.google.android.exoplayer2.util.Util;
+
+import net.nativo.android.exoplayer2.upstream.DataSchemeDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSourceException;
+import net.nativo.android.exoplayer2.upstream.DataSourceUtil;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+
 import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;

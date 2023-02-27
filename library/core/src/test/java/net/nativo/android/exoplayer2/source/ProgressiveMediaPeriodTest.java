@@ -27,7 +27,7 @@ import net.nativo.android.exoplayer2.drm.DrmSessionEventListener;
 import net.nativo.android.exoplayer2.drm.DrmSessionManager;
 import net.nativo.android.exoplayer2.extractor.mp4.Mp4Extractor;
 import net.nativo.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.upstream.AssetDataSource;
+import net.nativo.android.exoplayer2.upstream.AssetDataSource;
 import net.nativo.android.exoplayer2.upstream.DefaultAllocator;
 import net.nativo.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
 import java.util.concurrent.TimeoutException;

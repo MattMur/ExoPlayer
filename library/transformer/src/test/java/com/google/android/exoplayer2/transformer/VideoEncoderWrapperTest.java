@@ -30,6 +30,13 @@ import com.google.android.exoplayer2.util.ListenerSet;
 import com.google.android.exoplayer2.util.MimeTypes;
 import com.google.android.exoplayer2.util.SurfaceInfo;
 import com.google.common.collect.ImmutableList;
+
+import net.nativo.android.exoplayer2.transformer.Codec;
+import net.nativo.android.exoplayer2.transformer.FallbackListener;
+import net.nativo.android.exoplayer2.transformer.TransformationException;
+import net.nativo.android.exoplayer2.transformer.TransformationRequest;
+import net.nativo.android.exoplayer2.transformer.VideoTranscodingSamplePipeline;
+
 import java.util.List;
 import org.junit.Before;
 import org.junit.Test;

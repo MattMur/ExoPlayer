@@ -19,6 +19,10 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.util.Pair;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+
+import net.nativo.android.exoplayer2.effect.MatrixTextureProcessor;
+import net.nativo.android.exoplayer2.effect.ScaleToFitTransformation;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

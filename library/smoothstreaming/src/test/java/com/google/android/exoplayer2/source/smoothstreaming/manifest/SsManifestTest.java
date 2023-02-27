@@ -23,7 +23,9 @@ import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.offline.StreamKey;
 import com.google.android.exoplayer2.source.smoothstreaming.SsTestUtils;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
+
+import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
 import com.google.android.exoplayer2.util.MimeTypes;
 import java.util.Arrays;
 import java.util.Collections;

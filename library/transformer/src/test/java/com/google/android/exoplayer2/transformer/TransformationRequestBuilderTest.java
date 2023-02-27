@@ -20,6 +20,9 @@ import static org.junit.Assert.assertThrows;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.util.MimeTypes;
+
+import net.nativo.android.exoplayer2.transformer.TransformationRequest;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

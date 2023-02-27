@@ -39,7 +39,7 @@ import net.nativo.android.exoplayer2.source.ads.AdsLoader.EventListener;
 import com.google.android.exoplayer2.testutil.FakeMediaSource;
 import net.nativo.android.exoplayer2.ui.AdViewProvider;
 import net.nativo.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

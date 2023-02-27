@@ -26,14 +26,9 @@ import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.analytics.PlayerId;
 import net.nativo.android.exoplayer2.drm.DefaultDrmSessionManager.Mode;
 import net.nativo.android.exoplayer2.drm.DrmSession.DrmSessionException;
-import com.google.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.source.MediaSource;
-
-import net.nativo.android.exoplayer2.Format;
-import net.nativo.android.exoplayer2.analytics.PlayerId;
-import net.nativo.android.exoplayer2.source.MediaSource;
-import net.nativo.android.exoplayer2.util.Assertions;
 
 import java.util.Map;
 import java.util.UUID;

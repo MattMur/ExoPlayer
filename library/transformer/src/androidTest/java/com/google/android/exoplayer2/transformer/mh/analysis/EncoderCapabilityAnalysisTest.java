@@ -30,7 +30,7 @@ import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.transformer.AndroidTestUtil;
-import com.google.android.exoplayer2.transformer.EncoderUtil;
+import net.nativo.android.exoplayer2.transformer.EncoderUtil;
 import com.google.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;

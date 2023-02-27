@@ -31,12 +31,9 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.VisibleForTesting;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
+import net.nativo.android.exoplayer2.decoder.CryptoInfo;
 import net.nativo.android.exoplayer2.util.TraceUtil;
 import com.google.common.base.Supplier;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.util.TraceUtil;
 
 import java.io.IOException;
 import java.lang.annotation.Documented;

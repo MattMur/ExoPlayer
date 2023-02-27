@@ -18,6 +18,9 @@ package com.google.android.exoplayer2.transformer;
 import androidx.annotation.Nullable;
 import com.google.android.exoplayer2.C;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
+
+import net.nativo.android.exoplayer2.transformer.TransformationResult;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 

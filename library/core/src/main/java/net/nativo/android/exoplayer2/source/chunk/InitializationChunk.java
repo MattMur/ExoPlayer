@@ -22,15 +22,9 @@ import net.nativo.android.exoplayer2.extractor.DefaultExtractorInput;
 import net.nativo.android.exoplayer2.extractor.Extractor;
 import net.nativo.android.exoplayer2.extractor.ExtractorInput;
 import net.nativo.android.exoplayer2.source.chunk.ChunkExtractor.TrackOutputProvider;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSourceUtil;
-import com.google.android.exoplayer2.upstream.DataSpec;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.Format;
-import net.nativo.android.exoplayer2.extractor.DefaultExtractorInput;
-import net.nativo.android.exoplayer2.extractor.Extractor;
-import net.nativo.android.exoplayer2.extractor.ExtractorInput;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSourceUtil;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 
 import java.io.IOException;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

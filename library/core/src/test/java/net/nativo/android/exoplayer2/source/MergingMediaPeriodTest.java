@@ -24,7 +24,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 import net.nativo.android.exoplayer2.drm.DrmSessionEventListener;
 import net.nativo.android.exoplayer2.drm.DrmSessionManager;
 import net.nativo.android.exoplayer2.source.MediaSource.MediaPeriodId;

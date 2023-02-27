@@ -24,10 +24,13 @@ import com.google.android.exoplayer2.offline.DownloadRequest;
 import com.google.android.exoplayer2.offline.Downloader;
 import com.google.android.exoplayer2.offline.DownloaderFactory;
 import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.upstream.PlaceholderDataSource;
-import com.google.android.exoplayer2.upstream.cache.Cache;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
+import net.nativo.android.exoplayer2.upstream.PlaceholderDataSource;
+import net.nativo.android.exoplayer2.upstream.cache.Cache;
+import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;
 import com.google.android.exoplayer2.util.MimeTypes;
+
+import net.nativo.android.exoplayer2.source.smoothstreaming.offline.SsDownloader;
+
 import java.util.Collections;
 import org.junit.Test;
 import org.junit.runner.RunWith;

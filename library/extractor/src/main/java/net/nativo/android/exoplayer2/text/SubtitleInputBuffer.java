@@ -16,7 +16,7 @@
 package net.nativo.android.exoplayer2.text;
 
 import net.nativo.android.exoplayer2.Format;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 
 /** A {@link DecoderInputBuffer} for a {@link SubtitleDecoder}. */
 public class SubtitleInputBuffer extends DecoderInputBuffer {

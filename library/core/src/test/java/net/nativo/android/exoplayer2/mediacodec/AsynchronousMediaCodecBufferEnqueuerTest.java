@@ -26,7 +26,7 @@ import android.media.MediaFormat;
 import android.os.HandlerThread;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
+import net.nativo.android.exoplayer2.decoder.CryptoInfo;
 import net.nativo.android.exoplayer2.util.ConditionVariable;
 import java.io.IOException;
 import java.nio.ByteBuffer;

@@ -21,18 +21,14 @@ import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.drm.ExoMediaDrm.KeyRequest;
 import net.nativo.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSourceInputStream;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
-import com.google.android.exoplayer2.upstream.StatsDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSourceInputStream;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import net.nativo.android.exoplayer2.upstream.StatsDataSource;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableMap;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.Util;
 
 import java.util.Collections;
 import java.util.HashMap;

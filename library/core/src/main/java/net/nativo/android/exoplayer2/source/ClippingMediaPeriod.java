@@ -20,14 +20,7 @@ import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.FormatHolder;
 import net.nativo.android.exoplayer2.SeekParameters;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.MimeTypes;
-import net.nativo.android.exoplayer2.util.Util;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.MimeTypes;

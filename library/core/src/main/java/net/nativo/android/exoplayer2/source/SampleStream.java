@@ -20,10 +20,8 @@ import static java.lang.annotation.ElementType.TYPE_USE;
 import androidx.annotation.IntDef;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
-
-import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
 
 import java.io.IOException;
 import java.lang.annotation.Documented;

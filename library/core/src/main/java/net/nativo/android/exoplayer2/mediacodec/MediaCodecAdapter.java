@@ -26,10 +26,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.Format;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.decoder.CryptoInfo;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

@@ -35,6 +35,11 @@ import android.util.Pair;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.util.FrameProcessingException;
 import com.google.android.exoplayer2.util.GlUtil;
+
+import net.nativo.android.exoplayer2.effect.RgbFilter;
+import net.nativo.android.exoplayer2.effect.RgbMatrix;
+import net.nativo.android.exoplayer2.effect.SingleFrameGlTextureProcessor;
+
 import java.io.IOException;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 import org.junit.After;

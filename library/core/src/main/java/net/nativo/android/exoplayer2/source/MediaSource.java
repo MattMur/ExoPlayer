@@ -27,14 +27,7 @@ import net.nativo.android.exoplayer2.drm.DrmSessionManager;
 import net.nativo.android.exoplayer2.drm.DrmSessionManagerProvider;
 import net.nativo.android.exoplayer2.upstream.Allocator;
 import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.TransferListener;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.MediaItem;
-import net.nativo.android.exoplayer2.Timeline;
-import net.nativo.android.exoplayer2.analytics.PlayerId;
-import net.nativo.android.exoplayer2.upstream.Allocator;
-import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 
 import java.io.IOException;
 

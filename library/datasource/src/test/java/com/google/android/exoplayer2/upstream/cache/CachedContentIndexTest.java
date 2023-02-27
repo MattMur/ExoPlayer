@@ -26,6 +26,13 @@ import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.testutil.TestUtil;
 import com.google.android.exoplayer2.util.Util;
+
+import net.nativo.android.exoplayer2.upstream.cache.CachedContent;
+import net.nativo.android.exoplayer2.upstream.cache.CachedContentIndex;
+import net.nativo.android.exoplayer2.upstream.cache.ContentMetadata;
+import net.nativo.android.exoplayer2.upstream.cache.ContentMetadataMutations;
+import net.nativo.android.exoplayer2.upstream.cache.SimpleCacheSpan;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

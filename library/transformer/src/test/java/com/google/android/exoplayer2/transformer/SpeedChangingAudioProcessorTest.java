@@ -22,6 +22,10 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.audio.AudioProcessor;
 import com.google.android.exoplayer2.util.Util;
+
+import net.nativo.android.exoplayer2.transformer.SpeedChangingAudioProcessor;
+import net.nativo.android.exoplayer2.transformer.SpeedProvider;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import org.junit.Test;

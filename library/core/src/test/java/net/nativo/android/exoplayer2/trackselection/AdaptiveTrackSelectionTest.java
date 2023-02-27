@@ -33,7 +33,7 @@ import com.google.android.exoplayer2.testutil.FakeTimeline;
 import net.nativo.android.exoplayer2.trackselection.AdaptiveTrackSelection.AdaptationCheckpoint;
 import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection.Definition;
 import net.nativo.android.exoplayer2.upstream.BandwidthMeter;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;

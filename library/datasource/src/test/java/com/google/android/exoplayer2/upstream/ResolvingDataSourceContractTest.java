@@ -22,7 +22,11 @@ import com.google.android.exoplayer2.testutil.DataSourceContractTest;
 import com.google.android.exoplayer2.testutil.FakeDataSet;
 import com.google.android.exoplayer2.testutil.FakeDataSource;
 import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.ResolvingDataSource.Resolver;
+
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.ResolvingDataSource;
+import net.nativo.android.exoplayer2.upstream.ResolvingDataSource.Resolver;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import org.junit.Before;

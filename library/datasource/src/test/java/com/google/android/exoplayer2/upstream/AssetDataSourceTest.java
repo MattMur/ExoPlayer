@@ -19,6 +19,10 @@ import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.testutil.TestUtil;
+
+import net.nativo.android.exoplayer2.upstream.AssetDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

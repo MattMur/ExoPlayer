@@ -29,6 +29,11 @@ import com.google.android.exoplayer2.util.Clock;
 import com.google.android.exoplayer2.util.HandlerWrapper;
 import com.google.android.exoplayer2.util.ListenerSet;
 import com.google.android.exoplayer2.util.MimeTypes;
+
+import net.nativo.android.exoplayer2.transformer.FallbackListener;
+import net.nativo.android.exoplayer2.transformer.TransformationRequest;
+import net.nativo.android.exoplayer2.transformer.Transformer;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.shadows.ShadowLooper;

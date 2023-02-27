@@ -20,14 +20,10 @@ import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.source.LoadEventInfo;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import net.nativo.android.exoplayer2.upstream.Loader.Loadable;
-import com.google.android.exoplayer2.upstream.StatsDataSource;
-import net.nativo.android.exoplayer2.util.Assertions;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.upstream.StatsDataSource;
 import net.nativo.android.exoplayer2.util.Assertions;
 
 import java.util.List;

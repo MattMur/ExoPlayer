@@ -18,8 +18,7 @@ package net.nativo.android.exoplayer2.mediacodec;
 import android.media.MediaCodec;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.decoder.DecoderException;
-import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.decoder.DecoderException;
 import net.nativo.android.exoplayer2.util.Util;
 
 /** Thrown when a failure occurs in a {@link MediaCodec} decoder. */

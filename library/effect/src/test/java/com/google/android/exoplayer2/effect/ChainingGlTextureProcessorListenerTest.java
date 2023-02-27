@@ -21,6 +21,12 @@ import static org.mockito.Mockito.verify;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.util.FrameProcessor;
 import com.google.android.exoplayer2.util.Util;
+
+import net.nativo.android.exoplayer2.effect.ChainingGlTextureProcessorListener;
+import net.nativo.android.exoplayer2.effect.FrameProcessingTaskExecutor;
+import net.nativo.android.exoplayer2.effect.GlTextureProcessor;
+import net.nativo.android.exoplayer2.effect.TextureInfo;
+
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

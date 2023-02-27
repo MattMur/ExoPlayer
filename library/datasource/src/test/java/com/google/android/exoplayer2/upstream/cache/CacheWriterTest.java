@@ -27,8 +27,13 @@ import com.google.android.exoplayer2.testutil.FailOnCloseDataSink;
 import com.google.android.exoplayer2.testutil.FakeDataSet;
 import com.google.android.exoplayer2.testutil.FakeDataSource;
 import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.FileDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.FileDataSource;
+import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;
+import net.nativo.android.exoplayer2.upstream.cache.CacheWriter;
+import net.nativo.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
+import net.nativo.android.exoplayer2.upstream.cache.SimpleCache;
+
 import com.google.android.exoplayer2.util.Util;
 import java.io.File;
 import java.io.IOException;

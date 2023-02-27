@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.source.hls;
 
-import static com.google.android.exoplayer2.upstream.DataSpec.FLAG_MIGHT_NOT_USE_FULL_NETWORK_SPEED;
+import static net.nativo.android.exoplayer2.upstream.DataSpec.FLAG_MIGHT_NOT_USE_FULL_NETWORK_SPEED;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
@@ -30,30 +30,15 @@ import net.nativo.android.exoplayer2.metadata.id3.Id3Decoder;
 import net.nativo.android.exoplayer2.metadata.id3.PrivFrame;
 import net.nativo.android.exoplayer2.source.chunk.MediaChunk;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSourceUtil;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSourceUtil;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.ParsableByteArray;
 import net.nativo.android.exoplayer2.util.TimestampAdjuster;
 import net.nativo.android.exoplayer2.util.UriUtil;
 import com.google.common.base.Ascii;
 import com.google.common.collect.ImmutableList;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.Format;
-import net.nativo.android.exoplayer2.analytics.PlayerId;
-import net.nativo.android.exoplayer2.drm.DrmInitData;
-import net.nativo.android.exoplayer2.extractor.DefaultExtractorInput;
-import net.nativo.android.exoplayer2.extractor.ExtractorInput;
-import net.nativo.android.exoplayer2.metadata.Metadata;
-import net.nativo.android.exoplayer2.metadata.id3.Id3Decoder;
-import net.nativo.android.exoplayer2.metadata.id3.PrivFrame;
-import net.nativo.android.exoplayer2.source.chunk.MediaChunk;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.ParsableByteArray;
-import net.nativo.android.exoplayer2.util.TimestampAdjuster;
-import net.nativo.android.exoplayer2.util.UriUtil;
 
 import java.io.EOFException;
 import java.io.IOException;

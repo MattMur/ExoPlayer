@@ -20,10 +20,7 @@ import android.os.PersistableBundle;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import net.nativo.android.exoplayer2.util.Util;
-
-import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.decoder.CryptoConfig;
 import net.nativo.android.exoplayer2.util.Util;
 
 import java.util.HashMap;

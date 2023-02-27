@@ -17,7 +17,7 @@ package net.nativo.android.exoplayer2.source;
 
 import android.net.Uri;
 import android.os.SystemClock;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;

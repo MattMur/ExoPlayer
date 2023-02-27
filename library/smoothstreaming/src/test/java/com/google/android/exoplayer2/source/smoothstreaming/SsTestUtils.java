@@ -18,9 +18,9 @@ package com.google.android.exoplayer2.source.smoothstreaming;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.Format;
 import com.google.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
+import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
+import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
 import java.util.Collections;
 
 /** Util methods for SmoothStreaming tests. */

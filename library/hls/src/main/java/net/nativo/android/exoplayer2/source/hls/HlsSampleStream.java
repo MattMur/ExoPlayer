@@ -17,12 +17,7 @@ package net.nativo.android.exoplayer2.source.hls;
 
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import net.nativo.android.exoplayer2.source.SampleStream;
-import net.nativo.android.exoplayer2.util.Assertions;
-
-import net.nativo.android.exoplayer2.C;
-import net.nativo.android.exoplayer2.FormatHolder;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 import net.nativo.android.exoplayer2.source.SampleStream;
 import net.nativo.android.exoplayer2.util.Assertions;
 

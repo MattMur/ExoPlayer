@@ -23,6 +23,9 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import androidx.annotation.ColorInt;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+
+import net.nativo.android.exoplayer2.transformer.MssimCalculator;
+
 import java.io.IOException;
 import java.io.InputStream;
 import org.junit.Test;

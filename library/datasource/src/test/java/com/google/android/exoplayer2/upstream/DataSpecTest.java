@@ -23,6 +23,9 @@ import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.android.exoplayer2.C;
+
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+
 import java.util.HashMap;
 import java.util.Map;
 import org.junit.Test;

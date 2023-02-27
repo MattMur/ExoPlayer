@@ -25,7 +25,7 @@ import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
 import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import com.google.common.collect.Iterables;
 import java.io.IOException;
 import java.util.ArrayList;

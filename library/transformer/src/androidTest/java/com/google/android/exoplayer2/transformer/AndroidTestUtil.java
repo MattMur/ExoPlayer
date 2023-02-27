@@ -32,6 +32,12 @@ import com.google.android.exoplayer2.util.MimeTypes;
 import com.google.android.exoplayer2.util.Util;
 import com.google.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
+
+import net.nativo.android.exoplayer2.transformer.Codec;
+import net.nativo.android.exoplayer2.transformer.DefaultEncoderFactory;
+import net.nativo.android.exoplayer2.transformer.EncoderUtil;
+import net.nativo.android.exoplayer2.transformer.TransformationException;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

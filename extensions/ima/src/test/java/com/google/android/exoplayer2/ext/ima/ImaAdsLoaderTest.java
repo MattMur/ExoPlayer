@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.ext.ima;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.ext.ima.ImaUtil.getAdGroupTimesUsForCuePoints;
+import static net.nativo.android.exoplayer2.ext.ima.ImaUtil.getAdGroupTimesUsForCuePoints;
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyBoolean;
@@ -60,7 +60,9 @@ import com.google.android.exoplayer2.PlaybackException;
 import com.google.android.exoplayer2.Player;
 import com.google.android.exoplayer2.Timeline;
 import com.google.android.exoplayer2.Timeline.Period;
-import com.google.android.exoplayer2.ext.ima.ImaUtil.ImaFactory;
+
+import net.nativo.android.exoplayer2.ext.ima.ImaAdsLoader;
+import net.nativo.android.exoplayer2.ext.ima.ImaUtil.ImaFactory;
 import com.google.android.exoplayer2.source.DefaultMediaSourceFactory;
 import com.google.android.exoplayer2.source.ads.AdPlaybackState;
 import com.google.android.exoplayer2.source.ads.AdsLoader;
@@ -71,7 +73,7 @@ import com.google.android.exoplayer2.testutil.FakeTimeline;
 import com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
 import com.google.android.exoplayer2.ui.AdOverlayInfo;
 import com.google.android.exoplayer2.ui.AdViewProvider;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
 import com.google.android.exoplayer2.util.MimeTypes;
 import com.google.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
