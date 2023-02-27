@@ -16,11 +16,11 @@ apply from: "$gradle.ext.exoplayerSettingsDir/common_library_config.gradle"
 android {
     buildTypes {
         debug {
-            testCoverageEnabled = true
+            //testCoverageEnabled = true
         }
     }
 
-    sourceSets.test.assets.srcDir '../../testdata/src/test/assets/'
+    //sourceSets.test.assets.srcDir '../../testdata/src/test/assets/'
 }
 
 dependencies {
@@ -30,18 +30,18 @@ dependencies {
     compileOnly 'org.checkerframework:checker-compat-qual:' + checkerframeworkCompatVersion
     compileOnly 'org.jetbrains.kotlin:kotlin-annotations-jvm:' + kotlinAnnotationsVersion
     implementation 'androidx.annotation:annotation:' + androidxAnnotationVersion
-    testImplementation project(modulePrefix + 'robolectricutils')
-    testImplementation project(modulePrefix + 'testutils')
-    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
+//    testImplementation project(modulePrefix + 'robolectricutils')
+//    testImplementation project(modulePrefix + 'testutils')
+//    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
 }
 
 ext {
     javadocTitle = 'DASH module'
 }
-apply from: '../../javadoc_library.gradle'
+//apply from: '../../javadoc_library.gradle'
 
 ext {
     releaseArtifactId = 'exoplayer-dash'
     releaseDescription = 'The ExoPlayer library DASH module.'
 }
-apply from: '../../publish.gradle'
+//apply from: '../../publish.gradle'

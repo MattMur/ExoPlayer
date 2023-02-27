@@ -29,7 +29,7 @@
       android:usesCleartextTraffic="true"/>
 
   <instrumentation
-      android:targetPackage="com.google.android.exoplayer2.core.test"
+      android:targetPackage="net.nativo.android.exoplayer2.core.test"
       android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

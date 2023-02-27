@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 @NonNullApi
-package com.google.android.exoplayer2.database;
+package net.nativo.android.exoplayer2.database;
 
 import com.google.android.exoplayer2.util.NonNullApi;

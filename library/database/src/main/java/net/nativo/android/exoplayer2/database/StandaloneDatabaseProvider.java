@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.database;
+package net.nativo.android.exoplayer2.database;
 
 import android.content.Context;
 import android.database.Cursor;

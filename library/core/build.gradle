@@ -32,10 +32,10 @@ android {
         baseline = file("lint-baseline.xml")
     }
 
-    sourceSets {
-        androidTest.assets.srcDir '../../testdata/src/test/assets/'
-        test.assets.srcDir '../../testdata/src/test/assets/'
-    }
+//    sourceSets {
+//        androidTest.assets.srcDir '../../testdata/src/test/assets/'
+//        test.assets.srcDir '../../testdata/src/test/assets/'
+//    }
 }
 
 dependencies {
@@ -67,4 +67,4 @@ ext {
     releaseArtifactId = 'exoplayer-core'
     releaseDescription = 'The ExoPlayer library core module.'
 }
-apply from: '../../publish.gradle'
+//apply from: '../../publish.gradle'

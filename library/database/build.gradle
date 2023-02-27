@@ -16,7 +16,7 @@ apply from: "$gradle.ext.exoplayerSettingsDir/common_library_config.gradle"
 android {
     buildTypes {
         debug {
-            testCoverageEnabled = true
+            //testCoverageEnabled = true
         }
     }
 }
@@ -25,20 +25,20 @@ dependencies {
     implementation project(modulePrefix + 'library-common')
     implementation 'androidx.annotation:annotation:' + androidxAnnotationVersion
     compileOnly 'org.jetbrains.kotlin:kotlin-annotations-jvm:' + kotlinAnnotationsVersion
-    testImplementation 'androidx.test:core:' + androidxTestCoreVersion
-    testImplementation 'androidx.test.ext:junit:' + androidxTestJUnitVersion
-    testImplementation 'com.google.truth:truth:' + truthVersion
-    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
-    testImplementation project(modulePrefix + 'testutils')
+//    testImplementation 'androidx.test:core:' + androidxTestCoreVersion
+//    testImplementation 'androidx.test.ext:junit:' + androidxTestJUnitVersion
+//    testImplementation 'com.google.truth:truth:' + truthVersion
+//    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
+//    testImplementation project(modulePrefix + 'testutils')
 }
 
-ext {
-    javadocTitle = 'Database module'
-}
-apply from: '../../javadoc_library.gradle'
+//ext {
+//    javadocTitle = 'Database module'
+//}
+//apply from: '../../javadoc_library.gradle'
 
 ext {
     releaseArtifactId = 'exoplayer-database'
     releaseDescription = 'The ExoPlayer database module.'
 }
-apply from: '../../publish.gradle'
+//apply from: '../../publish.gradle'
