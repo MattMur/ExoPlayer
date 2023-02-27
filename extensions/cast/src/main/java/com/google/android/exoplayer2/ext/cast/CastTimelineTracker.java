@@ -15,16 +15,16 @@
  */
 package com.google.android.exoplayer2.ext.cast;
 
-import static com.google.android.exoplayer2.ext.cast.CastTimeline.ItemData.UNKNOWN_CONTENT_ID;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static net.nativo.android.exoplayer2.ext.cast.CastTimeline.ItemData.UNKNOWN_CONTENT_ID;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkStateNotNull;
 
 import android.util.SparseArray;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.Player;
 import com.google.android.gms.cast.MediaInfo;
 import com.google.android.gms.cast.MediaQueueItem;
 import com.google.android.gms.cast.MediaStatus;

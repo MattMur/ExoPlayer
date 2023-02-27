@@ -16,11 +16,11 @@
 
 package com.google.android.exoplayer2.source.rtsp.reader;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.source.rtsp.RtpPayloadFormat;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.source.rtsp.RtpPayloadFormat;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 
 /** Default {@link RtpPayloadReader.Factory} implementation. */
 /* package */ public final class DefaultRtpPayloadReaderFactory

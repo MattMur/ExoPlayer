@@ -15,25 +15,25 @@
  */
 package com.google.android.exoplayer2.ext.ffmpeg;
 
-import static com.google.android.exoplayer2.audio.AudioSink.SINK_FORMAT_SUPPORTED_DIRECTLY;
-import static com.google.android.exoplayer2.audio.AudioSink.SINK_FORMAT_SUPPORTED_WITH_TRANSCODING;
-import static com.google.android.exoplayer2.audio.AudioSink.SINK_FORMAT_UNSUPPORTED;
+import static net.nativo.android.exoplayer2.audio.AudioSink.SINK_FORMAT_SUPPORTED_DIRECTLY;
+import static net.nativo.android.exoplayer2.audio.AudioSink.SINK_FORMAT_SUPPORTED_WITH_TRANSCODING;
+import static net.nativo.android.exoplayer2.audio.AudioSink.SINK_FORMAT_UNSUPPORTED;
 
 import android.os.Handler;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.audio.AudioProcessor;
-import com.google.android.exoplayer2.audio.AudioRendererEventListener;
-import com.google.android.exoplayer2.audio.AudioSink;
-import com.google.android.exoplayer2.audio.AudioSink.SinkFormatSupport;
-import com.google.android.exoplayer2.audio.DecoderAudioRenderer;
-import com.google.android.exoplayer2.audio.DefaultAudioSink;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.TraceUtil;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.audio.AudioProcessor;
+import net.nativo.android.exoplayer2.audio.AudioRendererEventListener;
+import net.nativo.android.exoplayer2.audio.AudioSink;
+import net.nativo.android.exoplayer2.audio.AudioSink.SinkFormatSupport;
+import net.nativo.android.exoplayer2.audio.DecoderAudioRenderer;
+import net.nativo.android.exoplayer2.audio.DefaultAudioSink;
+import net.nativo.android.exoplayer2.decoder.CryptoConfig;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.TraceUtil;
+import net.nativo.android.exoplayer2.util.Util;
 
 /** Decodes and renders audio using FFmpeg. */
 public final class FfmpegAudioRenderer extends DecoderAudioRenderer<FfmpegAudioDecoder> {

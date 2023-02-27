@@ -15,28 +15,28 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_AUDIO;
-import static com.google.android.exoplayer2.source.rtsp.RtpPayloadFormat.getMimeTypeFromRtpMediaType;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_CONTROL;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.NalUnitUtil.NAL_START_CODE;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_AUDIO;
+import static net.nativo.android.exoplayer2.source.rtsp.RtpPayloadFormat.getMimeTypeFromRtpMediaType;
+import static net.nativo.android.exoplayer2.source.rtsp.SessionDescription.ATTR_CONTROL;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.NalUnitUtil.NAL_START_CODE;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 
 import android.net.Uri;
 import android.util.Base64;
 import android.util.Pair;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.audio.AacUtil;
-import com.google.android.exoplayer2.util.CodecSpecificDataUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.NalUnitUtil;
-import com.google.android.exoplayer2.util.ParsableBitArray;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.audio.AacUtil;
+import net.nativo.android.exoplayer2.util.CodecSpecificDataUtil;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.NalUnitUtil;
+import net.nativo.android.exoplayer2.util.ParsableBitArray;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 

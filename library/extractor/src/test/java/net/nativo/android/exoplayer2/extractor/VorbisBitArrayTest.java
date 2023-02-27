@@ -18,7 +18,7 @@ package net.nativo.android.exoplayer2.extractor;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

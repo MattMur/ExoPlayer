@@ -18,11 +18,11 @@ package net.nativo.android.exoplayer2.transformer;
 
 import static java.lang.Math.min;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.audio.AudioProcessor;
-import com.google.android.exoplayer2.audio.BaseAudioProcessor;
-import com.google.android.exoplayer2.audio.SonicAudioProcessor;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.audio.AudioProcessor;
+import net.nativo.android.exoplayer2.audio.BaseAudioProcessor;
+import net.nativo.android.exoplayer2.audio.SonicAudioProcessor;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.nio.ByteBuffer;
 

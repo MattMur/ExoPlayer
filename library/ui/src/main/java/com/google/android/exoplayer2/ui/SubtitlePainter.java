@@ -36,10 +36,10 @@ import android.text.style.BackgroundColorSpan;
 import android.text.style.ForegroundColorSpan;
 import android.util.DisplayMetrics;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.text.Cue;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.Util;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 import org.checkerframework.checker.nullness.qual.RequiresNonNull;
 

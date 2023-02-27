@@ -16,8 +16,8 @@
 package net.nativo.android.exoplayer2.effect;
 
 import android.content.Context;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.Effect;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
 
 /**
  * Interface for a video frame effect with a {@link GlTextureProcessor} implementation.

@@ -16,13 +16,13 @@
 package com.google.android.exoplayer2.effect;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.MAXIMUM_AVERAGE_PIXEL_ABSOLUTE_DIFFERENCE;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.createArgb8888BitmapFromCurrentGlFramebuffer;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.createGlTextureFromBitmap;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.getBitmapAveragePixelAbsoluteDifferenceArgb8888;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.maybeSaveTestBitmapToCacheDirectory;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.readBitmap;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.MAXIMUM_AVERAGE_PIXEL_ABSOLUTE_DIFFERENCE;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.createArgb8888BitmapFromCurrentGlFramebuffer;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.createGlTextureFromBitmap;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.getBitmapAveragePixelAbsoluteDifferenceArgb8888;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.maybeSaveTestBitmapToCacheDirectory;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.readBitmap;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.content.Context;
@@ -32,9 +32,9 @@ import android.opengl.EGLDisplay;
 import android.opengl.EGLSurface;
 import android.util.Pair;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.FrameProcessingException;
-import com.google.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.GlUtil;
 
 import net.nativo.android.exoplayer2.effect.Presentation;
 import net.nativo.android.exoplayer2.effect.SingleFrameGlTextureProcessor;

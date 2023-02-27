@@ -20,7 +20,7 @@ import static org.junit.Assert.assertThrows;
 
 import android.opengl.Matrix;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.util.GlUtil;
 import com.google.common.collect.ImmutableList;
 
 import net.nativo.android.exoplayer2.effect.MatrixUtils;

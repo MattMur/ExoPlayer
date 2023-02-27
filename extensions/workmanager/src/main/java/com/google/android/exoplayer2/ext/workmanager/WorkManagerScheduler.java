@@ -26,12 +26,12 @@ import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.scheduler.Scheduler;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.ExoPlayerLibraryInfo;
+import net.nativo.android.exoplayer2.scheduler.Requirements;
+import net.nativo.android.exoplayer2.scheduler.Scheduler;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.Util;
 
 /** A {@link Scheduler} that uses {@link WorkManager}. */
 public final class WorkManagerScheduler implements Scheduler {

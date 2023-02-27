@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.upstream;
 
-import com.google.android.exoplayer2.util.PriorityTaskManager;
+import net.nativo.android.exoplayer2.util.PriorityTaskManager;
 
 /**
  * @deprecated Use {@link PriorityDataSource.Factory}.

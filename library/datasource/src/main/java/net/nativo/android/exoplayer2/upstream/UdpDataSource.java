@@ -15,13 +15,13 @@
  */
 package net.nativo.android.exoplayer2.upstream;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.lang.Math.min;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.PlaybackException;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

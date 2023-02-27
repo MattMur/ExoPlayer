@@ -16,17 +16,17 @@
 package net.nativo.android.exoplayer2.upstream;
 
 import static net.nativo.android.exoplayer2.upstream.HttpUtil.buildRangeRequestHeader;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.base.Predicate;
 import com.google.common.collect.ForwardingMap;
 import com.google.common.collect.ImmutableMap;

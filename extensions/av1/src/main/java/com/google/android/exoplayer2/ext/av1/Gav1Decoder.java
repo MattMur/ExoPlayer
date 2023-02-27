@@ -21,11 +21,11 @@ import static java.lang.Runtime.getRuntime;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.SimpleDecoder;
-import com.google.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.decoder.SimpleDecoder;
+import net.nativo.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
+import net.nativo.android.exoplayer2.util.Util;
 import java.nio.ByteBuffer;
 
 /** Gav1 decoder. */

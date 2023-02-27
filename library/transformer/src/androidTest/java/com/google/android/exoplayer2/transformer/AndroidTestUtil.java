@@ -15,22 +15,22 @@
  */
 package com.google.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.MimeTypes.VIDEO_H264;
-import static com.google.android.exoplayer2.util.MimeTypes.VIDEO_H265;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.MimeTypes.VIDEO_H264;
+import static net.nativo.android.exoplayer2.util.MimeTypes.VIDEO_H265;
 
 import android.content.Context;
 import android.os.Build;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.mediacodec.MediaCodecInfo;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.mediacodec.MediaCodecInfo;
+import net.nativo.android.exoplayer2.mediacodec.MediaCodecUtil;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 
 import net.nativo.android.exoplayer2.transformer.Codec;

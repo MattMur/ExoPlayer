@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkStateNotNull;
 
 import android.content.Context;
 import android.opengl.EGL14;
@@ -32,15 +32,15 @@ import android.view.SurfaceView;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.FrameProcessingException;
-import com.google.android.exoplayer2.util.FrameProcessor;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.SurfaceInfo;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.util.DebugViewProvider;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.FrameProcessor;
+import net.nativo.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.SurfaceInfo;
+import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

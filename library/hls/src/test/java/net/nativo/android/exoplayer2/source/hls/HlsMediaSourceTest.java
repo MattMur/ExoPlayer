@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.source.hls;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
+import static net.nativo.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
@@ -29,8 +29,8 @@ import net.nativo.android.exoplayer2.analytics.PlayerId;
 import net.nativo.android.exoplayer2.source.MediaSource;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
-import com.google.android.exoplayer2.testutil.FakeDataSet;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
+import net.nativo.android.exoplayer2.testutil.FakeDataSet;
+import net.nativo.android.exoplayer2.testutil.FakeDataSource;
 import net.nativo.android.exoplayer2.util.Util;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

@@ -16,8 +16,8 @@
 package net.nativo.android.exoplayer2.metadata.scte35;
 
 import static net.nativo.android.exoplayer2.C.TIME_UNSET;
-import static com.google.android.exoplayer2.testutil.TestUtil.createByteArray;
-import static com.google.android.exoplayer2.testutil.TestUtil.createMetadataInputBuffer;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.createByteArray;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.createMetadataInputBuffer;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 

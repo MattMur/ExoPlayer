@@ -15,18 +15,18 @@
  */
 package com.google.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.testutil.CacheAsserts.assertCachedData;
+import static net.nativo.android.exoplayer2.testutil.CacheAsserts.assertCachedData;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.testutil.FailOnCloseDataSink;
-import com.google.android.exoplayer2.testutil.FakeDataSet;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.testutil.FailOnCloseDataSink;
+import net.nativo.android.exoplayer2.testutil.FakeDataSet;
+import net.nativo.android.exoplayer2.testutil.FakeDataSource;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
 import net.nativo.android.exoplayer2.upstream.FileDataSource;
 import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;
@@ -34,7 +34,7 @@ import net.nativo.android.exoplayer2.upstream.cache.CacheWriter;
 import net.nativo.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
 import net.nativo.android.exoplayer2.upstream.cache.SimpleCache;
 
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Util;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicBoolean;

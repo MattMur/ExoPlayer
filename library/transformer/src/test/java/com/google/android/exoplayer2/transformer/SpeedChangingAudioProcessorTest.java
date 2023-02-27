@@ -15,13 +15,13 @@
  */
 package com.google.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.audio.AudioProcessor;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.audio.AudioProcessor;
+import net.nativo.android.exoplayer2.util.Util;
 
 import net.nativo.android.exoplayer2.transformer.SpeedChangingAudioProcessor;
 import net.nativo.android.exoplayer2.transformer.SpeedProvider;

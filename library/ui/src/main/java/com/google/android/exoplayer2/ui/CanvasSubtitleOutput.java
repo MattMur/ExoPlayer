@@ -15,15 +15,15 @@
  */
 package com.google.android.exoplayer2.ui;
 
-import static com.google.android.exoplayer2.ui.SubtitleView.DEFAULT_BOTTOM_PADDING_FRACTION;
-import static com.google.android.exoplayer2.ui.SubtitleView.DEFAULT_TEXT_SIZE_FRACTION;
+import static net.nativo.android.exoplayer2.ui.SubtitleView.DEFAULT_BOTTOM_PADDING_FRACTION;
+import static net.nativo.android.exoplayer2.ui.SubtitleView.DEFAULT_TEXT_SIZE_FRACTION;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.View;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.text.Cue;
+import net.nativo.android.exoplayer2.text.Cue;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

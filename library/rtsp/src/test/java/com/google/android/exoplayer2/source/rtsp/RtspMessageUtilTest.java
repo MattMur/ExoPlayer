@@ -22,7 +22,7 @@ import static org.junit.Assert.assertThrows;
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.source.rtsp.RtspMessageUtil.RtspAuthUserInfo;
+import net.nativo.android.exoplayer2.source.rtsp.RtspMessageUtil.RtspAuthUserInfo;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ListMultimap;
 import java.util.Arrays;

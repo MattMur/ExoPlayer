@@ -16,13 +16,13 @@
 
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.util.ParsableByteArray;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.math.IntMath;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.nio.ByteBuffer;

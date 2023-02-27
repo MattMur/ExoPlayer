@@ -25,10 +25,10 @@ import androidx.annotation.Nullable;
 import androidx.media2.common.CallbackMediaItem;
 import androidx.media2.common.FileMediaItem;
 import androidx.media2.common.UriMediaItem;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.MediaMetadata;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.MediaMetadata;
+import net.nativo.android.exoplayer2.util.Assertions;
 
 /**
  * Default implementation of {@link MediaItemConverter}.

@@ -17,7 +17,7 @@
 package net.nativo.android.exoplayer2.transformer;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 
 /** Pipeline that passes through the samples without any re-encoding or transformation. */

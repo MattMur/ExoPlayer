@@ -15,10 +15,10 @@
  */
 package net.nativo.android.exoplayer2.source.ads;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
-import static com.google.android.exoplayer2.robolectric.TestPlayerRunHelper.playUntilPosition;
-import static com.google.android.exoplayer2.robolectric.TestPlayerRunHelper.runUntilPendingCommandsAreFullyHandled;
-import static com.google.android.exoplayer2.robolectric.TestPlayerRunHelper.runUntilPlaybackState;
+import static net.nativo.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
+import static net.nativo.android.exoplayer2.robolectric.TestPlayerRunHelper.playUntilPosition;
+import static net.nativo.android.exoplayer2.robolectric.TestPlayerRunHelper.runUntilPendingCommandsAreFullyHandled;
+import static net.nativo.android.exoplayer2.robolectric.TestPlayerRunHelper.runUntilPlaybackState;
 import static net.nativo.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.addAdGroupToAdPlaybackState;
 import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.truth.Truth.assertThat;
@@ -44,15 +44,15 @@ import net.nativo.android.exoplayer2.Player;
 import net.nativo.android.exoplayer2.Timeline;
 import net.nativo.android.exoplayer2.analytics.AnalyticsListener;
 import net.nativo.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.robolectric.PlaybackOutput;
-import com.google.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
+import net.nativo.android.exoplayer2.robolectric.PlaybackOutput;
+import net.nativo.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
 import net.nativo.android.exoplayer2.source.DefaultMediaSourceFactory;
 import net.nativo.android.exoplayer2.source.SinglePeriodTimeline;
-import com.google.android.exoplayer2.testutil.CapturingRenderersFactory;
-import com.google.android.exoplayer2.testutil.DumpFileAsserts;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
+import net.nativo.android.exoplayer2.testutil.CapturingRenderersFactory;
+import net.nativo.android.exoplayer2.testutil.DumpFileAsserts;
+import net.nativo.android.exoplayer2.testutil.FakeClock;
+import net.nativo.android.exoplayer2.testutil.FakeMediaSource;
+import net.nativo.android.exoplayer2.testutil.FakeTimeline;
 import com.google.common.collect.ImmutableMap;
 import java.util.concurrent.atomic.AtomicReference;
 import org.junit.Assert;

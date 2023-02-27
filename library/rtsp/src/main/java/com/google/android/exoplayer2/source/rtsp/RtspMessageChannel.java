@@ -15,21 +15,21 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtspMessageUtil.isRtspStartLine;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspMessageUtil.isRtspStartLine;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import android.os.Handler;
 import android.os.HandlerThread;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.upstream.Loader;
-import com.google.android.exoplayer2.upstream.Loader.LoadErrorAction;
-import com.google.android.exoplayer2.upstream.Loader.Loadable;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.upstream.Loader;
+import net.nativo.android.exoplayer2.upstream.Loader.LoadErrorAction;
+import net.nativo.android.exoplayer2.upstream.Loader.Loadable;
 import com.google.common.base.Ascii;
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;

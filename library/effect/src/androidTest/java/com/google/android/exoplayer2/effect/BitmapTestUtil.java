@@ -30,8 +30,8 @@ import android.media.Image;
 import android.opengl.GLES20;
 import android.opengl.GLUtils;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.util.Log;
 
 import net.nativo.android.exoplayer2.effect.GlEffectsFrameProcessor;
 import net.nativo.android.exoplayer2.effect.SingleFrameGlTextureProcessor;

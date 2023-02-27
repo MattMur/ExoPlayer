@@ -28,7 +28,7 @@ import androidx.annotation.RequiresApi;
 import androidx.annotation.StringRes;
 import androidx.core.app.NotificationCompat;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.core.R;
+import net.nativo.android.exoplayer2.core.R;
 import net.nativo.android.exoplayer2.offline.Download;
 import net.nativo.android.exoplayer2.scheduler.Requirements;
 import net.nativo.android.exoplayer2.util.Util;

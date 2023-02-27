@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.ui;
 
-import com.google.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.Format;
 
 /** Converts {@link Format}s to user readable track names. */
 public interface TrackNameProvider {

@@ -15,10 +15,10 @@
  */
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 
 /** Information about the result of a successful transformation. */

@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.metadata.icy;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.createByteArray;
-import static com.google.android.exoplayer2.testutil.TestUtil.createMetadataInputBuffer;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.createByteArray;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.createMetadataInputBuffer;
 import static com.google.common.truth.Truth.assertThat;
 import static java.nio.charset.StandardCharsets.ISO_8859_1;
 import static java.nio.charset.StandardCharsets.UTF_16;

@@ -16,20 +16,20 @@
 
 package com.google.android.exoplayer2.transformer.mh.analysis;
 
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
 import android.media.MediaFormat;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.transformer.AndroidTestUtil;
 import net.nativo.android.exoplayer2.transformer.DefaultEncoderFactory;
 import net.nativo.android.exoplayer2.transformer.Transformer;
-import com.google.android.exoplayer2.transformer.TransformerAndroidTestRunner;
+import net.nativo.android.exoplayer2.transformer.TransformerAndroidTestRunner;
 import net.nativo.android.exoplayer2.transformer.VideoEncoderSettings;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.util.HashMap;
 import java.util.Map;

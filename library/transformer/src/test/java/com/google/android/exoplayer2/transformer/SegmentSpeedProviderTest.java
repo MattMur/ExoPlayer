@@ -19,12 +19,12 @@ import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData.Segment;
-import com.google.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.metadata.mp4.SlowMotionData;
+import net.nativo.android.exoplayer2.metadata.mp4.SlowMotionData.Segment;
+import net.nativo.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 
 import net.nativo.android.exoplayer2.transformer.SegmentSpeedProvider;

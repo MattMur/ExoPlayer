@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.upstream.cache;
 
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 
 /**
  * Evicts data from a {@link Cache}. Implementations should call {@link Cache#removeSpan(CacheSpan)}

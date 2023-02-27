@@ -17,11 +17,11 @@ package com.google.android.exoplayer2.ext.flac;
 
 import static java.lang.Math.max;
 
-import com.google.android.exoplayer2.extractor.BinarySearchSeeker;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.FlacStreamMetadata;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.extractor.BinarySearchSeeker;
+import net.nativo.android.exoplayer2.extractor.ExtractorInput;
+import net.nativo.android.exoplayer2.extractor.FlacStreamMetadata;
+import net.nativo.android.exoplayer2.extractor.SeekMap;
+import net.nativo.android.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 

@@ -16,9 +16,9 @@
 package net.nativo.android.exoplayer2.transformer;
 
 import android.os.ParcelFileDescriptor;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import java.nio.ByteBuffer;
 

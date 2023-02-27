@@ -19,7 +19,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.util.Pair;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.util.GlUtil;
 
 import net.nativo.android.exoplayer2.effect.Crop;
 

@@ -15,14 +15,14 @@
  */
 package com.google.android.exoplayer2.source.dash;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.max;
 
 import android.os.SystemClock;
 import android.util.Pair;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.source.dash.manifest.BaseUrl;
+import net.nativo.android.exoplayer2.source.dash.manifest.BaseUrl;
 import com.google.common.collect.Iterables;
 import java.util.ArrayList;
 import java.util.Collections;

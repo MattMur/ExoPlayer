@@ -15,8 +15,8 @@
  */
 package com.google.android.exoplayer2.source.rtsp.reader;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.util.Util;
 
 /** Utility methods for {@link RtpPayloadReader}s. */
 /* package */ class RtpReaderUtils {

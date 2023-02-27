@@ -21,7 +21,7 @@ import static org.junit.Assert.fail;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 
 import net.nativo.android.exoplayer2.upstream.ByteArrayDataSource;
 import net.nativo.android.exoplayer2.upstream.DataSpec;

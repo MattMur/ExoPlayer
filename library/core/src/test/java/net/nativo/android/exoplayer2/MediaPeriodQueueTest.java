@@ -15,9 +15,9 @@
  */
 package net.nativo.android.exoplayer2;
 
-import static com.google.android.exoplayer2.testutil.ExoPlayerTestRunner.AUDIO_FORMAT;
-import static com.google.android.exoplayer2.testutil.ExoPlayerTestRunner.VIDEO_FORMAT;
-import static com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition.DEFAULT_WINDOW_OFFSET_IN_FIRST_PERIOD_US;
+import static net.nativo.android.exoplayer2.testutil.ExoPlayerTestRunner.AUDIO_FORMAT;
+import static net.nativo.android.exoplayer2.testutil.ExoPlayerTestRunner.VIDEO_FORMAT;
+import static net.nativo.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition.DEFAULT_WINDOW_OFFSET_IN_FIRST_PERIOD_US;
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.Assert.fail;
@@ -38,10 +38,10 @@ import net.nativo.android.exoplayer2.source.SinglePeriodTimeline;
 import net.nativo.android.exoplayer2.source.ads.AdPlaybackState;
 import net.nativo.android.exoplayer2.source.ads.ServerSideAdInsertionMediaSource;
 import net.nativo.android.exoplayer2.source.ads.SinglePeriodAdTimeline;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
-import com.google.android.exoplayer2.testutil.FakeShuffleOrder;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
+import net.nativo.android.exoplayer2.testutil.FakeMediaSource;
+import net.nativo.android.exoplayer2.testutil.FakeShuffleOrder;
+import net.nativo.android.exoplayer2.testutil.FakeTimeline;
+import net.nativo.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
 import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
 import net.nativo.android.exoplayer2.trackselection.TrackSelector;
 import net.nativo.android.exoplayer2.trackselection.TrackSelectorResult;

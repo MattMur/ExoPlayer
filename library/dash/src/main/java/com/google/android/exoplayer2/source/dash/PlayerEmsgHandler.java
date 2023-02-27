@@ -15,27 +15,27 @@
  */
 package com.google.android.exoplayer2.source.dash;
 
-import static com.google.android.exoplayer2.util.Util.parseXsDateTime;
+import static net.nativo.android.exoplayer2.util.Util.parseXsDateTime;
 
 import android.os.Handler;
 import android.os.Message;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.MetadataInputBuffer;
-import com.google.android.exoplayer2.metadata.emsg.EventMessage;
-import com.google.android.exoplayer2.metadata.emsg.EventMessageDecoder;
-import com.google.android.exoplayer2.source.SampleQueue;
-import com.google.android.exoplayer2.source.chunk.Chunk;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifest;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.DataReader;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.FormatHolder;
+import net.nativo.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.extractor.TrackOutput;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.metadata.MetadataInputBuffer;
+import net.nativo.android.exoplayer2.metadata.emsg.EventMessage;
+import net.nativo.android.exoplayer2.metadata.emsg.EventMessageDecoder;
+import net.nativo.android.exoplayer2.source.SampleQueue;
+import net.nativo.android.exoplayer2.source.chunk.Chunk;
+import net.nativo.android.exoplayer2.source.dash.manifest.DashManifest;
+import net.nativo.android.exoplayer2.upstream.Allocator;
+import net.nativo.android.exoplayer2.upstream.DataReader;
+import net.nativo.android.exoplayer2.util.ParsableByteArray;
+import net.nativo.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;

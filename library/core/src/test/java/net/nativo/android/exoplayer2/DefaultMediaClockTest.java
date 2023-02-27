@@ -23,8 +23,8 @@ import static org.mockito.MockitoAnnotations.initMocks;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.DefaultMediaClock.PlaybackParametersListener;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.testutil.FakeMediaClockRenderer;
+import net.nativo.android.exoplayer2.testutil.FakeClock;
+import net.nativo.android.exoplayer2.testutil.FakeMediaClockRenderer;
 import net.nativo.android.exoplayer2.util.Util;
 import org.junit.Before;
 import org.junit.Test;

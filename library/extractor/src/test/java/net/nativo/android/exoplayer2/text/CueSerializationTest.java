@@ -29,7 +29,7 @@ import android.text.style.StrikethroughSpan;
 import android.text.style.StyleSpan;
 import android.text.style.UnderlineSpan;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.truth.SpannedSubject;
+import net.nativo.android.exoplayer2.testutil.truth.SpannedSubject;
 import com.google.common.collect.ImmutableList;
 import java.util.List;
 import org.junit.Test;

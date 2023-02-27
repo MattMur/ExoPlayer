@@ -15,12 +15,12 @@
  */
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Util.minValue;
+import static net.nativo.android.exoplayer2.util.Util.minValue;
 
 import android.util.SparseLongArray;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackParameters;
-import com.google.android.exoplayer2.util.MediaClock;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.PlaybackParameters;
+import net.nativo.android.exoplayer2.util.MediaClock;
 
 /* package */ final class TransformerMediaClock implements MediaClock {
 

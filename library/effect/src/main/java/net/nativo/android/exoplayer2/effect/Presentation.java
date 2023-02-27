@@ -15,15 +15,15 @@
  */
 package net.nativo.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static java.lang.annotation.ElementType.TYPE_USE;
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
 import android.graphics.Matrix;
 import android.util.Pair;
 import androidx.annotation.IntDef;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;

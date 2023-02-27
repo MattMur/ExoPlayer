@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.metadata.dvbsi;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.createByteArray;
-import static com.google.android.exoplayer2.testutil.TestUtil.createMetadataInputBuffer;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.createByteArray;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.createMetadataInputBuffer;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
@@ -24,7 +24,7 @@ import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.metadata.Metadata;
 import net.nativo.android.exoplayer2.metadata.MetadataInputBuffer;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import java.io.IOException;
 import org.junit.Test;
 import org.junit.runner.RunWith;

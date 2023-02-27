@@ -16,7 +16,7 @@
 
 package net.nativo.android.exoplayer2.mediacodec;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.assertBufferInfosEqual;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.assertBufferInfosEqual;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.fail;

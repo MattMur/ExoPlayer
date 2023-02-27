@@ -16,7 +16,7 @@
 package net.nativo.android.exoplayer2.extractor.mp3;
 
 import static net.nativo.android.exoplayer2.extractor.mp3.Mp3Extractor.FLAG_ENABLE_INDEX_SEEKING;
-import static com.google.android.exoplayer2.testutil.TestUtil.extractAllSamplesFromFile;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.extractAllSamplesFromFile;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
@@ -24,10 +24,10 @@ import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.testutil.FakeExtractorOutput;
-import com.google.android.exoplayer2.testutil.FakeTrackOutput;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.DefaultDataSource;
+import net.nativo.android.exoplayer2.testutil.FakeExtractorOutput;
+import net.nativo.android.exoplayer2.testutil.FakeTrackOutput;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.upstream.DefaultDataSource;
 import net.nativo.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.List;

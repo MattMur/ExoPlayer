@@ -15,15 +15,15 @@
  */
 package com.google.android.exoplayer2.upstream;
 
-import static com.google.android.exoplayer2.C.RESULT_END_OF_INPUT;
+import static net.nativo.android.exoplayer2.C.RESULT_END_OF_INPUT;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.fail;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.util.Util;
 
 import net.nativo.android.exoplayer2.upstream.DataSchemeDataSource;
 import net.nativo.android.exoplayer2.upstream.DataSource;

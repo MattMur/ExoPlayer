@@ -24,11 +24,11 @@ import static org.mockito.Mockito.verify;
 import android.net.Uri;
 import android.os.Looper;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.HandlerWrapper;
-import com.google.android.exoplayer2.util.ListenerSet;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.util.Clock;
+import net.nativo.android.exoplayer2.util.HandlerWrapper;
+import net.nativo.android.exoplayer2.util.ListenerSet;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 
 import net.nativo.android.exoplayer2.transformer.FallbackListener;
 import net.nativo.android.exoplayer2.transformer.TransformationRequest;

@@ -19,15 +19,15 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.offline.DefaultDownloaderFactory;
-import com.google.android.exoplayer2.offline.DownloadRequest;
-import com.google.android.exoplayer2.offline.Downloader;
-import com.google.android.exoplayer2.offline.DownloaderFactory;
-import com.google.android.exoplayer2.offline.StreamKey;
+import net.nativo.android.exoplayer2.offline.DefaultDownloaderFactory;
+import net.nativo.android.exoplayer2.offline.DownloadRequest;
+import net.nativo.android.exoplayer2.offline.Downloader;
+import net.nativo.android.exoplayer2.offline.DownloaderFactory;
+import net.nativo.android.exoplayer2.offline.StreamKey;
 import net.nativo.android.exoplayer2.upstream.PlaceholderDataSource;
 import net.nativo.android.exoplayer2.upstream.cache.Cache;
 import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 
 import net.nativo.android.exoplayer2.source.smoothstreaming.offline.SsDownloader;
 

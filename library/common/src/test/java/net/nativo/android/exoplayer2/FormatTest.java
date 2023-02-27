@@ -24,7 +24,7 @@ import android.os.Bundle;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.drm.DrmInitData;
 import net.nativo.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.testutil.FakeMetadataEntry;
+import net.nativo.android.exoplayer2.testutil.FakeMetadataEntry;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import net.nativo.android.exoplayer2.video.ColorInfo;
 import java.util.ArrayList;

@@ -16,7 +16,7 @@
 package net.nativo.android.exoplayer2.upstream;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import java.io.IOException;
 import java.util.Arrays;
 

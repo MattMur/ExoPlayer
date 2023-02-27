@@ -16,11 +16,11 @@
 
 package com.google.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.runLooperUntil;
+import static net.nativo.android.exoplayer2.robolectric.RobolectricUtil.runLooperUntil;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.robolectric.RobolectricUtil;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.robolectric.RobolectricUtil;
 
 import net.nativo.android.exoplayer2.transformer.TransformationException;
 import net.nativo.android.exoplayer2.transformer.TransformationResult;

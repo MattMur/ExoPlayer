@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.upstream.crypto;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;

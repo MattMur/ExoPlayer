@@ -16,8 +16,8 @@
 package net.nativo.android.exoplayer2.extractor.mp4;
 
 import net.nativo.android.exoplayer2.Format;
-import com.google.android.exoplayer2.testutil.ExtractorAsserts;
-import com.google.android.exoplayer2.testutil.ExtractorAsserts.ExtractorFactory;
+import net.nativo.android.exoplayer2.testutil.ExtractorAsserts;
+import net.nativo.android.exoplayer2.testutil.ExtractorAsserts.ExtractorFactory;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import java.util.Collections;

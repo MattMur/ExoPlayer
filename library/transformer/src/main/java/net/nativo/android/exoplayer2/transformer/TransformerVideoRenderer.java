@@ -16,18 +16,18 @@
 
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.FormatHolder;
 import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.source.SampleStream.ReadDataResult;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.FrameProcessor;
+import net.nativo.android.exoplayer2.source.SampleStream.ReadDataResult;
+import net.nativo.android.exoplayer2.util.DebugViewProvider;
+import net.nativo.android.exoplayer2.util.Effect;
+import net.nativo.android.exoplayer2.util.FrameProcessor;
 import com.google.common.collect.ImmutableList;
 
 /* package */ final class TransformerVideoRenderer extends TransformerBaseRenderer {

@@ -20,12 +20,12 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem.SubtitleConfiguration;
-import com.google.android.exoplayer2.source.ClippingMediaSource;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.CueGroup;
-import com.google.android.exoplayer2.util.ConditionVariable;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.MediaItem.SubtitleConfiguration;
+import net.nativo.android.exoplayer2.source.ClippingMediaSource;
+import net.nativo.android.exoplayer2.text.Cue;
+import net.nativo.android.exoplayer2.text.CueGroup;
+import net.nativo.android.exoplayer2.util.ConditionVariable;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;
 import java.util.ArrayList;

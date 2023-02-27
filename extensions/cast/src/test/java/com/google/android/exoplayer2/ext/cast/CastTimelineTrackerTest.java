@@ -20,12 +20,12 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Timeline.Window;
-import com.google.android.exoplayer2.testutil.TimelineAsserts;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.Timeline.Window;
+import net.nativo.android.exoplayer2.testutil.TimelineAsserts;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.android.gms.cast.MediaInfo;
 import com.google.android.gms.cast.MediaQueueItem;
 import com.google.android.gms.cast.MediaStatus;

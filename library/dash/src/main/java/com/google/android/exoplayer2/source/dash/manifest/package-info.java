@@ -16,4 +16,4 @@
 @NonNullApi
 package com.google.android.exoplayer2.source.dash.manifest;
 
-import com.google.android.exoplayer2.util.NonNullApi;
+import net.nativo.android.exoplayer2.util.NonNullApi;

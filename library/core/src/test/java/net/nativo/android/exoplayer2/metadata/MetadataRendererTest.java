@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.metadata;
 
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.sample;
+import static net.nativo.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
+import static net.nativo.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.sample;
 import static com.google.common.truth.Truth.assertThat;
 import static java.nio.charset.StandardCharsets.ISO_8859_1;
 import static java.nio.charset.StandardCharsets.UTF_8;
@@ -31,8 +31,8 @@ import net.nativo.android.exoplayer2.metadata.emsg.EventMessage;
 import net.nativo.android.exoplayer2.metadata.emsg.EventMessageEncoder;
 import net.nativo.android.exoplayer2.metadata.id3.TextInformationFrame;
 import net.nativo.android.exoplayer2.metadata.scte35.TimeSignalCommand;
-import com.google.android.exoplayer2.testutil.FakeSampleStream;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.FakeSampleStream;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.upstream.DefaultAllocator;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.MimeTypes;

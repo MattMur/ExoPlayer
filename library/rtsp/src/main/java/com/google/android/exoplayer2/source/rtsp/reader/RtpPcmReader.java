@@ -15,17 +15,17 @@
  */
 package com.google.android.exoplayer2.source.rtsp.reader;
 
-import static com.google.android.exoplayer2.source.rtsp.reader.RtpReaderUtils.toSampleTimeUs;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.source.rtsp.reader.RtpReaderUtils.toSampleTimeUs;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.util.Log;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.source.rtsp.RtpPacket;
-import com.google.android.exoplayer2.source.rtsp.RtpPayloadFormat;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.extractor.ExtractorOutput;
+import net.nativo.android.exoplayer2.extractor.TrackOutput;
+import net.nativo.android.exoplayer2.source.rtsp.RtpPacket;
+import net.nativo.android.exoplayer2.source.rtsp.RtpPayloadFormat;
+import net.nativo.android.exoplayer2.util.ParsableByteArray;
+import net.nativo.android.exoplayer2.util.Util;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 
 /**

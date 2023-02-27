@@ -20,8 +20,8 @@ import static org.junit.Assert.assertThrows;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ParserException;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.junit.runner.RunWith;

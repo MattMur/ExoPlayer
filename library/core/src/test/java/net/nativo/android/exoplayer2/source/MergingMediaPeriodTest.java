@@ -16,8 +16,8 @@
 package net.nativo.android.exoplayer2.source;
 
 import static net.nativo.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.oneByteSample;
+import static net.nativo.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
+import static net.nativo.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.oneByteSample;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
@@ -29,7 +29,7 @@ import net.nativo.android.exoplayer2.drm.DrmSessionEventListener;
 import net.nativo.android.exoplayer2.drm.DrmSessionManager;
 import net.nativo.android.exoplayer2.source.MediaSource.MediaPeriodId;
 import net.nativo.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher;
-import com.google.android.exoplayer2.testutil.FakeMediaPeriod;
+import net.nativo.android.exoplayer2.testutil.FakeMediaPeriod;
 import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
 import net.nativo.android.exoplayer2.trackselection.FixedTrackSelection;
 import net.nativo.android.exoplayer2.upstream.DefaultAllocator;

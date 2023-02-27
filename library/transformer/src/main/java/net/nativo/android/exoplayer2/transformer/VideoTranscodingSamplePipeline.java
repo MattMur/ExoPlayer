@@ -16,9 +16,9 @@
 
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.SDK_INT;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Util.SDK_INT;
 
 import android.content.Context;
 import android.media.MediaCodec;
@@ -26,20 +26,20 @@ import android.os.Build;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
 import net.nativo.android.exoplayer2.effect.Presentation;
 import net.nativo.android.exoplayer2.effect.ScaleToFitTransformation;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.FrameInfo;
-import com.google.android.exoplayer2.util.FrameProcessingException;
-import com.google.android.exoplayer2.util.FrameProcessor;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.SurfaceInfo;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.util.DebugViewProvider;
+import net.nativo.android.exoplayer2.util.Effect;
+import net.nativo.android.exoplayer2.util.FrameInfo;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.FrameProcessor;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.SurfaceInfo;
+import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

@@ -15,29 +15,29 @@
  */
 package com.google.android.exoplayer2.source.smoothstreaming;
 
-import static com.google.android.exoplayer2.source.smoothstreaming.SsTestUtils.createSsManifest;
-import static com.google.android.exoplayer2.source.smoothstreaming.SsTestUtils.createStreamElement;
+import static net.nativo.android.exoplayer2.source.smoothstreaming.SsTestUtils.createSsManifest;
+import static net.nativo.android.exoplayer2.source.smoothstreaming.SsTestUtils.createStreamElement;
 import static org.mockito.Mockito.mock;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.drm.DrmSessionManager;
-import com.google.android.exoplayer2.source.CompositeSequenceableLoaderFactory;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.MediaSourceEventListener;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.drm.DrmSessionEventListener;
+import net.nativo.android.exoplayer2.drm.DrmSessionManager;
+import net.nativo.android.exoplayer2.source.CompositeSequenceableLoaderFactory;
+import net.nativo.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import net.nativo.android.exoplayer2.source.MediaSourceEventListener;
 
 import net.nativo.android.exoplayer2.source.smoothstreaming.SsChunkSource;
 import net.nativo.android.exoplayer2.source.smoothstreaming.SsMediaPeriod;
 import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.google.android.exoplayer2.testutil.MediaPeriodAsserts;
-import com.google.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.LoaderErrorThrower;
+import net.nativo.android.exoplayer2.testutil.MediaPeriodAsserts;
+import net.nativo.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory;
+import net.nativo.android.exoplayer2.upstream.Allocator;
+import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import net.nativo.android.exoplayer2.upstream.LoaderErrorThrower;
 import net.nativo.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

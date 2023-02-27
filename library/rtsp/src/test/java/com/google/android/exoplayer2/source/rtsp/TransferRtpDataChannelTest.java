@@ -15,11 +15,11 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.buildTestData;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.buildTestData;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import com.google.common.primitives.Bytes;
 import java.util.Arrays;
 import org.junit.Test;

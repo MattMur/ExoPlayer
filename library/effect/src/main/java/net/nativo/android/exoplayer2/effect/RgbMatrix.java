@@ -17,7 +17,7 @@
 package net.nativo.android.exoplayer2.effect;
 
 import android.content.Context;
-import com.google.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
 import com.google.common.collect.ImmutableList;
 
 /**

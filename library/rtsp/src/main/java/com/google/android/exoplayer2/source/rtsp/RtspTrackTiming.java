@@ -15,16 +15,16 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.util.UriUtil;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.util.UriUtil;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 
 /**

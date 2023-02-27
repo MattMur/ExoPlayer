@@ -15,12 +15,12 @@
  */
 package net.nativo.android.exoplayer2.upstream.crypto;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.upstream.DataSource;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
 import net.nativo.android.exoplayer2.upstream.TransferListener;

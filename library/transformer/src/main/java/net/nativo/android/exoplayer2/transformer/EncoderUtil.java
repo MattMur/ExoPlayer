@@ -16,7 +16,7 @@
 
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.lang.Math.max;
 import static java.lang.Math.round;
 
@@ -31,13 +31,13 @@ import android.util.Size;
 import androidx.annotation.DoNotInline;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.C.ColorTransfer;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C.ColorTransfer;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.util.MediaFormatUtil;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import com.google.common.base.Ascii;
 import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;

@@ -15,18 +15,18 @@
  */
 package net.nativo.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.upstream.DataSink;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
 
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.io.File;
 import java.io.FileOutputStream;

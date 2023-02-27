@@ -15,22 +15,22 @@
  */
 package com.google.android.exoplayer2.ext.av1;
 
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITHOUT_RECONFIGURATION;
+import static net.nativo.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITHOUT_RECONFIGURATION;
 
 import android.os.Handler;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.RendererCapabilities;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation;
-import com.google.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.TraceUtil;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.DecoderVideoRenderer;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.RendererCapabilities;
+import net.nativo.android.exoplayer2.decoder.CryptoConfig;
+import net.nativo.android.exoplayer2.decoder.DecoderReuseEvaluation;
+import net.nativo.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.TraceUtil;
+import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.video.DecoderVideoRenderer;
+import net.nativo.android.exoplayer2.video.VideoRendererEventListener;
 
 /** Decodes and renders video using libgav1 decoder. */
 public class Libgav1VideoRenderer extends DecoderVideoRenderer {

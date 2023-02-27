@@ -43,7 +43,7 @@ import net.nativo.android.exoplayer2.audio.AudioAttributes;
 import net.nativo.android.exoplayer2.metadata.Metadata;
 import net.nativo.android.exoplayer2.source.TrackGroup;
 import net.nativo.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.testutil.FakeMetadataEntry;
+import net.nativo.android.exoplayer2.testutil.FakeMetadataEntry;
 import net.nativo.android.exoplayer2.text.Cue;
 import net.nativo.android.exoplayer2.text.CueGroup;
 import net.nativo.android.exoplayer2.trackselection.TrackSelectionParameters;

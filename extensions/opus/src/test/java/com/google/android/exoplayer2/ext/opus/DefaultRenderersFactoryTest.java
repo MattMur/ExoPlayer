@@ -16,8 +16,8 @@
 package com.google.android.exoplayer2.ext.opus;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.testutil.DefaultRenderersFactoryAsserts;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.testutil.DefaultRenderersFactoryAsserts;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

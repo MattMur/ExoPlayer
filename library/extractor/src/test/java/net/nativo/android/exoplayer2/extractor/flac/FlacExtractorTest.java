@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.extractor.flac;
 
-import com.google.android.exoplayer2.testutil.ExtractorAsserts;
-import com.google.android.exoplayer2.testutil.ExtractorAsserts.AssertionConfig;
+import net.nativo.android.exoplayer2.testutil.ExtractorAsserts;
+import net.nativo.android.exoplayer2.testutil.ExtractorAsserts.AssertionConfig;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.junit.runner.RunWith;

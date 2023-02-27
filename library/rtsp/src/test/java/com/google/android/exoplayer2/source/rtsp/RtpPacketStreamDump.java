@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import com.google.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.ParserException;
 import com.google.common.collect.ImmutableList;
 import org.json.JSONArray;
 import org.json.JSONException;

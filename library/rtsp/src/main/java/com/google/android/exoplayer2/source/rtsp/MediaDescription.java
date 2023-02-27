@@ -16,18 +16,18 @@
 
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtspMessageUtil.parseInt;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_FMTP;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_RTPMAP;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspMessageUtil.parseInt;
+import static net.nativo.android.exoplayer2.source.rtsp.SessionDescription.ATTR_FMTP;
+import static net.nativo.android.exoplayer2.source.rtsp.SessionDescription.ATTR_RTPMAP;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringDef;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableMap;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.lang.annotation.Documented;

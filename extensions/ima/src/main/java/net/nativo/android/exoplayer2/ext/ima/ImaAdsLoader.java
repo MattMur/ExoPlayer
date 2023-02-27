@@ -15,9 +15,9 @@
  */
 package net.nativo.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
 
 import android.content.Context;
 import android.os.Looper;
@@ -39,17 +39,17 @@ import com.google.ads.interactivemedia.v3.api.ImaSdkFactory;
 import com.google.ads.interactivemedia.v3.api.ImaSdkSettings;
 import com.google.ads.interactivemedia.v3.api.UiElement;
 import com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.ads.AdsLoader;
-import com.google.android.exoplayer2.source.ads.AdsMediaSource;
-import com.google.android.exoplayer2.ui.AdViewProvider;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ExoPlayerLibraryInfo;
+import net.nativo.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.source.MediaSource;
+import net.nativo.android.exoplayer2.source.ads.AdsLoader;
+import net.nativo.android.exoplayer2.source.ads.AdsMediaSource;
+import net.nativo.android.exoplayer2.ui.AdViewProvider;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;

@@ -15,18 +15,18 @@
  */
 package com.google.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 import android.content.Context;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.test.platform.app.InstrumentationRegistry;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.SystemClock;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.SystemClock;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.base.Ascii;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 

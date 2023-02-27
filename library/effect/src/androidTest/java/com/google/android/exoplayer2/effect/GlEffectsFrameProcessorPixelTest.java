@@ -16,13 +16,13 @@
 package com.google.android.exoplayer2.effect;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.MAXIMUM_AVERAGE_PIXEL_ABSOLUTE_DIFFERENCE;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.createArgb8888BitmapFromRgba8888Image;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.getBitmapAveragePixelAbsoluteDifferenceArgb8888;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.maybeSaveTestBitmapToCacheDirectory;
-import static com.google.android.exoplayer2.effect.BitmapTestUtil.readBitmap;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.MAXIMUM_AVERAGE_PIXEL_ABSOLUTE_DIFFERENCE;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.createArgb8888BitmapFromRgba8888Image;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.getBitmapAveragePixelAbsoluteDifferenceArgb8888;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.maybeSaveTestBitmapToCacheDirectory;
+import static net.nativo.android.exoplayer2.effect.BitmapTestUtil.readBitmap;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.Arrays.asList;
 
@@ -35,14 +35,14 @@ import android.media.ImageReader;
 import android.media.MediaFormat;
 import android.util.Pair;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.DecodeOneFrameUtil;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.FrameInfo;
-import com.google.android.exoplayer2.util.FrameProcessingException;
-import com.google.android.exoplayer2.util.FrameProcessor;
-import com.google.android.exoplayer2.util.SurfaceInfo;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.testutil.DecodeOneFrameUtil;
+import net.nativo.android.exoplayer2.util.DebugViewProvider;
+import net.nativo.android.exoplayer2.util.Effect;
+import net.nativo.android.exoplayer2.util.FrameInfo;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.FrameProcessor;
+import net.nativo.android.exoplayer2.util.SurfaceInfo;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 
 import net.nativo.android.exoplayer2.effect.Crop;

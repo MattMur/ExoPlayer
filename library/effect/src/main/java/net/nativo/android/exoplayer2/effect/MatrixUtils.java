@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
 
 import android.opengl.Matrix;
 import android.util.Pair;

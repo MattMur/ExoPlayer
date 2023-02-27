@@ -16,8 +16,8 @@
 package com.google.android.exoplayer2.source.rtsp;
 
 import android.net.Uri;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.util.Util;
 
 /** Utility methods for RTP. */
 public final class RtpUtils {

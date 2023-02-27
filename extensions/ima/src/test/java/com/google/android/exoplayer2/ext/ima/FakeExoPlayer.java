@@ -15,22 +15,22 @@
  */
 package com.google.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
 
 import android.os.Looper;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.testutil.StubExoPlayer;
-import com.google.android.exoplayer2.trackselection.TrackSelectionArray;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.ListenerSet;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ExoPlayer;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.Tracks;
+import net.nativo.android.exoplayer2.testutil.StubExoPlayer;
+import net.nativo.android.exoplayer2.trackselection.TrackSelectionArray;
+import net.nativo.android.exoplayer2.trackselection.TrackSelectionParameters;
+import net.nativo.android.exoplayer2.util.Clock;
+import net.nativo.android.exoplayer2.util.ListenerSet;
+import net.nativo.android.exoplayer2.util.Util;
 
 /** A fake {@link ExoPlayer} for testing content/ad playback. */
 /* package */ final class FakeExoPlayer extends StubExoPlayer {

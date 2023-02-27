@@ -17,14 +17,14 @@
 package net.nativo.android.exoplayer2.transformer;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.BaseRenderer;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.RendererCapabilities;
+import net.nativo.android.exoplayer2.BaseRenderer;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.RendererCapabilities;
 import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.source.SampleStream.ReadDataResult;
-import com.google.android.exoplayer2.util.MediaClock;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.source.SampleStream.ReadDataResult;
+import net.nativo.android.exoplayer2.util.MediaClock;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.errorprone.annotations.ForOverride;
 import org.checkerframework.checker.nullness.qual.EnsuresNonNullIf;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.offline;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.createRobolectricConditionVariable;
+import static net.nativo.android.exoplayer2.robolectric.RobolectricUtil.createRobolectricConditionVariable;
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.Arrays.asList;
 
@@ -25,12 +25,12 @@ import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.robolectric.TestDownloadManagerListener;
+import net.nativo.android.exoplayer2.robolectric.TestDownloadManagerListener;
 import net.nativo.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.testutil.DownloadBuilder;
-import com.google.android.exoplayer2.testutil.DummyMainThread;
-import com.google.android.exoplayer2.testutil.DummyMainThread.TestRunnable;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.DownloadBuilder;
+import net.nativo.android.exoplayer2.testutil.DummyMainThread;
+import net.nativo.android.exoplayer2.testutil.DummyMainThread.TestRunnable;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.ConditionVariable;
 import java.io.IOException;

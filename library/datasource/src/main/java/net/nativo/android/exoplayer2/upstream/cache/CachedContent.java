@@ -15,15 +15,15 @@
  */
 package net.nativo.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.util.Log;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.TreeSet;

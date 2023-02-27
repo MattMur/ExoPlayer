@@ -16,20 +16,20 @@
 
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.maxValue;
-import static com.google.android.exoplayer2.util.Util.minValue;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Util.maxValue;
+import static net.nativo.android.exoplayer2.util.Util.minValue;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 import android.os.ParcelFileDescriptor;
 import android.util.SparseIntArray;
 import android.util.SparseLongArray;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.nio.ByteBuffer;
 import java.util.concurrent.Executors;

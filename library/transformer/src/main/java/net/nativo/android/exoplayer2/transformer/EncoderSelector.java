@@ -18,7 +18,7 @@ package net.nativo.android.exoplayer2.transformer;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 
 /** Selector of {@link MediaCodec} encoder instances. */

@@ -15,9 +15,9 @@
  */
 package com.google.android.exoplayer2.ext.mediasession;
 
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM;
+import static net.nativo.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM;
+import static net.nativo.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT_MEDIA_ITEM;
+import static net.nativo.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS_MEDIA_ITEM;
 import static java.lang.Math.min;
 
 import android.os.Bundle;
@@ -26,10 +26,10 @@ import android.support.v4.media.MediaDescriptionCompat;
 import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.util.Assertions;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;

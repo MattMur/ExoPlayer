@@ -16,28 +16,28 @@
 
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.net.Uri;
 import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.drm.DrmSessionManagerProvider;
-import com.google.android.exoplayer2.source.BaseMediaSource;
-import com.google.android.exoplayer2.source.ForwardingTimeline;
-import com.google.android.exoplayer2.source.MediaPeriod;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.MediaSourceFactory;
-import com.google.android.exoplayer2.source.SinglePeriodTimeline;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ExoPlayerLibraryInfo;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.drm.DrmSessionManagerProvider;
+import net.nativo.android.exoplayer2.source.BaseMediaSource;
+import net.nativo.android.exoplayer2.source.ForwardingTimeline;
+import net.nativo.android.exoplayer2.source.MediaPeriod;
+import net.nativo.android.exoplayer2.source.MediaSource;
+import net.nativo.android.exoplayer2.source.MediaSourceFactory;
+import net.nativo.android.exoplayer2.source.SinglePeriodTimeline;
+import net.nativo.android.exoplayer2.upstream.Allocator;
+import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.io.IOException;
 import javax.net.SocketFactory;

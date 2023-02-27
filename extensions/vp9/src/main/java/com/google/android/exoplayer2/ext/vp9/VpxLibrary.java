@@ -16,9 +16,9 @@
 package com.google.android.exoplayer2.ext.vp9;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.util.LibraryLoader;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ExoPlayerLibraryInfo;
+import net.nativo.android.exoplayer2.util.LibraryLoader;
 
 /** Configures and queries the underlying native library. */
 public final class VpxLibrary {

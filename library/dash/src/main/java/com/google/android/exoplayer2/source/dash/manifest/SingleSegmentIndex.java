@@ -15,8 +15,8 @@
  */
 package com.google.android.exoplayer2.source.dash.manifest;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.source.dash.DashSegmentIndex;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.source.dash.DashSegmentIndex;
 
 /** A {@link DashSegmentIndex} that defines a single segment. */
 /* package */ final class SingleSegmentIndex implements DashSegmentIndex {

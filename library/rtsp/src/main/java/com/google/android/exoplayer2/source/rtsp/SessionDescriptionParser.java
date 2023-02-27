@@ -16,15 +16,15 @@
 
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.SUPPORTED_SDP_VERSION;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.source.rtsp.SessionDescription.SUPPORTED_SDP_VERSION;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.base.Strings.nullToEmpty;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.util.Util;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

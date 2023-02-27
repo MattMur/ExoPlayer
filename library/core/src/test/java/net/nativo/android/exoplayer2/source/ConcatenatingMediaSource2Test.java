@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.source;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
-import static com.google.android.exoplayer2.robolectric.TestPlayerRunHelper.runUntilPlaybackState;
+import static net.nativo.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
+import static net.nativo.android.exoplayer2.robolectric.TestPlayerRunHelper.runUntilPlaybackState;
 import static com.google.common.truth.Truth.assertThat;
 import static java.lang.Math.max;
 import static org.mockito.ArgumentMatchers.any;
@@ -40,9 +40,9 @@ import net.nativo.android.exoplayer2.Player;
 import net.nativo.android.exoplayer2.Timeline;
 import net.nativo.android.exoplayer2.analytics.PlayerId;
 import net.nativo.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.testutil.TestExoPlayerBuilder;
+import net.nativo.android.exoplayer2.testutil.FakeMediaSource;
+import net.nativo.android.exoplayer2.testutil.FakeTimeline;
+import net.nativo.android.exoplayer2.testutil.TestExoPlayerBuilder;
 import net.nativo.android.exoplayer2.upstream.TransferListener;
 import net.nativo.android.exoplayer2.util.EventLogger;
 import net.nativo.android.exoplayer2.util.MimeTypes;

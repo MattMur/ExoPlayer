@@ -15,17 +15,17 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_DESCRIBE;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_OPTIONS;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SETUP;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_TEARDOWN;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_DESCRIBE;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_OPTIONS;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SETUP;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_TEARDOWN;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Util;
 import java.io.Closeable;
 import java.io.IOException;
 import java.net.InetAddress;

@@ -24,8 +24,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.StubPlayer;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.StubPlayer;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.util.FlagSet;
 import java.lang.reflect.Method;
 import java.util.HashSet;

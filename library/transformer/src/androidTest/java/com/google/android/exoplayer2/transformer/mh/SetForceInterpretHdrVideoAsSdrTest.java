@@ -15,23 +15,23 @@
  */
 package com.google.android.exoplayer2.transformer.mh;
 
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_1080P_4_SECOND_HDR10;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_1080P_4_SECOND_HDR10_FORMAT;
-import static com.google.android.exoplayer2.transformer.mh.analysis.FileUtil.assertFileHasColorTransfer;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_1080P_4_SECOND_HDR10;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_1080P_4_SECOND_HDR10_FORMAT;
+import static net.nativo.android.exoplayer2.transformer.mh.analysis.FileUtil.assertFileHasColorTransfer;
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.transformer.AndroidTestUtil;
 import net.nativo.android.exoplayer2.transformer.TransformationException;
 import net.nativo.android.exoplayer2.transformer.TransformationRequest;
-import com.google.android.exoplayer2.transformer.TransformationTestResult;
+import net.nativo.android.exoplayer2.transformer.TransformationTestResult;
 import net.nativo.android.exoplayer2.transformer.Transformer;
-import com.google.android.exoplayer2.transformer.TransformerAndroidTestRunner;
-import com.google.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.transformer.TransformerAndroidTestRunner;
+import net.nativo.android.exoplayer2.util.Log;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

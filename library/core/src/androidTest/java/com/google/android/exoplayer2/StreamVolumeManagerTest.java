@@ -25,7 +25,7 @@ import android.os.Looper;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SdkSuppress;
-import com.google.android.exoplayer2.testutil.DummyMainThread;
+import net.nativo.android.exoplayer2.testutil.DummyMainThread;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.After;

@@ -15,15 +15,15 @@
  */
 package net.nativo.android.exoplayer2.extractor.ogg;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.getByteArray;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.getByteArray;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.fail;
 
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.testutil.FakeExtractorInput;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.FakeExtractorInput;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.util.ParsableByteArray;
 import java.io.EOFException;
 import java.io.IOException;

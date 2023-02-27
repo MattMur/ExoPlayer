@@ -30,7 +30,7 @@ import net.nativo.android.exoplayer2.metadata.mp4.MotionPhotoMetadata;
 import net.nativo.android.exoplayer2.metadata.mp4.SlowMotionData;
 import net.nativo.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
 import net.nativo.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.testutil.FakeClock;
+import net.nativo.android.exoplayer2.testutil.FakeClock;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.util.concurrent.ListenableFuture;
 import java.util.ArrayList;

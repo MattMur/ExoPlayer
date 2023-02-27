@@ -15,8 +15,8 @@
  */
 package com.google.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_320W_240H_15S_URI_STRING;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_URI_STRING;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_320W_240H_15S_URI_STRING;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
@@ -24,8 +24,8 @@ import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.MediaItem;
 
 import net.nativo.android.exoplayer2.transformer.Codec;
 import net.nativo.android.exoplayer2.transformer.DefaultEncoderFactory;

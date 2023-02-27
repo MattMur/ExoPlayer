@@ -18,7 +18,7 @@ package com.google.android.exoplayer2.ext.flac;
 import static org.junit.Assert.fail;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.ExtractorAsserts;
+import net.nativo.android.exoplayer2.testutil.ExtractorAsserts;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

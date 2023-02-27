@@ -15,27 +15,27 @@
  */
 package com.google.android.exoplayer2.source.dash.e2etest;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
 import android.graphics.SurfaceTexture;
 import android.view.Surface;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.RenderersFactory;
-import com.google.android.exoplayer2.metadata.MetadataDecoderFactory;
-import com.google.android.exoplayer2.metadata.MetadataRenderer;
-import com.google.android.exoplayer2.robolectric.PlaybackOutput;
-import com.google.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
-import com.google.android.exoplayer2.robolectric.TestPlayerRunHelper;
-import com.google.android.exoplayer2.testutil.CapturingRenderersFactory;
-import com.google.android.exoplayer2.testutil.DumpFileAsserts;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
+import net.nativo.android.exoplayer2.ExoPlayer;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.Renderer;
+import net.nativo.android.exoplayer2.RenderersFactory;
+import net.nativo.android.exoplayer2.metadata.MetadataDecoderFactory;
+import net.nativo.android.exoplayer2.metadata.MetadataRenderer;
+import net.nativo.android.exoplayer2.robolectric.PlaybackOutput;
+import net.nativo.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
+import net.nativo.android.exoplayer2.robolectric.TestPlayerRunHelper;
+import net.nativo.android.exoplayer2.testutil.CapturingRenderersFactory;
+import net.nativo.android.exoplayer2.testutil.DumpFileAsserts;
+import net.nativo.android.exoplayer2.testutil.FakeClock;
+import net.nativo.android.exoplayer2.trackselection.DefaultTrackSelector;
 import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;

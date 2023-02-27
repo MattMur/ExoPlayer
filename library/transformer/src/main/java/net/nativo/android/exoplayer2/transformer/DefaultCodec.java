@@ -16,11 +16,11 @@
 
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
-import static com.google.android.exoplayer2.util.Util.SDK_INT;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static net.nativo.android.exoplayer2.util.Util.SDK_INT;
 
 import android.content.Context;
 import android.media.MediaCodec;
@@ -32,14 +32,14 @@ import androidx.annotation.DoNotInline;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
 import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.TraceUtil;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.MediaFormatUtil;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.TraceUtil;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import com.google.common.base.Ascii;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;

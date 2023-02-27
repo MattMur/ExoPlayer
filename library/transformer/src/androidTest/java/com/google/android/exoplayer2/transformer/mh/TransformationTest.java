@@ -15,28 +15,28 @@
  */
 package com.google.android.exoplayer2.transformer.mh;
 
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_SEF_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_4K60_PORTRAIT_FORMAT;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_4K60_PORTRAIT_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_8K24_FORMAT;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_8K24_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_SEF_URI_STRING;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_URI_STRING;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_URI_STRING;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_4K60_PORTRAIT_FORMAT;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_4K60_PORTRAIT_URI_STRING;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_8K24_FORMAT;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_8K24_URI_STRING;
+import static net.nativo.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil.ForceEncodeEncoderFactory;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.transformer.AndroidTestUtil;
+import net.nativo.android.exoplayer2.transformer.AndroidTestUtil.ForceEncodeEncoderFactory;
 import net.nativo.android.exoplayer2.transformer.DefaultEncoderFactory;
 import net.nativo.android.exoplayer2.transformer.TransformationRequest;
 import net.nativo.android.exoplayer2.transformer.Transformer;
-import com.google.android.exoplayer2.transformer.TransformerAndroidTestRunner;
+import net.nativo.android.exoplayer2.transformer.TransformerAndroidTestRunner;
 import net.nativo.android.exoplayer2.transformer.VideoEncoderSettings;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Util;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

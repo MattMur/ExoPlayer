@@ -16,7 +16,7 @@
 package com.google.android.exoplayer2.source.dash.manifest;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import java.util.Collections;
 import java.util.List;
 

@@ -15,15 +15,15 @@
  */
 package com.google.android.exoplayer2.source.dash.manifest;
 
-import static com.google.android.exoplayer2.source.dash.DashSegmentIndex.INDEX_UNBOUNDED;
+import static net.nativo.android.exoplayer2.source.dash.DashSegmentIndex.INDEX_UNBOUNDED;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.source.dash.DashSegmentIndex;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.source.dash.DashSegmentIndex;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.math.BigIntegerMath;
 import java.math.BigInteger;
 import java.math.RoundingMode;

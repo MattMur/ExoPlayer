@@ -18,7 +18,7 @@ package net.nativo.android.exoplayer2.effect;
 import android.util.Pair;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.effect.GlTextureProcessor.InputListener;
 import net.nativo.android.exoplayer2.effect.GlTextureProcessor.OutputListener;
 import java.util.ArrayDeque;

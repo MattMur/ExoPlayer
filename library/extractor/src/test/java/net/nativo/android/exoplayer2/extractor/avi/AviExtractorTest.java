@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.extractor.avi;
 
-import com.google.android.exoplayer2.testutil.ExtractorAsserts;
+import net.nativo.android.exoplayer2.testutil.ExtractorAsserts;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.junit.runner.RunWith;

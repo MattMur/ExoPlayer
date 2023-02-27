@@ -15,28 +15,28 @@
  */
 package com.google.android.exoplayer2.ext.cronet;
 
-import static com.google.android.exoplayer2.upstream.HttpUtil.buildRangeRequestHeader;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.upstream.HttpUtil.buildRangeRequestHeader;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static org.chromium.net.UrlRequest.Builder.REQUEST_PRIORITY_MEDIUM;
 
 import android.net.Uri;
 import android.text.TextUtils;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.upstream.BaseDataSource;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSourceException;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
-import com.google.android.exoplayer2.upstream.HttpUtil;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.ConditionVariable;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ExoPlayerLibraryInfo;
+import net.nativo.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.upstream.BaseDataSource;
+import net.nativo.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.upstream.DataSourceException;
+import net.nativo.android.exoplayer2.upstream.DataSpec;
+import net.nativo.android.exoplayer2.upstream.DefaultHttpDataSource;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource;
+import net.nativo.android.exoplayer2.upstream.HttpUtil;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.Clock;
+import net.nativo.android.exoplayer2.util.ConditionVariable;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.base.Ascii;
 import com.google.common.base.Predicate;
 import com.google.common.net.HttpHeaders;

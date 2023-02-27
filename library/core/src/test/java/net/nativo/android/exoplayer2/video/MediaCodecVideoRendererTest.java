@@ -16,9 +16,9 @@
 package net.nativo.android.exoplayer2.video;
 
 import static android.view.Display.DEFAULT_DISPLAY;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.format;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.oneByteSample;
+import static net.nativo.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
+import static net.nativo.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.format;
+import static net.nativo.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.oneByteSample;
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.ArgumentMatchers.eq;
@@ -52,7 +52,7 @@ import net.nativo.android.exoplayer2.drm.DrmSessionEventListener;
 import net.nativo.android.exoplayer2.drm.DrmSessionManager;
 import net.nativo.android.exoplayer2.mediacodec.MediaCodecInfo;
 import net.nativo.android.exoplayer2.mediacodec.MediaCodecSelector;
-import com.google.android.exoplayer2.testutil.FakeSampleStream;
+import net.nativo.android.exoplayer2.testutil.FakeSampleStream;
 import net.nativo.android.exoplayer2.upstream.DefaultAllocator;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;

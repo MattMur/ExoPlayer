@@ -15,16 +15,16 @@
  */
 package net.nativo.android.exoplayer2.upstream;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.util.Assertions;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;

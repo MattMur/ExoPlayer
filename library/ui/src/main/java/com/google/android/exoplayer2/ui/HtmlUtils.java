@@ -17,7 +17,7 @@ package com.google.android.exoplayer2.ui;
 
 import android.graphics.Color;
 import androidx.annotation.ColorInt;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Util;
 
 /**
  * Utility methods for generating HTML and CSS for use with {@link WebViewSubtitleOutput} and {@link

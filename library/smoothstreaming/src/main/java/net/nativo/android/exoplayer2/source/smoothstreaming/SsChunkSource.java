@@ -16,10 +16,10 @@
 package net.nativo.android.exoplayer2.source.smoothstreaming;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.source.chunk.ChunkSource;
+import net.nativo.android.exoplayer2.source.chunk.ChunkSource;
 import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.upstream.LoaderErrorThrower;
+import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
+import net.nativo.android.exoplayer2.upstream.LoaderErrorThrower;
 import net.nativo.android.exoplayer2.upstream.TransferListener;
 
 /** A {@link ChunkSource} for SmoothStreaming. */

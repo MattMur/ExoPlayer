@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.source.hls.offline;
 
-import static com.google.android.exoplayer2.testutil.CacheAsserts.assertCacheEmpty;
-import static com.google.android.exoplayer2.testutil.CacheAsserts.assertCachedData;
+import static net.nativo.android.exoplayer2.testutil.CacheAsserts.assertCacheEmpty;
+import static net.nativo.android.exoplayer2.testutil.CacheAsserts.assertCachedData;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
@@ -29,10 +29,10 @@ import net.nativo.android.exoplayer2.offline.Downloader;
 import net.nativo.android.exoplayer2.offline.DownloaderFactory;
 import net.nativo.android.exoplayer2.offline.StreamKey;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist;
-import com.google.android.exoplayer2.testutil.CacheAsserts;
-import com.google.android.exoplayer2.testutil.FakeDataSet;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.CacheAsserts;
+import net.nativo.android.exoplayer2.testutil.FakeDataSet;
+import net.nativo.android.exoplayer2.testutil.FakeDataSource;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.upstream.PlaceholderDataSource;
 import net.nativo.android.exoplayer2.upstream.cache.Cache;
 import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;

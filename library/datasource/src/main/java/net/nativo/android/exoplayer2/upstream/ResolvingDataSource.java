@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.upstream;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;

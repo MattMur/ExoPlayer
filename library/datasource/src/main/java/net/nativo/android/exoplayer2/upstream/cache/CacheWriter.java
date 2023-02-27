@@ -17,11 +17,11 @@ package net.nativo.android.exoplayer2.upstream.cache;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.upstream.DataSourceUtil;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.PriorityTaskManager;
-import com.google.android.exoplayer2.util.PriorityTaskManager.PriorityTooLowException;
+import net.nativo.android.exoplayer2.util.PriorityTaskManager;
+import net.nativo.android.exoplayer2.util.PriorityTaskManager.PriorityTooLowException;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 

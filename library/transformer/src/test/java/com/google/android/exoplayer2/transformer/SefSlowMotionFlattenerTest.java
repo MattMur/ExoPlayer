@@ -20,12 +20,12 @@ import static net.nativo.android.exoplayer2.transformer.SefSlowMotionFlattener.I
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.metadata.mp4.SlowMotionData;
+import net.nativo.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 
 import net.nativo.android.exoplayer2.transformer.SefSlowMotionFlattener;
 

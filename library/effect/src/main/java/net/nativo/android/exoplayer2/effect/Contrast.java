@@ -16,10 +16,10 @@
 
 package net.nativo.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
 
 import android.content.Context;
-import com.google.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
 
 /** A {@link GlEffect} to control the contrast of video frames. */
 public class Contrast implements GlEffect {

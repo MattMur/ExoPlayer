@@ -18,10 +18,10 @@ package com.google.android.exoplayer2.ext.cronet;
 import static org.chromium.net.UrlRequest.Builder.REQUEST_PRIORITY_MEDIUM;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
-import com.google.android.exoplayer2.upstream.HttpDataSource.BaseFactory;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import net.nativo.android.exoplayer2.upstream.DefaultHttpDataSource;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource.BaseFactory;
+import net.nativo.android.exoplayer2.upstream.TransferListener;
 import java.util.concurrent.Executor;
 import org.chromium.net.CronetEngine;
 

@@ -16,17 +16,17 @@
 
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.FormatHolder;
 import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.source.SampleStream.ReadDataResult;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.metadata.mp4.SlowMotionData;
+import net.nativo.android.exoplayer2.source.SampleStream.ReadDataResult;
 
 /* package */ final class TransformerAudioRenderer extends TransformerBaseRenderer {
 

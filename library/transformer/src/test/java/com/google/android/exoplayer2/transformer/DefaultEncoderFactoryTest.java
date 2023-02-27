@@ -24,8 +24,8 @@ import android.content.Context;
 import android.media.MediaCodecInfo;
 import android.media.MediaFormat;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 
 import net.nativo.android.exoplayer2.transformer.Codec;

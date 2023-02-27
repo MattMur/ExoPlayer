@@ -35,7 +35,7 @@ import androidx.media2.session.MediaSession.ControllerInfo;
 import androidx.media2.session.SessionCommand;
 import androidx.media2.session.SessionCommandGroup;
 import androidx.media2.session.SessionResult;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.Assertions;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.ArrayList;
 import java.util.List;

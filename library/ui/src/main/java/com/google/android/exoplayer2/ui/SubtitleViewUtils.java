@@ -16,15 +16,15 @@
  */
 package com.google.android.exoplayer2.ui;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.AbsoluteSizeSpan;
 import android.text.style.RelativeSizeSpan;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.span.LanguageFeatureSpan;
+import net.nativo.android.exoplayer2.text.Cue;
+import net.nativo.android.exoplayer2.text.span.LanguageFeatureSpan;
 import com.google.common.base.Predicate;
 
 /** Utility class for subtitle layout logic. */

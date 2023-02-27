@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.analytics;
 
-import static com.google.android.exoplayer2.robolectric.TestPlayerRunHelper.runUntilPendingCommandsAreFullyHandled;
+import static net.nativo.android.exoplayer2.robolectric.TestPlayerRunHelper.runUntilPendingCommandsAreFullyHandled;
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
@@ -31,11 +31,11 @@ import net.nativo.android.exoplayer2.ExoPlayer;
 import net.nativo.android.exoplayer2.MediaItem;
 import net.nativo.android.exoplayer2.PlaybackParameters;
 import net.nativo.android.exoplayer2.Player;
-import com.google.android.exoplayer2.robolectric.TestPlayerRunHelper;
+import net.nativo.android.exoplayer2.robolectric.TestPlayerRunHelper;
 import net.nativo.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.testutil.TestExoPlayerBuilder;
+import net.nativo.android.exoplayer2.testutil.FakeMediaSource;
+import net.nativo.android.exoplayer2.testutil.FakeTimeline;
+import net.nativo.android.exoplayer2.testutil.TestExoPlayerBuilder;
 import com.google.common.collect.ImmutableList;
 import java.util.stream.Collectors;
 import org.junit.After;

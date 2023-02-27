@@ -15,17 +15,17 @@
  */
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.metadata.mp4.SlowMotionData.Segment.BY_START_THEN_END_THEN_DIVISOR;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.metadata.mp4.SlowMotionData.Segment.BY_START_THEN_END_THEN_DIVISOR;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData.Segment;
-import com.google.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.metadata.mp4.SlowMotionData;
+import net.nativo.android.exoplayer2.metadata.mp4.SlowMotionData.Segment;
+import net.nativo.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSortedMap;
 import java.util.ArrayList;

@@ -15,17 +15,17 @@
  */
 package net.nativo.android.exoplayer2.source.smoothstreaming.offline;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.offline.SegmentDownloader;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.offline.SegmentDownloader;
 import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
 import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifestParser;
 import net.nativo.android.exoplayer2.upstream.DataSource;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.ParsingLoadable.Parser;
+import net.nativo.android.exoplayer2.upstream.ParsingLoadable.Parser;
 import net.nativo.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Util;
 
 import java.util.ArrayList;
 import java.util.List;

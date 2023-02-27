@@ -17,9 +17,9 @@ package com.google.android.exoplayer2.ext.okhttp;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.DataSourceContractTest;
-import com.google.android.exoplayer2.testutil.HttpDataSourceTestEnv;
-import com.google.android.exoplayer2.upstream.DataSource;
+import net.nativo.android.exoplayer2.testutil.DataSourceContractTest;
+import net.nativo.android.exoplayer2.testutil.HttpDataSourceTestEnv;
+import net.nativo.android.exoplayer2.upstream.DataSource;
 import com.google.common.collect.ImmutableList;
 import okhttp3.OkHttpClient;
 import org.junit.Rule;

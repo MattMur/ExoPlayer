@@ -15,19 +15,19 @@
  */
 package net.nativo.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
 
 import android.content.Context;
 import android.opengl.GLES20;
 import android.opengl.Matrix;
 import android.util.Pair;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.FrameProcessingException;
-import com.google.android.exoplayer2.util.GlProgram;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.GlProgram;
+import net.nativo.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import java.util.Arrays;

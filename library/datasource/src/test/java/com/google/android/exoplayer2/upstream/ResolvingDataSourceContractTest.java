@@ -18,10 +18,10 @@ package com.google.android.exoplayer2.upstream;
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.DataSourceContractTest;
-import com.google.android.exoplayer2.testutil.FakeDataSet;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.DataSourceContractTest;
+import net.nativo.android.exoplayer2.testutil.FakeDataSet;
+import net.nativo.android.exoplayer2.testutil.FakeDataSource;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 
 import net.nativo.android.exoplayer2.upstream.DataSource;
 import net.nativo.android.exoplayer2.upstream.DataSpec;

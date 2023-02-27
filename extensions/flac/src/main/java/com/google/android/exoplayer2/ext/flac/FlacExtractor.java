@@ -15,28 +15,28 @@
  */
 package com.google.android.exoplayer2.ext.flac;
 
-import static com.google.android.exoplayer2.util.Util.getPcmEncoding;
+import static net.nativo.android.exoplayer2.util.Util.getPcmEncoding;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ext.flac.FlacBinarySearchSeeker.OutputFrameHolder;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.ExtractorsFactory;
-import com.google.android.exoplayer2.extractor.FlacMetadataReader;
-import com.google.android.exoplayer2.extractor.FlacStreamMetadata;
-import com.google.android.exoplayer2.extractor.PositionHolder;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.SeekPoint;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.ext.flac.FlacBinarySearchSeeker.OutputFrameHolder;
+import net.nativo.android.exoplayer2.extractor.Extractor;
+import net.nativo.android.exoplayer2.extractor.ExtractorInput;
+import net.nativo.android.exoplayer2.extractor.ExtractorOutput;
+import net.nativo.android.exoplayer2.extractor.ExtractorsFactory;
+import net.nativo.android.exoplayer2.extractor.FlacMetadataReader;
+import net.nativo.android.exoplayer2.extractor.FlacStreamMetadata;
+import net.nativo.android.exoplayer2.extractor.PositionHolder;
+import net.nativo.android.exoplayer2.extractor.SeekMap;
+import net.nativo.android.exoplayer2.extractor.SeekPoint;
+import net.nativo.android.exoplayer2.extractor.TrackOutput;
+import net.nativo.android.exoplayer2.metadata.Metadata;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

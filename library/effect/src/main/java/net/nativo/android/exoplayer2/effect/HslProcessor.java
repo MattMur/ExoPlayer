@@ -16,14 +16,14 @@
 
 package net.nativo.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
 
 import android.content.Context;
 import android.opengl.GLES20;
 import android.util.Pair;
-import com.google.android.exoplayer2.util.FrameProcessingException;
-import com.google.android.exoplayer2.util.GlProgram;
-import com.google.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.GlProgram;
+import net.nativo.android.exoplayer2.util.GlUtil;
 import java.io.IOException;
 
 /** Applies the {@link HslAdjustment} to each frame in the fragment shader. */

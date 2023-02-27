@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.LOCAL_VARIABLE;
@@ -27,8 +27,8 @@ import static java.lang.annotation.ElementType.TYPE_USE;
 import android.net.Uri;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.PlaybackException;
 import net.nativo.android.exoplayer2.upstream.DataSink;
 import net.nativo.android.exoplayer2.upstream.DataSource;
 import net.nativo.android.exoplayer2.upstream.DataSourceException;
@@ -39,8 +39,8 @@ import net.nativo.android.exoplayer2.upstream.PriorityDataSource;
 import net.nativo.android.exoplayer2.upstream.TeeDataSource;
 import net.nativo.android.exoplayer2.upstream.TransferListener;
 
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.PriorityTaskManager;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.PriorityTaskManager;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.io.IOException;
 import java.io.InterruptedIOException;

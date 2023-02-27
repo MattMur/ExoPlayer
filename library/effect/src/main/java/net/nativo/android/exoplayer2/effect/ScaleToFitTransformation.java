@@ -15,14 +15,14 @@
  */
 package net.nativo.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
 import android.graphics.Matrix;
 import android.util.Pair;
-import com.google.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.util.GlUtil;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 

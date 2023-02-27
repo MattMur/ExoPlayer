@@ -15,8 +15,8 @@
  */
 package net.nativo.android.exoplayer2.upstream;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.io.InputStream;
 

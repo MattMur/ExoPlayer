@@ -15,10 +15,10 @@
  */
 package net.nativo.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.msToUs;
+import static net.nativo.android.exoplayer2.Player.COMMAND_GET_VOLUME;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Util.msToUs;
 import static java.lang.Math.max;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -48,19 +48,19 @@ import com.google.ads.interactivemedia.v3.api.player.AdMediaInfo;
 import com.google.ads.interactivemedia.v3.api.player.ContentProgressProvider;
 import com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer;
 import com.google.ads.interactivemedia.v3.api.player.VideoProgressUpdate;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.source.ads.AdsLoader.EventListener;
-import com.google.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException;
-import com.google.android.exoplayer2.ui.AdOverlayInfo;
-import com.google.android.exoplayer2.ui.AdViewProvider;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ExoPlayerLibraryInfo;
+import net.nativo.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.source.ads.AdPlaybackState;
+import net.nativo.android.exoplayer2.source.ads.AdsLoader.EventListener;
+import net.nativo.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException;
+import net.nativo.android.exoplayer2.ui.AdOverlayInfo;
+import net.nativo.android.exoplayer2.ui.AdViewProvider;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import java.io.IOException;

@@ -15,16 +15,16 @@
  */
 package net.nativo.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.graphics.SurfaceTexture;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.FrameInfo;
-import com.google.android.exoplayer2.util.FrameProcessingException;
-import com.google.android.exoplayer2.util.FrameProcessor;
-import com.google.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.util.FrameInfo;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.FrameProcessor;
+import net.nativo.android.exoplayer2.util.GlUtil;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicInteger;

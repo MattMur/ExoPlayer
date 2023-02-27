@@ -15,9 +15,9 @@
  */
 package net.nativo.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import android.annotation.SuppressLint;
@@ -31,12 +31,12 @@ import android.util.SparseBooleanArray;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.database.DatabaseIOException;
-import com.google.android.exoplayer2.database.DatabaseProvider;
-import com.google.android.exoplayer2.database.VersionTable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.AtomicFile;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.database.DatabaseIOException;
+import net.nativo.android.exoplayer2.database.DatabaseProvider;
+import net.nativo.android.exoplayer2.database.VersionTable;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.AtomicFile;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableSet;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

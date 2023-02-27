@@ -20,7 +20,7 @@ import static com.google.common.truth.Truth.assertThat;
 import android.content.res.Resources;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.Format;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

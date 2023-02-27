@@ -18,9 +18,9 @@ package com.google.android.exoplayer2.ext.cast;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.Timeline;
 import com.google.android.gms.cast.MediaInfo;
 import java.util.Arrays;
 

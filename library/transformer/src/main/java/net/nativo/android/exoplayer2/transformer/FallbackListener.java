@@ -16,13 +16,13 @@
 
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.util.HandlerWrapper;
-import com.google.android.exoplayer2.util.ListenerSet;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.MediaItem;
+import net.nativo.android.exoplayer2.util.HandlerWrapper;
+import net.nativo.android.exoplayer2.util.ListenerSet;
+import net.nativo.android.exoplayer2.util.Util;
 
 /**
  * Listener for fallback {@link TransformationRequest TransformationRequests} from the audio and

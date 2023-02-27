@@ -16,8 +16,8 @@
 package net.nativo.android.exoplayer2.upstream.crypto;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.Util;
 import java.nio.ByteBuffer;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;

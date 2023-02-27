@@ -16,16 +16,16 @@
 
 package com.google.android.exoplayer2.transformer.mh.analysis;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.media.MediaFormat;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.testutil.DecodeOneFrameUtil;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.testutil.DecodeOneFrameUtil;
+import net.nativo.android.exoplayer2.util.MediaFormatUtil;
+import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 
 /** Utilities for reading color info from a file. */
 public class FileUtil {

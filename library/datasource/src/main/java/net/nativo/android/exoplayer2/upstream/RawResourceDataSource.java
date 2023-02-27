@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.upstream;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import android.content.ContentResolver;
@@ -25,9 +25,9 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.text.TextUtils;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.util.Assertions;
 import java.io.EOFException;
 import java.io.FileInputStream;
 import java.io.IOException;

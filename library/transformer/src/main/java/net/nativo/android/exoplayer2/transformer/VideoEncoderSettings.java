@@ -18,8 +18,8 @@ package net.nativo.android.exoplayer2.transformer;
 
 import static android.media.MediaCodecInfo.EncoderCapabilities.BITRATE_MODE_CBR;
 import static android.media.MediaCodecInfo.EncoderCapabilities.BITRATE_MODE_VBR;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import android.annotation.SuppressLint;
@@ -28,7 +28,7 @@ import android.media.MediaFormat;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.Format;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

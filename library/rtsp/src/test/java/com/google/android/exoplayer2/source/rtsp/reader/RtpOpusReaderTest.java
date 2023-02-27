@@ -15,20 +15,20 @@
  */
 package com.google.android.exoplayer2.source.rtsp.reader;
 
-import static com.google.android.exoplayer2.util.Util.getBytesFromHexString;
+import static net.nativo.android.exoplayer2.util.Util.getBytesFromHexString;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.when;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.source.rtsp.RtpPacket;
-import com.google.android.exoplayer2.source.rtsp.RtpPayloadFormat;
-import com.google.android.exoplayer2.testutil.FakeTrackOutput;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.extractor.ExtractorOutput;
+import net.nativo.android.exoplayer2.source.rtsp.RtpPacket;
+import net.nativo.android.exoplayer2.source.rtsp.RtpPayloadFormat;
+import net.nativo.android.exoplayer2.testutil.FakeTrackOutput;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.ParsableByteArray;
 import com.google.common.collect.ImmutableMap;
 import org.junit.Before;
 import org.junit.Rule;

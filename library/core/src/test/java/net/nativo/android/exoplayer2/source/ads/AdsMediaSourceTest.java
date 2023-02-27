@@ -36,7 +36,7 @@ import net.nativo.android.exoplayer2.source.MediaSource.MediaPeriodId;
 import net.nativo.android.exoplayer2.source.MediaSource.MediaSourceCaller;
 import net.nativo.android.exoplayer2.source.SinglePeriodTimeline;
 import net.nativo.android.exoplayer2.source.ads.AdsLoader.EventListener;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
+import net.nativo.android.exoplayer2.testutil.FakeMediaSource;
 import net.nativo.android.exoplayer2.ui.AdViewProvider;
 import net.nativo.android.exoplayer2.upstream.Allocator;
 import net.nativo.android.exoplayer2.upstream.DataSpec;

@@ -15,7 +15,7 @@
  */
 package com.google.android.exoplayer2.source.dash.manifest;
 
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 
 /** Represents a service description element. */
 public final class ServiceDescriptionElement {

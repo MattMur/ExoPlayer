@@ -15,9 +15,9 @@
  */
 package com.google.android.exoplayer2.transformer;
 
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.testutil.DumpableFormat;
-import com.google.android.exoplayer2.testutil.Dumper;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.testutil.DumpableFormat;
+import net.nativo.android.exoplayer2.testutil.Dumper;
 
 import net.nativo.android.exoplayer2.transformer.Muxer;
 

@@ -15,18 +15,18 @@
  */
 package com.google.android.exoplayer2.source.smoothstreaming.manifest;
 
-import static com.google.android.exoplayer2.source.smoothstreaming.SsTestUtils.createSsManifest;
+import static net.nativo.android.exoplayer2.source.smoothstreaming.SsTestUtils.createSsManifest;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.source.smoothstreaming.SsTestUtils;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.offline.StreamKey;
+import net.nativo.android.exoplayer2.source.smoothstreaming.SsTestUtils;
 
 import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
 import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
-import com.google.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.MimeTypes;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

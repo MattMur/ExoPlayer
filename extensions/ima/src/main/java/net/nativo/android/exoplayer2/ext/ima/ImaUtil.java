@@ -15,14 +15,14 @@
  */
 package net.nativo.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE;
-import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.addAdGroupToAdPlaybackState;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getMediaPeriodPositionUsForContent;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.sum;
+import static net.nativo.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE;
+import static net.nativo.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE;
+import static net.nativo.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.addAdGroupToAdPlaybackState;
+import static net.nativo.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getMediaPeriodPositionUsForContent;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Util.sum;
 import static java.lang.Math.max;
 
 import android.content.Context;
@@ -47,17 +47,17 @@ import com.google.ads.interactivemedia.v3.api.ImaSdkSettings;
 import com.google.ads.interactivemedia.v3.api.UiElement;
 import com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer;
 import com.google.ads.interactivemedia.v3.api.player.VideoProgressUpdate;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState.AdGroup;
-import com.google.android.exoplayer2.ui.AdOverlayInfo;
-import com.google.android.exoplayer2.ui.AdViewProvider;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.source.ads.AdPlaybackState;
+import net.nativo.android.exoplayer2.source.ads.AdPlaybackState.AdGroup;
+import net.nativo.android.exoplayer2.ui.AdOverlayInfo;
+import net.nativo.android.exoplayer2.ui.AdViewProvider;
 import net.nativo.android.exoplayer2.upstream.DataSchemeDataSource;
 import net.nativo.android.exoplayer2.upstream.DataSourceUtil;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.math.DoubleMath;

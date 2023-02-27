@@ -33,8 +33,8 @@ import net.nativo.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist.Variant;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsPlaylist;
 import net.nativo.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
-import com.google.android.exoplayer2.testutil.MediaPeriodAsserts;
-import com.google.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory;
+import net.nativo.android.exoplayer2.testutil.MediaPeriodAsserts;
+import net.nativo.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory;
 import net.nativo.android.exoplayer2.upstream.Allocator;
 import net.nativo.android.exoplayer2.upstream.DataSource;
 import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;

@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.mediacodec;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.createByteArray;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.createByteArray;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;

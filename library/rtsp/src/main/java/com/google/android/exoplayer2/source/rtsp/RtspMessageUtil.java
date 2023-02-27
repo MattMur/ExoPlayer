@@ -15,29 +15,29 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_ANNOUNCE;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_DESCRIBE;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_GET_PARAMETER;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_OPTIONS;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PAUSE;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY_NOTIFY;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_RECORD;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_REDIRECT;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SETUP;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SET_PARAMETER;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_TEARDOWN;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_UNSET;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_ANNOUNCE;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_DESCRIBE;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_GET_PARAMETER;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_OPTIONS;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PAUSE;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY_NOTIFY;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_RECORD;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_REDIRECT;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SETUP;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SET_PARAMETER;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_TEARDOWN;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspRequest.METHOD_UNSET;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.base.Strings.nullToEmpty;
 import static java.util.regex.Pattern.CASE_INSENSITIVE;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ParserException;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.base.Ascii;
 import com.google.common.base.Joiner;
 import com.google.common.collect.ImmutableList;

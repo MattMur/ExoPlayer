@@ -19,11 +19,11 @@ import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.robolectric.RobolectricUtil;
-import com.google.android.exoplayer2.source.MediaPeriod;
-import com.google.android.exoplayer2.upstream.DefaultAllocator;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.robolectric.RobolectricUtil;
+import net.nativo.android.exoplayer2.source.MediaPeriod;
+import net.nativo.android.exoplayer2.upstream.DefaultAllocator;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;

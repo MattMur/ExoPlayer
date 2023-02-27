@@ -31,7 +31,7 @@ import net.nativo.android.exoplayer2.Timeline;
 import net.nativo.android.exoplayer2.source.MediaSource.MediaPeriodId;
 import net.nativo.android.exoplayer2.source.TrackGroup;
 import net.nativo.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
+import net.nativo.android.exoplayer2.testutil.FakeTimeline;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import net.nativo.android.exoplayer2.util.Util;
 import org.junit.BeforeClass;

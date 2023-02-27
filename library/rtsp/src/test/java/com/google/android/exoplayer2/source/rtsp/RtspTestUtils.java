@@ -17,8 +17,8 @@ package com.google.android.exoplayer2.source.rtsp;
 
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.base.Joiner;
 import java.io.IOException;
 import java.util.ArrayList;

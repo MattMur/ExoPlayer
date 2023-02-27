@@ -25,16 +25,16 @@ import androidx.leanback.R;
 import androidx.leanback.media.PlaybackGlueHost;
 import androidx.leanback.media.PlayerAdapter;
 import androidx.leanback.media.SurfaceHolderGlueHost;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Player.DiscontinuityReason;
-import com.google.android.exoplayer2.Player.TimelineChangeReason;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.util.ErrorMessageProvider;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.VideoSize;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.ExoPlayerLibraryInfo;
+import net.nativo.android.exoplayer2.PlaybackException;
+import net.nativo.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.Player.DiscontinuityReason;
+import net.nativo.android.exoplayer2.Player.TimelineChangeReason;
+import net.nativo.android.exoplayer2.Timeline;
+import net.nativo.android.exoplayer2.util.ErrorMessageProvider;
+import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.video.VideoSize;
 
 /** Leanback {@code PlayerAdapter} implementation for {@link Player}. */
 public final class LeanbackPlayerAdapter extends PlayerAdapter implements Runnable {

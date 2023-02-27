@@ -15,9 +15,9 @@
  */
 package net.nativo.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Assertions.checkArgument;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
 
 import android.net.Uri;
 import android.text.TextUtils;
@@ -25,8 +25,8 @@ import androidx.annotation.Nullable;
 import com.google.ads.interactivemedia.v3.api.ImaSdkFactory;
 import com.google.ads.interactivemedia.v3.api.StreamRequest;
 import com.google.ads.interactivemedia.v3.api.StreamRequest.StreamFormat;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.C.ContentType;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C.ContentType;
 import com.google.common.collect.ImmutableMap;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.HashMap;

@@ -15,10 +15,10 @@
  */
 package net.nativo.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.SDK_INT;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkState;
+import static net.nativo.android.exoplayer2.util.Util.SDK_INT;
+import static net.nativo.android.exoplayer2.util.Util.castNonNull;
 
 import android.annotation.SuppressLint;
 import android.media.MediaCodec;
@@ -27,11 +27,11 @@ import android.media.MediaMuxer;
 import android.os.ParcelFileDescriptor;
 import android.util.SparseLongArray;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.util.MediaFormatUtil;
+import net.nativo.android.exoplayer2.util.MimeTypes;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import java.lang.reflect.Field;

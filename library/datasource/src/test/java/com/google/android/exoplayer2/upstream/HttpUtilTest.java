@@ -21,7 +21,7 @@ import static net.nativo.android.exoplayer2.upstream.HttpUtil.getDocumentSize;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 
 import net.nativo.android.exoplayer2.upstream.DefaultHttpDataSource;
 

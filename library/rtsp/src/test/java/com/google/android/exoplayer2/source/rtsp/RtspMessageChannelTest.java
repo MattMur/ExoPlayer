@@ -15,14 +15,14 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtspMessageUtil.convertMessageToByteArray;
-import static com.google.android.exoplayer2.source.rtsp.RtspMessageUtil.serializeResponse;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspMessageUtil.convertMessageToByteArray;
+import static net.nativo.android.exoplayer2.source.rtsp.RtspMessageUtil.serializeResponse;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.robolectric.RobolectricUtil;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.robolectric.RobolectricUtil;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.LinkedListMultimap;
 import com.google.common.collect.Multimap;

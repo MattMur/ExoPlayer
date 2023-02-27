@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.transformer;
 
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 
 /** A custom interface that determines the speed for media at specific timestamps. */
 /* package */ interface SpeedProvider {

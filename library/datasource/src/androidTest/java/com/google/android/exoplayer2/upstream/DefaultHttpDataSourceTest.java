@@ -21,8 +21,8 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.Assert.assertThrows;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.HttpDataSource.HttpDataSourceException;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.upstream.HttpDataSource.HttpDataSourceException;
 import java.net.HttpURLConnection;
 import java.util.HashMap;
 import java.util.Map;

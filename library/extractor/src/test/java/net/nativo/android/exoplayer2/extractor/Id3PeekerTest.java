@@ -16,7 +16,7 @@
 
 package net.nativo.android.exoplayer2.extractor;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.getByteArray;
+import static net.nativo.android.exoplayer2.testutil.TestUtil.getByteArray;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.annotation.Nullable;
@@ -25,7 +25,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.metadata.Metadata;
 import net.nativo.android.exoplayer2.metadata.id3.ApicFrame;
 import net.nativo.android.exoplayer2.metadata.id3.CommentFrame;
-import com.google.android.exoplayer2.testutil.FakeExtractorInput;
+import net.nativo.android.exoplayer2.testutil.FakeExtractorInput;
 import java.io.IOException;
 import org.junit.Test;
 import org.junit.runner.RunWith;

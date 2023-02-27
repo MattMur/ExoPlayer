@@ -16,21 +16,21 @@
 package com.google.android.exoplayer2.effect;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.graphics.PixelFormat;
 import android.media.Image;
 import android.media.ImageReader;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.FrameInfo;
-import com.google.android.exoplayer2.util.FrameProcessingException;
-import com.google.android.exoplayer2.util.FrameProcessor;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.SurfaceInfo;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import net.nativo.android.exoplayer2.util.DebugViewProvider;
+import net.nativo.android.exoplayer2.util.FrameInfo;
+import net.nativo.android.exoplayer2.util.FrameProcessingException;
+import net.nativo.android.exoplayer2.util.FrameProcessor;
+import net.nativo.android.exoplayer2.util.GlUtil;
+import net.nativo.android.exoplayer2.util.SurfaceInfo;
+import net.nativo.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 
 import net.nativo.android.exoplayer2.effect.GlEffect;

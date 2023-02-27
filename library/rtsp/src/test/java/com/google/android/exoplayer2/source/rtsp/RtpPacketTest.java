@@ -16,14 +16,14 @@
 
 package com.google.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtpPacket.getNextSequenceNumber;
-import static com.google.android.exoplayer2.source.rtsp.RtpPacket.getPreviousSequenceNumber;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.getBytesFromHexString;
+import static net.nativo.android.exoplayer2.source.rtsp.RtpPacket.getNextSequenceNumber;
+import static net.nativo.android.exoplayer2.source.rtsp.RtpPacket.getPreviousSequenceNumber;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Util.getBytesFromHexString;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import java.util.Arrays;
 import org.junit.Test;
 import org.junit.runner.RunWith;

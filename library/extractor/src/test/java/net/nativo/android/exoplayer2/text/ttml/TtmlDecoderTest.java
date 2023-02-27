@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.text.ttml;
 
-import static com.google.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
+import static net.nativo.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
 import static com.google.common.truth.Truth.assertThat;
 import static com.google.common.truth.Truth.assertWithMessage;
 
@@ -23,7 +23,7 @@ import android.text.Layout;
 import android.text.Spanned;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.text.Cue;
 import net.nativo.android.exoplayer2.text.Subtitle;
 import net.nativo.android.exoplayer2.text.SubtitleDecoderException;

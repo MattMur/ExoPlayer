@@ -15,8 +15,8 @@
  */
 package com.google.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.C.LENGTH_UNSET;
-import static com.google.android.exoplayer2.util.Util.toByteArray;
+import static net.nativo.android.exoplayer2.C.LENGTH_UNSET;
+import static net.nativo.android.exoplayer2.util.Util.toByteArray;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 import static org.mockito.Mockito.doAnswer;
@@ -24,8 +24,8 @@ import static org.mockito.Mockito.doAnswer;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.database.DatabaseProvider;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.database.DatabaseProvider;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.upstream.cache.Cache.CacheException;
 import net.nativo.android.exoplayer2.upstream.cache.CacheSpan;
 import net.nativo.android.exoplayer2.upstream.cache.CachedContentIndex;
@@ -36,7 +36,7 @@ import net.nativo.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
 import net.nativo.android.exoplayer2.upstream.cache.SimpleCache;
 import net.nativo.android.exoplayer2.upstream.cache.SimpleCacheSpan;
 
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.util.Util;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

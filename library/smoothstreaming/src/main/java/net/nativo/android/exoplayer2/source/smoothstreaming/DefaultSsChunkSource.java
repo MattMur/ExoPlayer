@@ -15,35 +15,35 @@
  */
 package net.nativo.android.exoplayer2.source.smoothstreaming;
 
-import static com.google.android.exoplayer2.trackselection.TrackSelectionUtil.createFallbackOptions;
+import static net.nativo.android.exoplayer2.trackselection.TrackSelectionUtil.createFallbackOptions;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.SeekParameters;
-import com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import com.google.android.exoplayer2.extractor.mp4.Track;
-import com.google.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import com.google.android.exoplayer2.source.BehindLiveWindowException;
-import com.google.android.exoplayer2.source.chunk.BaseMediaChunkIterator;
-import com.google.android.exoplayer2.source.chunk.BundledChunkExtractor;
-import com.google.android.exoplayer2.source.chunk.Chunk;
-import com.google.android.exoplayer2.source.chunk.ChunkExtractor;
-import com.google.android.exoplayer2.source.chunk.ChunkHolder;
-import com.google.android.exoplayer2.source.chunk.ContainerMediaChunk;
-import com.google.android.exoplayer2.source.chunk.MediaChunk;
-import com.google.android.exoplayer2.source.chunk.MediaChunkIterator;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.SeekParameters;
+import net.nativo.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import net.nativo.android.exoplayer2.extractor.mp4.Track;
+import net.nativo.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import net.nativo.android.exoplayer2.source.BehindLiveWindowException;
+import net.nativo.android.exoplayer2.source.chunk.BaseMediaChunkIterator;
+import net.nativo.android.exoplayer2.source.chunk.BundledChunkExtractor;
+import net.nativo.android.exoplayer2.source.chunk.Chunk;
+import net.nativo.android.exoplayer2.source.chunk.ChunkExtractor;
+import net.nativo.android.exoplayer2.source.chunk.ChunkHolder;
+import net.nativo.android.exoplayer2.source.chunk.ContainerMediaChunk;
+import net.nativo.android.exoplayer2.source.chunk.MediaChunk;
+import net.nativo.android.exoplayer2.source.chunk.MediaChunkIterator;
 import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
 import net.nativo.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
+import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
 import net.nativo.android.exoplayer2.upstream.DataSource;
 import net.nativo.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FallbackSelection;
-import com.google.android.exoplayer2.upstream.LoaderErrorThrower;
+import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import net.nativo.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FallbackSelection;
+import net.nativo.android.exoplayer2.upstream.LoaderErrorThrower;
 import net.nativo.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.List;
 

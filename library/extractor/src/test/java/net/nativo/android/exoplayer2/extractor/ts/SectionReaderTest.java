@@ -22,7 +22,7 @@ import static java.util.Collections.singletonList;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.testutil.FakeExtractorOutput;
+import net.nativo.android.exoplayer2.testutil.FakeExtractorOutput;
 import net.nativo.android.exoplayer2.util.ParsableByteArray;
 import net.nativo.android.exoplayer2.util.TimestampAdjuster;
 import java.util.ArrayList;

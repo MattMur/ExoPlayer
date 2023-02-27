@@ -17,7 +17,7 @@ package net.nativo.android.exoplayer2.upstream.cache;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.C;
 import java.io.File;
 import java.io.IOException;
 import java.util.NavigableSet;

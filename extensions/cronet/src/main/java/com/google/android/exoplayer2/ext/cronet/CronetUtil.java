@@ -19,9 +19,9 @@ import static java.lang.Math.min;
 
 import android.content.Context;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.upstream.DefaultHttpDataSource;
+import net.nativo.android.exoplayer2.util.Log;
+import net.nativo.android.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

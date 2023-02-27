@@ -20,10 +20,10 @@ import static org.junit.Assume.assumeTrue;
 
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.SimpleDecoderOutputBuffer;
-import com.google.android.exoplayer2.util.LibraryLoader;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.decoder.SimpleDecoderOutputBuffer;
+import net.nativo.android.exoplayer2.util.LibraryLoader;
 import com.google.common.collect.ImmutableList;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

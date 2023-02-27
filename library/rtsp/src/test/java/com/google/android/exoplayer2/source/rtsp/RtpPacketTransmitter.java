@@ -15,10 +15,10 @@
  */
 package com.google.android.exoplayer2.source.rtsp;
 
-import com.google.android.exoplayer2.source.rtsp.RtspMessageChannel.InterleavedBinaryDataListener;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.HandlerWrapper;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.source.rtsp.RtspMessageChannel.InterleavedBinaryDataListener;
+import net.nativo.android.exoplayer2.util.Clock;
+import net.nativo.android.exoplayer2.util.HandlerWrapper;
+import net.nativo.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 
 /** Transmits media RTP packets periodically. */

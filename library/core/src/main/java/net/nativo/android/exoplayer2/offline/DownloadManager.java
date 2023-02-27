@@ -36,7 +36,7 @@ import androidx.annotation.CheckResult;
 import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
 import net.nativo.android.exoplayer2.C;
-import com.google.android.exoplayer2.database.DatabaseProvider;
+import net.nativo.android.exoplayer2.database.DatabaseProvider;
 import net.nativo.android.exoplayer2.scheduler.Requirements;
 import net.nativo.android.exoplayer2.scheduler.RequirementsWatcher;
 import net.nativo.android.exoplayer2.upstream.DataSource;

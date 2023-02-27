@@ -23,7 +23,7 @@ import static org.junit.Assert.fail;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import net.nativo.android.exoplayer2.testutil.TestUtil;
 import net.nativo.android.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 import org.junit.Test;

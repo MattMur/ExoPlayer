@@ -17,15 +17,15 @@ package com.google.android.exoplayer2.source.dash;
 
 import static java.lang.Math.max;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.metadata.emsg.EventMessage;
-import com.google.android.exoplayer2.metadata.emsg.EventMessageEncoder;
-import com.google.android.exoplayer2.source.SampleStream;
-import com.google.android.exoplayer2.source.dash.manifest.EventStream;
-import com.google.android.exoplayer2.util.Util;
+import net.nativo.android.exoplayer2.C;
+import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.FormatHolder;
+import net.nativo.android.exoplayer2.decoder.DecoderInputBuffer;
+import net.nativo.android.exoplayer2.metadata.emsg.EventMessage;
+import net.nativo.android.exoplayer2.metadata.emsg.EventMessageEncoder;
+import net.nativo.android.exoplayer2.source.SampleStream;
+import net.nativo.android.exoplayer2.source.dash.manifest.EventStream;
+import net.nativo.android.exoplayer2.util.Util;
 import java.io.IOException;
 
 /**

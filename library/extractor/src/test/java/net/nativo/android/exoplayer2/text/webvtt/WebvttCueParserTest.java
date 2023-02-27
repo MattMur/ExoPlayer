@@ -15,7 +15,7 @@
  */
 package net.nativo.android.exoplayer2.text.webvtt;
 
-import static com.google.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
+import static net.nativo.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.graphics.Color;

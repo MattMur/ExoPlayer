@@ -15,17 +15,17 @@
  */
 package net.nativo.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static net.nativo.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.database.DatabaseIOException;
-import com.google.android.exoplayer2.database.DatabaseProvider;
-import com.google.android.exoplayer2.database.VersionTable;
-import com.google.android.exoplayer2.util.Assertions;
+import net.nativo.android.exoplayer2.database.DatabaseIOException;
+import net.nativo.android.exoplayer2.database.DatabaseProvider;
+import net.nativo.android.exoplayer2.database.VersionTable;
+import net.nativo.android.exoplayer2.util.Assertions;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;

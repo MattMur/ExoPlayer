@@ -24,8 +24,8 @@ import android.content.Context;
 import android.content.Intent;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaMetadata;
-import com.google.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.MediaMetadata;
+import net.nativo.android.exoplayer2.Player;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

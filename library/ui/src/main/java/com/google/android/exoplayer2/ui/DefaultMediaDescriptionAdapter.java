@@ -15,16 +15,16 @@
  */
 package com.google.android.exoplayer2.ui;
 
-import static com.google.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA;
+import static net.nativo.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA;
 
 import android.app.PendingIntent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.ui.PlayerNotificationManager.BitmapCallback;
-import com.google.android.exoplayer2.ui.PlayerNotificationManager.MediaDescriptionAdapter;
+import net.nativo.android.exoplayer2.Player;
+import net.nativo.android.exoplayer2.ui.PlayerNotificationManager.BitmapCallback;
+import net.nativo.android.exoplayer2.ui.PlayerNotificationManager.MediaDescriptionAdapter;
 
 /**
  * Default implementation of {@link MediaDescriptionAdapter}.
