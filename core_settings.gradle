@@ -24,21 +24,21 @@ if (gradle.ext.has('exoplayerModulePrefix')) {
 include modulePrefix + 'library-common'
 project(modulePrefix + 'library-common').projectDir = new File(rootDir, 'library/common')
 
-include modulePrefix + 'extension-mediasession'
-project(modulePrefix + 'extension-mediasession').projectDir = new File(rootDir, 'extensions/mediasession')
-include modulePrefix + 'extension-media2'
-project(modulePrefix + 'extension-media2').projectDir = new File(rootDir, 'extensions/media2')
+//include modulePrefix + 'extension-mediasession'
+//project(modulePrefix + 'extension-mediasession').projectDir = new File(rootDir, 'extensions/mediasession')
+//include modulePrefix + 'extension-media2'
+//project(modulePrefix + 'extension-media2').projectDir = new File(rootDir, 'extensions/media2')
 
 include modulePrefix + 'library-core'
 project(modulePrefix + 'library-core').projectDir = new File(rootDir, 'library/core')
-include modulePrefix + 'library'
-project(modulePrefix + 'library').projectDir = new File(rootDir, 'library/all')
-include modulePrefix + 'library-dash'
-project(modulePrefix + 'library-dash').projectDir = new File(rootDir, 'library/dash')
+//include modulePrefix + 'library'
+//project(modulePrefix + 'library').projectDir = new File(rootDir, 'library/all')
+//include modulePrefix + 'library-dash'
+//project(modulePrefix + 'library-dash').projectDir = new File(rootDir, 'library/dash')
 include modulePrefix + 'library-hls'
 project(modulePrefix + 'library-hls').projectDir = new File(rootDir, 'library/hls')
-include modulePrefix + 'library-rtsp'
-project(modulePrefix + 'library-rtsp').projectDir = new File(rootDir, 'library/rtsp')
+//include modulePrefix + 'library-rtsp'
+//project(modulePrefix + 'library-rtsp').projectDir = new File(rootDir, 'library/rtsp')
 include modulePrefix + 'library-smoothstreaming'
 project(modulePrefix + 'library-smoothstreaming').projectDir = new File(rootDir, 'library/smoothstreaming')
 include modulePrefix + 'extension-ima'
@@ -79,8 +79,8 @@ project(modulePrefix + 'library-decoder').projectDir = new File(rootDir, 'librar
 include modulePrefix + 'library-extractor'
 project(modulePrefix + 'library-extractor').projectDir = new File(rootDir, 'library/extractor')
 
-include modulePrefix + 'extension-cast'
-project(modulePrefix + 'extension-cast').projectDir = new File(rootDir, 'extensions/cast')
+//include modulePrefix + 'extension-cast'
+//project(modulePrefix + 'extension-cast').projectDir = new File(rootDir, 'extensions/cast')
 
 include modulePrefix + 'library-effect'
 project(modulePrefix + 'library-effect').projectDir = new File(rootDir, 'library/effect')

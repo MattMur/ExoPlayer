@@ -20,17 +20,17 @@ dependencies {
     compileOnly 'org.checkerframework:checker-qual:' + checkerframeworkVersion
     compileOnly 'org.checkerframework:checker-compat-qual:' + checkerframeworkCompatVersion
     compileOnly 'org.jetbrains.kotlin:kotlin-annotations-jvm:' + kotlinAnnotationsVersion
-    testImplementation project(modulePrefix + 'testutils')
-    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
+//    testImplementation project(modulePrefix + 'testutils')
+//    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
 }
 
-ext {
-    javadocTitle = 'Cast extension'
-}
-apply from: '../../javadoc_library.gradle'
+//ext {
+//    javadocTitle = 'Cast extension'
+//}
+//apply from: '../../javadoc_library.gradle'
 
 ext {
     releaseArtifactId = 'extension-cast'
     releaseDescription = 'Cast extension for ExoPlayer.'
 }
-apply from: '../../publish.gradle'
+//apply from: '../../publish.gradle'

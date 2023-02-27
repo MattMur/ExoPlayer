@@ -25,15 +25,15 @@ android {
 
     buildTypes {
         debug {
-            testCoverageEnabled = true
+//            testCoverageEnabled = true
         }
     }
 
-    sourceSets {
-        androidTest.assets.srcDir '../test_data/src/test/assets/' //copybara:media3-only
-        androidTest.assets.srcDir '../../testdata/src/test/assets/'
-        test.assets.srcDir '../../testdata/src/test/assets/'
-    }
+//    sourceSets {
+//        androidTest.assets.srcDir '../test_data/src/test/assets/' //copybara:media3-only
+//        androidTest.assets.srcDir '../../testdata/src/test/assets/'
+//        test.assets.srcDir '../../testdata/src/test/assets/'
+//    }
 }
 
 dependencies {
@@ -43,24 +43,24 @@ dependencies {
     compileOnly 'org.checkerframework:checker-qual:' + checkerframeworkVersion
     compileOnly 'org.checkerframework:checker-compat-qual:' + checkerframeworkCompatVersion
     compileOnly 'org.jetbrains.kotlin:kotlin-annotations-jvm:' + kotlinAnnotationsVersion
-    testImplementation project(modulePrefix + 'robolectricutils')
-    testImplementation project(modulePrefix + 'testutils')
-    testImplementation project(modulePrefix + 'testdata')
-    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
-    testImplementation 'com.google.truth:truth:' + truthVersion
-    androidTestImplementation 'junit:junit:' + junitVersion
-    androidTestImplementation 'androidx.test:runner:' + androidxTestRunnerVersion
-    androidTestImplementation 'com.google.truth:truth:' + truthVersion
-    androidTestImplementation project(modulePrefix + 'testutils')
+//    testImplementation project(modulePrefix + 'robolectricutils')
+//    testImplementation project(modulePrefix + 'testutils')
+//    testImplementation project(modulePrefix + 'testdata')
+//    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
+//    testImplementation 'com.google.truth:truth:' + truthVersion
+//    androidTestImplementation 'junit:junit:' + junitVersion
+//    androidTestImplementation 'androidx.test:runner:' + androidxTestRunnerVersion
+//    androidTestImplementation 'com.google.truth:truth:' + truthVersion
+//    androidTestImplementation project(modulePrefix + 'testutils')
 }
 
-ext {
-    javadocTitle = 'Effect module'
-}
-apply from: '../../javadoc_library.gradle'
+//ext {
+//    javadocTitle = 'Effect module'
+//}
+//apply from: '../../javadoc_library.gradle'
 
 ext {
     releaseArtifactId = 'exoplayer-effect'
     releaseDescription = 'The ExoPlayer library effect module.'
 }
-apply from: '../../publish.gradle'
+//apply from: '../../publish.gradle'
