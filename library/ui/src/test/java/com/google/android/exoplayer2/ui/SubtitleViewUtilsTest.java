@@ -32,6 +32,9 @@ import net.nativo.android.exoplayer2.text.span.HorizontalTextInVerticalContextSp
 import net.nativo.android.exoplayer2.text.span.RubySpan;
 import net.nativo.android.exoplayer2.text.span.TextAnnotation;
 import net.nativo.android.exoplayer2.text.span.TextEmphasisSpan;
+import net.nativo.android.exoplayer2.ui.SubtitleView;
+import net.nativo.android.exoplayer2.ui.SubtitleViewUtils;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

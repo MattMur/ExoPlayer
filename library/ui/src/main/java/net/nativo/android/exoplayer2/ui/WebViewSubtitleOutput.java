@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.ui;
+package net.nativo.android.exoplayer2.ui;
 
 import static net.nativo.android.exoplayer2.ui.SubtitleView.DEFAULT_BOTTOM_PADDING_FRACTION;
 import static net.nativo.android.exoplayer2.ui.SubtitleView.DEFAULT_TEXT_SIZE_FRACTION;

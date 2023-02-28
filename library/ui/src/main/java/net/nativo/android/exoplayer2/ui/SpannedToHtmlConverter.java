@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.ui;
+package net.nativo.android.exoplayer2.ui;
 
 import android.graphics.Typeface;
 import android.text.Html;

@@ -20,7 +20,7 @@ android {
 
     buildTypes {
         debug {
-            testCoverageEnabled = true
+//            testCoverageEnabled = true
         }
     }
 }
@@ -29,19 +29,19 @@ dependencies {
     implementation project(modulePrefix + 'library-common')
     implementation 'androidx.annotation:annotation:' + androidxAnnotationVersion
     compileOnly 'org.checkerframework:checker-qual:' + checkerframeworkVersion
-    testImplementation 'androidx.test:core:' + androidxTestCoreVersion
-    testImplementation 'androidx.test.ext:junit:' + androidxTestJUnitVersion
-    testImplementation 'com.google.truth:truth:' + truthVersion
-    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
+//    testImplementation 'androidx.test:core:' + androidxTestCoreVersion
+//    testImplementation 'androidx.test.ext:junit:' + androidxTestJUnitVersion
+//    testImplementation 'com.google.truth:truth:' + truthVersion
+//    testImplementation 'org.robolectric:robolectric:' + robolectricVersion
 }
 
-ext {
-    javadocTitle = 'Decoder module'
-}
-apply from: '../../javadoc_library.gradle'
+//ext {
+//    javadocTitle = 'Decoder module'
+//}
+//apply from: '../../javadoc_library.gradle'
 
 ext {
     releaseArtifactId = 'exoplayer-decoder'
     releaseDescription = 'The ExoPlayer library decoder module.'
 }
-apply from: '../../publish.gradle'
+//apply from: '../../publish.gradle'

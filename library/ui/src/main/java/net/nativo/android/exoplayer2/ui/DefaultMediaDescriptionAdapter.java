@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package net.nativo.android.exoplayer2.ui;
 
 import static net.nativo.android.exoplayer2.Player.COMMAND_GET_MEDIA_ITEMS_METADATA;
 

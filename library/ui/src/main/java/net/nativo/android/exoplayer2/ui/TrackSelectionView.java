@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package net.nativo.android.exoplayer2.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -29,6 +29,8 @@ import net.nativo.android.exoplayer2.Tracks;
 import net.nativo.android.exoplayer2.source.TrackGroup;
 import net.nativo.android.exoplayer2.trackselection.TrackSelectionOverride;
 import net.nativo.android.exoplayer2.util.Assertions;
+
+import net.nativo.android.exoplayer2.ui.R;
 import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;
 import java.util.Arrays;

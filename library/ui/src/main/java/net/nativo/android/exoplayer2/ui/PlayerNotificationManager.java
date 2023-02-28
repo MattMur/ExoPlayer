@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package net.nativo.android.exoplayer2.ui;
 
 import static net.nativo.android.exoplayer2.Player.COMMAND_CHANGE_MEDIA_ITEMS;
 import static net.nativo.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM;
@@ -59,6 +59,9 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.media.app.NotificationCompat.MediaStyle;
+
+import net.nativo.android.exoplayer2.ui.R;
+
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.Player;
 import net.nativo.android.exoplayer2.util.NotificationUtil;

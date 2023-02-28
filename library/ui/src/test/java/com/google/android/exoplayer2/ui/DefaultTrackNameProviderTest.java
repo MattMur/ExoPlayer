@@ -21,6 +21,9 @@ import android.content.res.Resources;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import net.nativo.android.exoplayer2.Format;
+import net.nativo.android.exoplayer2.ui.DefaultMediaDescriptionAdapter;
+import net.nativo.android.exoplayer2.ui.DefaultTrackNameProvider;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

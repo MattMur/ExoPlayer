@@ -36,6 +36,8 @@ import net.nativo.android.exoplayer2.text.span.HorizontalTextInVerticalContextSp
 import net.nativo.android.exoplayer2.text.span.RubySpan;
 import net.nativo.android.exoplayer2.text.span.TextAnnotation;
 import net.nativo.android.exoplayer2.text.span.TextEmphasisSpan;
+import net.nativo.android.exoplayer2.ui.SpannedToHtmlConverter;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.annotation.Config;

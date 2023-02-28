@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package net.nativo.android.exoplayer2.ui;
 
 import static net.nativo.android.exoplayer2.Player.COMMAND_SEEK_BACK;
 import static net.nativo.android.exoplayer2.Player.COMMAND_SEEK_FORWARD;
@@ -50,6 +50,9 @@ import android.widget.TextView;
 import androidx.annotation.DoNotInline;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
+
+import net.nativo.android.exoplayer2.ui.R;
+
 import net.nativo.android.exoplayer2.C;
 import net.nativo.android.exoplayer2.ExoPlayerLibraryInfo;
 import net.nativo.android.exoplayer2.Player;

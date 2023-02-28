@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package net.nativo.android.exoplayer2.ui;
 
 import static net.nativo.android.exoplayer2.Player.COMMAND_GET_CURRENT_MEDIA_ITEM;
 import static net.nativo.android.exoplayer2.Player.COMMAND_GET_TIMELINE;
@@ -86,6 +86,8 @@ import net.nativo.android.exoplayer2.trackselection.TrackSelectionParameters;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.RepeatModeUtil;
 import net.nativo.android.exoplayer2.util.Util;
+
+import net.nativo.android.exoplayer2.ui.R;
 import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;
 import java.util.Arrays;

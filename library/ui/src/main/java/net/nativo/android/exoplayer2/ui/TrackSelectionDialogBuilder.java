@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package net.nativo.android.exoplayer2.ui;
 
 import static net.nativo.android.exoplayer2.Player.COMMAND_GET_TRACKS;
 import static net.nativo.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS;
@@ -33,6 +33,8 @@ import net.nativo.android.exoplayer2.Tracks;
 import net.nativo.android.exoplayer2.source.TrackGroup;
 import net.nativo.android.exoplayer2.trackselection.TrackSelectionOverride;
 import net.nativo.android.exoplayer2.trackselection.TrackSelectionParameters;
+
+import net.nativo.android.exoplayer2.ui.R;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import java.lang.reflect.Constructor;
