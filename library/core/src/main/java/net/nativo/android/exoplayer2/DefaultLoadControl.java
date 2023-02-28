@@ -15,18 +15,11 @@
  */
 package net.nativo.android.exoplayer2;
 
-import static net.nativo.android.exoplayer2.util.Assertions.checkState;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;
-import net.nativo.android.exoplayer2.source.TrackGroupArray;
-import net.nativo.android.exoplayer2.trackselection.ExoTrackSelection;
-import net.nativo.android.exoplayer2.upstream.Allocator;
-import net.nativo.android.exoplayer2.upstream.DefaultAllocator;
-import net.nativo.android.exoplayer2.util.Assertions;
-import net.nativo.android.exoplayer2.util.Log;
-import net.nativo.android.exoplayer2.util.Util;
+
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 
 import net.nativo.android.exoplayer2.source.TrackGroupArray;

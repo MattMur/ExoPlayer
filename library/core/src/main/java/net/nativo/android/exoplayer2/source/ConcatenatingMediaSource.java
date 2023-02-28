@@ -473,9 +473,9 @@ public final class ConcatenatingMediaSource extends CompositeMediaSource<MediaSo
   }
 
   @Override
-  public MediaPeriod createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+  public MediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
     Object mediaSourceHolderUid = getMediaSourceHolderUid(id.periodUid);
-    net.nativo.android.exoplayer2.source.MediaPeriodId childMediaPeriodId = id.copyWithPeriodUid(getChildPeriodUid(id.periodUid));
+    MediaPeriodId childMediaPeriodId = id.copyWithPeriodUid(getChildPeriodUid(id.periodUid));
     @Nullable MediaSourceHolder holder = mediaSourceByUid.get(mediaSourceHolderUid);
     if (holder == null) {
       // Stale event. The media source has already been removed.
@@ -536,8 +536,8 @@ public final class ConcatenatingMediaSource extends CompositeMediaSource<MediaSo
   /** {@inheritDoc} */
   @Override
   @Nullable
-  protected net.nativo.android.exoplayer2.source.MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(
-      MediaSourceHolder mediaSourceHolder, net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+  protected MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(
+      MediaSourceHolder mediaSourceHolder, MediaPeriodId mediaPeriodId) {
     for (int i = 0; i < mediaSourceHolder.activeMediaPeriodIds.size(); i++) {
       // Ensure the reported media period id has the same window sequence number as the one created
       // by this media source. Otherwise it does not belong to this child source.
@@ -875,7 +875,7 @@ public final class ConcatenatingMediaSource extends CompositeMediaSource<MediaSo
 
     public final MaskingMediaSource mediaSource;
     public final Object uid;
-    public final List<net.nativo.android.exoplayer2.source.MediaPeriodId> activeMediaPeriodIds;
+    public final List<MediaPeriodId> activeMediaPeriodIds;
 
     public int childIndex;
     public int firstWindowIndexInChild;
@@ -1018,7 +1018,7 @@ public final class ConcatenatingMediaSource extends CompositeMediaSource<MediaSo
     }
 
     @Override
-    public MediaPeriod createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+    public MediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
       throw new UnsupportedOperationException();
     }
 

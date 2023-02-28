@@ -99,12 +99,11 @@ public final class MaskingMediaSource extends WrappingMediaSource {
   }
 
   @Override
-  public MaskingMediaPeriod createPeriod(
-          net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+  public MaskingMediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
     MaskingMediaPeriod mediaPeriod = new MaskingMediaPeriod(id, allocator, startPositionUs);
     mediaPeriod.setMediaSource(mediaSource);
     if (isPrepared) {
-      net.nativo.android.exoplayer2.source.MediaPeriodId idInSource = id.copyWithPeriodUid(getInternalPeriodUid(id.periodUid));
+      MediaPeriodId idInSource = id.copyWithPeriodUid(getInternalPeriodUid(id.periodUid));
       mediaPeriod.createPeriod(idInSource);
     } else {
       // We should have at most one media period while source is unprepared because the duration is
@@ -136,7 +135,7 @@ public final class MaskingMediaSource extends WrappingMediaSource {
 
   @Override
   protected void onChildSourceInfoRefreshed(Timeline newTimeline) {
-    @Nullable net.nativo.android.exoplayer2.source.MediaPeriodId idForMaskingPeriodPreparation = null;
+    @Nullable MediaPeriodId idForMaskingPeriodPreparation = null;
     if (isPrepared) {
       timeline = timeline.cloneWithUpdatedTimeline(newTimeline);
       if (unpreparedMaskingMediaPeriod != null) {
@@ -205,7 +204,7 @@ public final class MaskingMediaSource extends WrappingMediaSource {
 
   @Override
   @Nullable
-  protected net.nativo.android.exoplayer2.source.MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+  protected MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(MediaPeriodId mediaPeriodId) {
     return mediaPeriodId.copyWithPeriodUid(getExternalPeriodUid(mediaPeriodId.periodUid));
   }
 

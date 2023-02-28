@@ -145,7 +145,7 @@ public final class SilenceMediaSource extends BaseMediaSource {
   public void maybeThrowSourceInfoRefreshError() {}
 
   @Override
-  public MediaPeriod createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+  public MediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
     return new SilenceMediaPeriod(durationUs);
   }
 

@@ -254,10 +254,10 @@ public final class ConcatenatingMediaSource2 extends CompositeMediaSource<Intege
   }
 
   @Override
-  public MediaPeriod createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+  public MediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
     int holderIndex = getChildIndex(id.periodUid);
     MediaSourceHolder holder = mediaSourceHolders.get(holderIndex);
-    net.nativo.android.exoplayer2.source.MediaPeriodId childMediaPeriodId =
+    MediaPeriodId childMediaPeriodId =
         id.copyWithPeriodUid(getChildPeriodUid(id.periodUid))
             .copyWithWindowSequenceNumber(
                 getChildWindowSequenceNumber(
@@ -299,8 +299,8 @@ public final class ConcatenatingMediaSource2 extends CompositeMediaSource<Intege
 
   @Override
   @Nullable
-  protected net.nativo.android.exoplayer2.source.MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(
-      Integer childSourceId, net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+  protected MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(
+      Integer childSourceId, MediaPeriodId mediaPeriodId) {
     int childIndex =
         getChildIndexFromChildWindowSequenceNumber(
             mediaPeriodId.windowSequenceNumber, mediaSourceHolders.size());

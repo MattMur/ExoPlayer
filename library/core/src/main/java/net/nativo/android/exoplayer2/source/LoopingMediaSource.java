@@ -48,8 +48,8 @@ import java.util.Map;
 public final class LoopingMediaSource extends WrappingMediaSource {
 
   private final int loopCount;
-  private final Map<net.nativo.android.exoplayer2.source.MediaPeriodId, net.nativo.android.exoplayer2.source.MediaPeriodId> childMediaPeriodIdToMediaPeriodId;
-  private final Map<MediaPeriod, net.nativo.android.exoplayer2.source.MediaPeriodId> mediaPeriodToChildMediaPeriodId;
+  private final Map<MediaPeriodId, MediaPeriodId> childMediaPeriodIdToMediaPeriodId;
+  private final Map<MediaPeriod, MediaPeriodId> mediaPeriodToChildMediaPeriodId;
 
   /**
    * Loops the provided source indefinitely. Note that it is usually better to use {@link
@@ -90,12 +90,12 @@ public final class LoopingMediaSource extends WrappingMediaSource {
   }
 
   @Override
-  public MediaPeriod createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+  public MediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
     if (loopCount == Integer.MAX_VALUE) {
       return mediaSource.createPeriod(id, allocator, startPositionUs);
     }
     Object childPeriodUid = LoopingTimeline.getChildPeriodUidFromConcatenatedUid(id.periodUid);
-    net.nativo.android.exoplayer2.source.MediaPeriodId childMediaPeriodId = id.copyWithPeriodUid(childPeriodUid);
+    MediaPeriodId childMediaPeriodId = id.copyWithPeriodUid(childPeriodUid);
     childMediaPeriodIdToMediaPeriodId.put(childMediaPeriodId, id);
     MediaPeriod mediaPeriod =
         mediaSource.createPeriod(childMediaPeriodId, allocator, startPositionUs);
@@ -107,7 +107,7 @@ public final class LoopingMediaSource extends WrappingMediaSource {
   public void releasePeriod(MediaPeriod mediaPeriod) {
     mediaSource.releasePeriod(mediaPeriod);
     @Nullable
-    net.nativo.android.exoplayer2.source.MediaPeriodId childMediaPeriodId = mediaPeriodToChildMediaPeriodId.remove(mediaPeriod);
+    MediaPeriodId childMediaPeriodId = mediaPeriodToChildMediaPeriodId.remove(mediaPeriod);
     if (childMediaPeriodId != null) {
       childMediaPeriodIdToMediaPeriodId.remove(childMediaPeriodId);
     }
@@ -124,7 +124,7 @@ public final class LoopingMediaSource extends WrappingMediaSource {
 
   @Override
   @Nullable
-  protected net.nativo.android.exoplayer2.source.MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+  protected MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(MediaPeriodId mediaPeriodId) {
     return loopCount != Integer.MAX_VALUE
         ? childMediaPeriodIdToMediaPeriodId.get(mediaPeriodId)
         : mediaPeriodId;

@@ -183,11 +183,11 @@ public final class MergingMediaSource extends CompositeMediaSource<Integer> {
   }
 
   @Override
-  public MediaPeriod createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+  public MediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
     MediaPeriod[] periods = new MediaPeriod[mediaSources.length];
     int periodIndex = timelines[0].getIndexOfPeriod(id.periodUid);
     for (int i = 0; i < periods.length; i++) {
-      net.nativo.android.exoplayer2.source.MediaPeriodId childMediaPeriodId =
+      MediaPeriodId childMediaPeriodId =
           id.copyWithPeriodUid(timelines[i].getUidOfPeriod(periodIndex));
       periods[i] =
           mediaSources[i].createPeriod(
@@ -268,8 +268,8 @@ public final class MergingMediaSource extends CompositeMediaSource<Integer> {
 
   @Override
   @Nullable
-  protected net.nativo.android.exoplayer2.source.MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(
-      Integer childSourceId, net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+  protected MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(
+      Integer childSourceId, MediaPeriodId mediaPeriodId) {
     return childSourceId == 0 ? mediaPeriodId : null;
   }
 

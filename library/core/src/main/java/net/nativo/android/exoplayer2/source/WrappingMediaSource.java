@@ -104,10 +104,10 @@ public abstract class WrappingMediaSource extends CompositeMediaSource<Void> {
    * <p>This method typically forwards to the wrapped media source and optionally wraps the returned
    * {@link MediaPeriod}.
    *
-   * @see MediaSource#createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId, Allocator, long)
+   * @see MediaSource#createPeriod(MediaPeriodId, Allocator, long)
    */
   @Override
-  public MediaPeriod createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+  public MediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
     return mediaSource.createPeriod(id, allocator, startPositionUs);
   }
 
@@ -161,22 +161,22 @@ public abstract class WrappingMediaSource extends CompositeMediaSource<Void> {
 
   @Nullable
   @Override
-  protected final net.nativo.android.exoplayer2.source.MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(
-      Void childSourceId, net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+  protected final MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(
+      Void childSourceId, MediaPeriodId mediaPeriodId) {
     return getMediaPeriodIdForChildMediaPeriodId(mediaPeriodId);
   }
 
   /**
-   * Returns the {@link net.nativo.android.exoplayer2.source.MediaPeriodId} in the wrapping source corresponding to the specified {@link
-   * net.nativo.android.exoplayer2.source.MediaPeriodId} in a child source. The default implementation does not change the media period
+   * Returns the {@link MediaPeriodId} in the wrapping source corresponding to the specified {@link
+   * MediaPeriodId} in a child source. The default implementation does not change the media period
    * id.
    *
-   * @param mediaPeriodId A {@link net.nativo.android.exoplayer2.source.MediaPeriodId} of the child source.
-   * @return The corresponding {@link net.nativo.android.exoplayer2.source.MediaPeriodId} in the wrapping source. Null if no
+   * @param mediaPeriodId A {@link MediaPeriodId} of the child source.
+   * @return The corresponding {@link MediaPeriodId} in the wrapping source. Null if no
    *     corresponding media period id can be determined.
    */
   @Nullable
-  protected net.nativo.android.exoplayer2.source.MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+  protected MediaPeriodId getMediaPeriodIdForChildMediaPeriodId(MediaPeriodId mediaPeriodId) {
     return mediaPeriodId;
   }
 

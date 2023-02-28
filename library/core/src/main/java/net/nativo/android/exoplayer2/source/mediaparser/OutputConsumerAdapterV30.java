@@ -109,7 +109,7 @@ public final class OutputConsumerAdapterV30 implements MediaParser.OutputConsume
   private final ArrayList<@NullableType TrackOutput> trackOutputs;
   private final ArrayList<@NullableType Format> trackFormats;
   private final ArrayList<@NullableType CryptoInfo> lastReceivedCryptoInfos;
-  private final ArrayList<@NullableType TrackOutput.CryptoData> lastOutputCryptoDatas;
+  private final ArrayList<TrackOutput.@NullableType CryptoData> lastOutputCryptoDatas;
   private final DataReaderAdapter scratchDataReaderAdapter;
   private final boolean expectDummySeekMap;
   private final @C.TrackType int primaryTrackType;

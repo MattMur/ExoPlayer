@@ -205,7 +205,7 @@ public final class ClippingMediaSource extends WrappingMediaSource {
   }
 
   @Override
-  public MediaPeriod createPeriod(net.nativo.android.exoplayer2.source.MediaPeriodId id, Allocator allocator, long startPositionUs) {
+  public MediaPeriod createPeriod(MediaPeriodId id, Allocator allocator, long startPositionUs) {
     ClippingMediaPeriod mediaPeriod =
         new ClippingMediaPeriod(
             mediaSource.createPeriod(id, allocator, startPositionUs),

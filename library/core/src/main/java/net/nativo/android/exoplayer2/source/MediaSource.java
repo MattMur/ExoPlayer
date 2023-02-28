@@ -112,11 +112,11 @@ public interface MediaSource {
    * Identifier for a {@link MediaPeriod}.
    *
    * <p>Extends for backward-compatibility {@link
-   * net.nativo.android.exoplayer2.source.MediaPeriodId}.
+   * MediaPeriodId}.
    */
   final class MediaPeriodId extends net.nativo.android.exoplayer2.source.MediaPeriodId {
 
-    /** See {@link net.nativo.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object)}. */
+    /** See {@link MediaPeriodId#MediaPeriodId(Object)}. */
     public MediaPeriodId(Object periodUid) {
       super(periodUid);
     }
@@ -146,7 +146,7 @@ public interface MediaSource {
     }
 
     /** Wraps an {@link net.nativo.android.exoplayer2.source.MediaPeriodId} into a MediaPeriodId. */
-    public MediaPeriodId(net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+    public MediaPeriodId(MediaPeriodId mediaPeriodId) {
       super(mediaPeriodId);
     }
 

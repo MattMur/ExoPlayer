@@ -92,71 +92,71 @@ public abstract class BaseMediaSource implements MediaSource {
 
   /**
    * Returns a {@link MediaSourceEventListener.EventDispatcher} which dispatches all events to the
-   * registered listeners with the specified {@link net.nativo.android.exoplayer2.source.MediaPeriodId}.
+   * registered listeners with the specified {@link MediaPeriodId}.
    *
-   * @param mediaPeriodId The {@link net.nativo.android.exoplayer2.source.MediaPeriodId} to be reported with the events. May be null, if
+   * @param mediaPeriodId The {@link MediaPeriodId} to be reported with the events. May be null, if
    *     the events do not belong to a specific media period.
    * @return An event dispatcher with pre-configured media period id.
    */
   protected final MediaSourceEventListener.EventDispatcher createEventDispatcher(
-      @Nullable net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+      @Nullable MediaPeriodId mediaPeriodId) {
     return eventDispatcher.withParameters(
         /* windowIndex= */ 0, mediaPeriodId, /* mediaTimeOffsetMs= */ 0);
   }
 
   /**
    * Returns a {@link MediaSourceEventListener.EventDispatcher} which dispatches all events to the
-   * registered listeners with the specified {@link net.nativo.android.exoplayer2.source.MediaPeriodId} and time offset.
+   * registered listeners with the specified {@link MediaPeriodId} and time offset.
    *
-   * @param mediaPeriodId The {@link net.nativo.android.exoplayer2.source.MediaPeriodId} to be reported with the events.
+   * @param mediaPeriodId The {@link MediaPeriodId} to be reported with the events.
    * @param mediaTimeOffsetMs The offset to be added to all media times, in milliseconds.
    * @return An event dispatcher with pre-configured media period id and time offset.
    */
   protected final MediaSourceEventListener.EventDispatcher createEventDispatcher(
-          net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId, long mediaTimeOffsetMs) {
+          MediaPeriodId mediaPeriodId, long mediaTimeOffsetMs) {
     Assertions.checkNotNull(mediaPeriodId);
     return eventDispatcher.withParameters(/* windowIndex= */ 0, mediaPeriodId, mediaTimeOffsetMs);
   }
 
   /**
    * Returns a {@link MediaSourceEventListener.EventDispatcher} which dispatches all events to the
-   * registered listeners with the specified window index, {@link net.nativo.android.exoplayer2.source.MediaPeriodId} and time offset.
+   * registered listeners with the specified window index, {@link MediaPeriodId} and time offset.
    *
    * @param windowIndex The timeline window index to be reported with the events.
-   * @param mediaPeriodId The {@link net.nativo.android.exoplayer2.source.MediaPeriodId} to be reported with the events. May be null, if
+   * @param mediaPeriodId The {@link MediaPeriodId} to be reported with the events. May be null, if
    *     the events do not belong to a specific media period.
    * @param mediaTimeOffsetMs The offset to be added to all media times, in milliseconds.
    * @return An event dispatcher with pre-configured media period id and time offset.
    */
   protected final MediaSourceEventListener.EventDispatcher createEventDispatcher(
-          int windowIndex, @Nullable net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId, long mediaTimeOffsetMs) {
+          int windowIndex, @Nullable MediaPeriodId mediaPeriodId, long mediaTimeOffsetMs) {
     return eventDispatcher.withParameters(windowIndex, mediaPeriodId, mediaTimeOffsetMs);
   }
 
   /**
    * Returns a {@link DrmSessionEventListener.EventDispatcher} which dispatches all events to the
-   * registered listeners with the specified {@link net.nativo.android.exoplayer2.source.MediaPeriodId}
+   * registered listeners with the specified {@link MediaPeriodId}
    *
-   * @param mediaPeriodId The {@link net.nativo.android.exoplayer2.source.MediaPeriodId} to be reported with the events. May be null, if
+   * @param mediaPeriodId The {@link MediaPeriodId} to be reported with the events. May be null, if
    *     the events do not belong to a specific media period.
    * @return An event dispatcher with pre-configured media period id.
    */
   protected final DrmSessionEventListener.EventDispatcher createDrmEventDispatcher(
-      @Nullable net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+      @Nullable MediaPeriodId mediaPeriodId) {
     return drmEventDispatcher.withParameters(/* windowIndex= */ 0, mediaPeriodId);
   }
 
   /**
    * Returns a {@link DrmSessionEventListener.EventDispatcher} which dispatches all events to the
-   * registered listeners with the specified window index and {@link net.nativo.android.exoplayer2.source.MediaPeriodId}.
+   * registered listeners with the specified window index and {@link MediaPeriodId}.
    *
    * @param windowIndex The timeline window index to be reported with the events.
-   * @param mediaPeriodId The {@link net.nativo.android.exoplayer2.source.MediaPeriodId} to be reported with the events. May be null, if
+   * @param mediaPeriodId The {@link MediaPeriodId} to be reported with the events. May be null, if
    *     the events do not belong to a specific media period.
    * @return An event dispatcher with pre-configured media period id and time offset.
    */
   protected final DrmSessionEventListener.EventDispatcher createDrmEventDispatcher(
-      int windowIndex, @Nullable net.nativo.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+      int windowIndex, @Nullable MediaPeriodId mediaPeriodId) {
     return drmEventDispatcher.withParameters(windowIndex, mediaPeriodId);
   }
 
