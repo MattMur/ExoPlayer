@@ -541,7 +541,7 @@ public final class DefaultAudioSink implements AudioSink {
               + ".setAudioCapabilities(audioCapabilities)"
               + ".setAudioProcessors(audioProcessors)"
               + ".build()",
-      imports = "com.google.android.exoplayer2.audio.DefaultAudioSink")
+      imports = "net.nativo.android.exoplayer2.audio.DefaultAudioSink")
   public DefaultAudioSink(
       @Nullable AudioCapabilities audioCapabilities, AudioProcessor[] audioProcessors) {
     this(
@@ -562,7 +562,7 @@ public final class DefaultAudioSink implements AudioSink {
               + ".setAudioProcessors(audioProcessors)"
               + ".setEnableFloatOutput(enableFloatOutput)"
               + ".build()",
-      imports = "com.google.android.exoplayer2.audio.DefaultAudioSink")
+      imports = "net.nativo.android.exoplayer2.audio.DefaultAudioSink")
   public DefaultAudioSink(
       @Nullable AudioCapabilities audioCapabilities,
       AudioProcessor[] audioProcessors,
@@ -588,7 +588,7 @@ public final class DefaultAudioSink implements AudioSink {
               + ".setEnableAudioTrackPlaybackParams(enableAudioTrackPlaybackParams)"
               + ".setOffloadMode(offloadMode)"
               + ".build()",
-      imports = "com.google.android.exoplayer2.audio.DefaultAudioSink")
+      imports = "net.nativo.android.exoplayer2.audio.DefaultAudioSink")
   public DefaultAudioSink(
       @Nullable AudioCapabilities audioCapabilities,
       AudioProcessorChain audioProcessorChain,

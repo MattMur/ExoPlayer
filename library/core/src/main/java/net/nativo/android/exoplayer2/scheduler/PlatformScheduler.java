@@ -42,7 +42,7 @@ import net.nativo.android.exoplayer2.util.Util;
  * <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
  * <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
  *
- * <service android:name="com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService"
+ * <service android:name="net.nativo.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService"
  *     android:permission="android.permission.BIND_JOB_SERVICE"
  *     android:exported="true"/>
  * }</pre>

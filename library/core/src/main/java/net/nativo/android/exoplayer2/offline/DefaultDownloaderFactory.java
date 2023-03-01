@@ -114,7 +114,7 @@ public class DefaultDownloaderFactory implements DownloaderFactory {
       array.put(
           C.CONTENT_TYPE_DASH,
           getDownloaderConstructor(
-              Class.forName("com.google.android.exoplayer2.source.dash.offline.DashDownloader")));
+              Class.forName("net.nativo.android.exoplayer2.source.dash.offline.DashDownloader")));
     } catch (ClassNotFoundException e) {
       // Expected if the app was built without the DASH module.
     }
@@ -123,7 +123,7 @@ public class DefaultDownloaderFactory implements DownloaderFactory {
       array.put(
           C.CONTENT_TYPE_HLS,
           getDownloaderConstructor(
-              Class.forName("com.google.android.exoplayer2.source.hls.offline.HlsDownloader")));
+              Class.forName("net.nativo.android.exoplayer2.source.hls.offline.HlsDownloader")));
     } catch (ClassNotFoundException e) {
       // Expected if the app was built without the HLS module.
     }
@@ -132,7 +132,7 @@ public class DefaultDownloaderFactory implements DownloaderFactory {
           C.CONTENT_TYPE_SS,
           getDownloaderConstructor(
               Class.forName(
-                  "com.google.android.exoplayer2.source.smoothstreaming.offline.SsDownloader")));
+                  "net.nativo.android.exoplayer2.source.smoothstreaming.offline.SsDownloader")));
     } catch (ClassNotFoundException e) {
       // Expected if the app was built without the SmoothStreaming module.
     }

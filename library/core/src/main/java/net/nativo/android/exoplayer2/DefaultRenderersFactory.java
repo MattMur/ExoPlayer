@@ -398,7 +398,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.vp9.LibvpxVideoRenderer");
+      Class<?> clazz = Class.forName("net.nativo.android.exoplayer2.ext.vp9.LibvpxVideoRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               long.class,
@@ -423,7 +423,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.av1.Libgav1VideoRenderer");
+      Class<?> clazz = Class.forName("net.nativo.android.exoplayer2.ext.av1.Libgav1VideoRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               long.class,
@@ -490,7 +490,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
     }
 
     try {
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.decoder.midi.MidiRenderer");
+      Class<?> clazz = Class.forName("net.nativo.android.exoplayer2.decoder.midi.MidiRenderer");
       Constructor<?> constructor = clazz.getConstructor();
       Renderer renderer = (Renderer) constructor.newInstance();
       out.add(extensionRendererIndex++, renderer);
@@ -504,7 +504,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.opus.LibopusAudioRenderer");
+      Class<?> clazz = Class.forName("net.nativo.android.exoplayer2.ext.opus.LibopusAudioRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               android.os.Handler.class,
@@ -523,7 +523,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.flac.LibflacAudioRenderer");
+      Class<?> clazz = Class.forName("net.nativo.android.exoplayer2.ext.flac.LibflacAudioRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               android.os.Handler.class,
@@ -543,7 +543,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
       Class<?> clazz =
-          Class.forName("com.google.android.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
+          Class.forName("net.nativo.android.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               android.os.Handler.class,

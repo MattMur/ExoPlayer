@@ -632,26 +632,26 @@ public final class DefaultMediaSourceFactory implements MediaSourceFactory {
         switch (contentType) {
           case C.CONTENT_TYPE_DASH:
             clazz =
-                Class.forName("com.google.android.exoplayer2.source.dash.DashMediaSource$Factory")
+                Class.forName("net.nativo.android.exoplayer2.source.dash.DashMediaSource$Factory")
                     .asSubclass(MediaSource.Factory.class);
             mediaSourceFactorySupplier = () -> newInstance(clazz, dataSourceFactory);
             break;
           case C.CONTENT_TYPE_SS:
             clazz =
                 Class.forName(
-                        "com.google.android.exoplayer2.source.smoothstreaming.SsMediaSource$Factory")
+                        "net.nativo.android.exoplayer2.source.smoothstreaming.SsMediaSource$Factory")
                     .asSubclass(MediaSource.Factory.class);
             mediaSourceFactorySupplier = () -> newInstance(clazz, dataSourceFactory);
             break;
           case C.CONTENT_TYPE_HLS:
             clazz =
-                Class.forName("com.google.android.exoplayer2.source.hls.HlsMediaSource$Factory")
+                Class.forName("net.nativo.android.exoplayer2.source.hls.HlsMediaSource$Factory")
                     .asSubclass(MediaSource.Factory.class);
             mediaSourceFactorySupplier = () -> newInstance(clazz, dataSourceFactory);
             break;
           case C.CONTENT_TYPE_RTSP:
             clazz =
-                Class.forName("com.google.android.exoplayer2.source.rtsp.RtspMediaSource$Factory")
+                Class.forName("net.nativo.android.exoplayer2.source.rtsp.RtspMediaSource$Factory")
                     .asSubclass(MediaSource.Factory.class);
             mediaSourceFactorySupplier = () -> newInstance(clazz);
             break;
