@@ -41,8 +41,8 @@ project(modulePrefix + 'library-hls').projectDir = new File(rootDir, 'library/hl
 //project(modulePrefix + 'library-rtsp').projectDir = new File(rootDir, 'library/rtsp')
 include modulePrefix + 'library-smoothstreaming'
 project(modulePrefix + 'library-smoothstreaming').projectDir = new File(rootDir, 'library/smoothstreaming')
-include modulePrefix + 'extension-ima'
-project(modulePrefix + 'extension-ima').projectDir = new File(rootDir, 'extensions/ima')
+//include modulePrefix + 'extension-ima'
+//project(modulePrefix + 'extension-ima').projectDir = new File(rootDir, 'extensions/ima')
 //include modulePrefix + 'extension-workmanager'
 //project(modulePrefix + 'extension-workmanager').projectDir = new File(rootDir, 'extensions/workmanager')
 
