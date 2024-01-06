@@ -31,6 +31,7 @@ import net.nativo.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
 import net.nativo.android.exoplayer2.upstream.ParsingLoadable;
 import net.nativo.android.exoplayer2.util.Assertions;
 import net.nativo.android.exoplayer2.util.CodecSpecificDataUtil;
+import net.nativo.android.exoplayer2.util.Log;
 import net.nativo.android.exoplayer2.util.MimeTypes;
 import net.nativo.android.exoplayer2.util.Util;
 import java.io.IOException;
@@ -430,7 +431,12 @@ public class SsManifestParser implements ParsingLoadable.Parser<SsManifest> {
         inProtectionHeader = true;
         String uuidString = parser.getAttributeValue(null, KEY_SYSTEM_ID);
         uuidString = stripCurlyBraces(uuidString);
-        uuid = UUID.fromString(uuidString);
+        try {
+          uuid = UUID.fromString(uuidString);
+        } catch (RuntimeException e) {
+          Log.w(TAG, "Exoplayer parse start tag: " + uuidString);
+          uuid = UUID.randomUUID();
+        }
       }
     }
 
